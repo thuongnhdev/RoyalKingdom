@@ -1,0 +1,26 @@
+public enum StatusAction
+{
+    Idle = 1,
+    Idle01,
+    Idle02,
+    Walk,
+    Farm,
+    Water,
+    Bring,
+    Building,
+    CarriBox,
+    CarriBoxHigh,
+    Gatherer,
+    HouseWorker,
+    Attack,
+    Run,
+    Die,
+    Finish,
+    Manager00,
+    Manager01,
+    Work00,
+    Work01,
+    IsTouch,
+    IsIdle99,
+    None
+}

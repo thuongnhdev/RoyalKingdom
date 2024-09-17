@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9bdc8f7f9618341a1fcc36ac3c1a36, type: 3}
+  m_Name: NetworkEnvironment
+  m_EditorClassIdentifier: 
+  _currentEvironment: 1
+  _devApiHost: '10.10.60.231:'
+  _devApiPort: 8081/
+  _devSocketPort: 8880/websocket
+  _proReleaseApiHost: '10.10.60.200:'
+  _proReleaseApiPort: 8082/
+  _proReleaseSocketPort: 8883/websocket
+  _koreaReleaseApiHost: '49.50.166.138:'
+  _koreaReleaseApiPort: 9092/
+  _koreaReleaseSocketPort: 9993/websocket

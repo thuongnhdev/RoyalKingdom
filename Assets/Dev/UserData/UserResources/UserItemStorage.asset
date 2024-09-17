@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eefa30f5047c1247a473e0368862b32, type: 3}
+  m_Name: UserItemStorage
+  m_EditorClassIdentifier: 
+  _itemList: {fileID: 11400000, guid: 0ef39ddcc32dd5d4a83d7e292b6e8904, type: 2}
+  _itemTypes: {fileID: 11400000, guid: 20ddb487a370b1a4d95ef4aa03bd5b95, type: 2}
+  _warehouses: {fileID: 11400000, guid: 74668be5f19a7484e86581320ed114f8, type: 2}
+  _gold: {fileID: 11400000, guid: aecc48fbc7ae04640ae0b0073cec717d, type: 2}
+  _diamond: {fileID: 11400000, guid: 5e1d8a9da71fb72489909e52436c5cbb, type: 2}
+  _scoin: {fileID: 11400000, guid: 805d9215d4e4dc14683e427401141872, type: 2}
+  _onInventoryChanged: {fileID: 11400000, guid: 7d517aaac91521c4d81a03c21020fdfd, type: 2}
+  _userItemList:
+  - itemId: 100001
+    itemCount: 100
+    incomingCount: 0
+  - itemId: 110001
+    itemCount: 2372
+    incomingCount: 0
+  - itemId: 120001
+    itemCount: 50
+    incomingCount: 0
+  - itemId: 130001
+    itemCount: 100
+    incomingCount: 0
+  - itemId: 140001
+    itemCount: 80
+    incomingCount: 0
+  - itemId: 110005
+    itemCount: 50
+    incomingCount: 0
+  - itemId: 990101
+    itemCount: 100
+    incomingCount: 0
+  - itemId: 990100
+    itemCount: 100
+    incomingCount: 0
+  - itemId: 990099
+    itemCount: 100
+    incomingCount: 0
+  _userItemsWithRandomOption: []

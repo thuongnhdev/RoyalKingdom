@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5159173763889816771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4125893054783694106}
+  - component: {fileID: 1746717618478081363}
+  m_Layer: 0
+  m_Name: TradeSynchronizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4125893054783694106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5159173763889816771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746717618478081363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5159173763889816771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754f6afa74e5fad4dbb0bb9808a870f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _landTradingItems: {fileID: 11400000, guid: 076a079d69081c546bc4c3b73e628804, type: 2}
+  _caravans: {fileID: 11400000, guid: bcd44b647f21ffc43807caed21dd962b, type: 2}
+  _sellingForm: {fileID: 11400000, guid: 9202f3a13e9a1be4e9c5d3d5659b3f00, type: 2}
+  _selectedPack: {fileID: 11400000, guid: 098bc4087f7b4dc43b805d18e1a0ceda, type: 2}
+  _requestFetchLandTradingItems: {fileID: 11400000, guid: 45d5f68f9a3dd124ea87190f11956735, type: 2}
+  _onLandTradingItemsFetched: {fileID: 11400000, guid: 664f833c6be16d049a5dff9f8df0732c, type: 2}

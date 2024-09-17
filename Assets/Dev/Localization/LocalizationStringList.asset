@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b670e7a1ccbd9d45b82870465d8f0ad, type: 3}
+  m_Name: LocalizationStringList
+  m_EditorClassIdentifier: 
+  _tableAndFontList:
+  - table: {fileID: 11400000, guid: 7e944be5ce459e3458e2c81303b56799, type: 2}
+    font: {fileID: 11400000, guid: 0a18d0bb0099b404b925b37ad4da46e5, type: 2}
+  - table: {fileID: 11400000, guid: fcc74fee43c0d844fbb7d77026cd0600, type: 2}
+    font: {fileID: 11400000, guid: b9f5fab71c2401c4c891d4b8fb76ccce, type: 2}
+  - table: {fileID: 11400000, guid: ea8202840b79ce740bd5a995ada640c1, type: 2}
+    font: {fileID: 11400000, guid: 0a18d0bb0099b404b925b37ad4da46e5, type: 2}
+  _activeTableAndFont:
+    table: {fileID: 11400000, guid: 7e944be5ce459e3458e2c81303b56799, type: 2}
+    font: {fileID: 11400000, guid: 0a18d0bb0099b404b925b37ad4da46e5, type: 2}

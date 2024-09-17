@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cff09729d8e34d43ac0f7c70f710e2e, type: 3}
+  m_Name: LandDynamicInfoList
+  m_EditorClassIdentifier: 
+  _staticLandInfos: {fileID: 11400000, guid: 3ea999f8dc3a91148bf6b58dc7a0ac4c, type: 2}
+  _lands:
+  - landName: Creuse
+    id: 22
+    owner: 0
+    ownerName: 
+    kingdom: 0
+    population: 0
+    prosperity: 0
+    reputation: 0
+    taxRate: 0
+    members: 
+  - landName: Charente-Maritime
+    id: 17
+    owner: 0
+    ownerName: 
+    kingdom: 0
+    population: 0
+    prosperity: 0
+    reputation: 0
+    taxRate: 0
+    members: 

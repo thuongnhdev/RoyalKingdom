@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3386118774426880137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8802762481705266749}
+  - component: {fileID: 5609598290118666334}
+  m_Layer: 0
+  m_Name: MapResourceSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8802762481705266749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386118774426880137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 119.79286, y: 7.9786677, z: 116.381874}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 525454077531340659}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5609598290118666334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386118774426880137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc33e23d993e2484cb85a68141a0c0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userTownMap: {fileID: 11400000, guid: 68ddea2de6aa35f428a1af46bf368040, type: 2}
+  _itemList: {fileID: 11400000, guid: 0ef39ddcc32dd5d4a83d7e292b6e8904, type: 2}
+  _spawnInterval: 0.3
+  _resourcePool: {fileID: 2155211280122572137}
+  _onResourceAddedToTileData: {fileID: 11400000, guid: c6dff31de3b6c3f419b4d05b4298495b, type: 2}
+  _onSpawnedResourceObjects: {fileID: 11400000, guid: 8fa8fbeee4419ba4d922741fa932c517, type: 2}
+--- !u!1 &4036946974547444538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 525454077531340659}
+  - component: {fileID: 2155211280122572137}
+  m_Layer: 0
+  m_Name: ResourcePool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &525454077531340659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4036946974547444538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8802762481705266749}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2155211280122572137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4036946974547444538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e48ccc59b1b4147ae08ee7001c0c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectInPool: {fileID: 1053065396655191434, guid: 1a3a40a10413b2d48b13595359c42ecb, type: 3}
+  _randomObjList: []
+  _parrentTransform: {fileID: 0}
+  _spawnPos: {fileID: 525454077531340659}
+  _randomRangePos: {x: 0.15, y: 0, z: 0.15}
+  _poolSize: 5

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6281d0574df101741bf774c141867cd8, type: 3}
+  m_Name: ItemGroupList
+  m_EditorClassIdentifier: 
+  _itemGroups:
+  - groupName: FOOD_MATERIAL
+    groupId: 100000
+  - groupName: RESOURCE_STONE
+    groupId: 110000
+  - groupName: RESOURCE_WOOD
+    groupId: 120000
+  - groupName: FOOD_PRODUCTION
+    groupId: 130000
+  - groupName: PRODUCTION_ITEM
+    groupId: 140000
+  - groupName: PRODUCTION_ARTWORK
+    groupId: 150000
+  - groupName: EQUIPMENT_SWORD
+    groupId: 160000
+  - groupName: CURRENCY
+    groupId: 990000

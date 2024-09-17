@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ec91056f8427145ae3b30aab00a104, type: 3}
+  m_Name: StarAndGradeAssets
+  m_EditorClassIdentifier: 
+  _stars:
+  - {fileID: 21300000, guid: 9078bb23bafd5b042aeb1e36df1a1e5d, type: 3}
+  - {fileID: 21300000, guid: 1ab5915ce14c4234f97bfaa99bb9cdae, type: 3}
+  - {fileID: 21300000, guid: 1b45ee803beaf0443a84f463a16fc62f, type: 3}
+  - {fileID: 21300000, guid: 5b2e52d4befe900459beb8f81033dac3, type: 3}
+  _starBgs:
+  - {fileID: 21300000, guid: 09b1937da23d6b245afc25612ee523de, type: 3}
+  - {fileID: 21300000, guid: 09b1937da23d6b245afc25612ee523de, type: 3}
+  - {fileID: 21300000, guid: 09b1937da23d6b245afc25612ee523de, type: 3}
+  - {fileID: 21300000, guid: 09b1937da23d6b245afc25612ee523de, type: 3}
+  - {fileID: 21300000, guid: a5c6457be8b00134999311b523958330, type: 3}
+  _grades:
+  - {fileID: 21300000, guid: 3798827edbbcf5549a7a2d0380bd7cab, type: 3}
+  - {fileID: 21300000, guid: a810d27c6b6224e448b39193230f8fa4, type: 3}
+  - {fileID: 21300000, guid: aaba9104525677547bce77712a93364c, type: 3}
+  - {fileID: 21300000, guid: 7ca6307874dc6f145a741d953fdcac67, type: 3}
+  - {fileID: 21300000, guid: f0fad4e0d2cd1b6428e1056425b05239, type: 3}
+  _gradesWithSlot:
+  - {fileID: 21300000, guid: 95e9880fce5e959488a285be772d74f9, type: 3}
+  - {fileID: 21300000, guid: 4a4ce7cd2565d63478a13a2f42d3b9d7, type: 3}
+  - {fileID: 21300000, guid: 7692f66e3981a284fad71b00007993f0, type: 3}
+  - {fileID: 21300000, guid: cee6ff26cdf1b384cad9cfec8dc90d0a, type: 3}
+  - {fileID: 21300000, guid: 681570db630e4794f9daf744feaee33b, type: 3}
+  _groupGrade: {fileID: 21300000, guid: 922b2e3246f97fd498ec2ee40c7b1c5e, type: 3}

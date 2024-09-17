@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3971854091549639497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3971854091549639499}
+  - component: {fileID: 3971854091549639498}
+  m_Layer: 0
+  m_Name: MasterDataFetcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3971854091549639499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3971854091549639497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3971854091981323576}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3971854091549639498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3971854091549639497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635c40bc6c1a2e5439f6c08a66b133cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _apiList: {fileID: 11400000, guid: 7d080920e0803e748a49c970e115b1cd, type: 2}
+  _parser: {fileID: 3971854091981323577}
+--- !u!1 &3971854091981323583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3971854091981323576}
+  - component: {fileID: 3971854091981323577}
+  m_Layer: 0
+  m_Name: MasterDataParser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3971854091981323576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3971854091981323583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3971854091549639499}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3971854091981323577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3971854091981323583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852da4a761e04484da1072cd7ee36ebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localizationString: {fileID: 11400000, guid: 798f21a8d5408dc47bbe5d0d3ae934ac, type: 2}
+  _townBuildingList: {fileID: 11400000, guid: f7f67cf5a28274640bf079ce5882a6d4, type: 2}
+  _buildingUpgradeInfos: {fileID: 11400000, guid: b0628db5226d07d4baf31907c5319a12, type: 2}
+  _buildingMaxCountInfos: {fileID: 11400000, guid: 5ed3f59ed88178241b65ffd6d7b66934, type: 2}
+  _vassals: {fileID: 11400000, guid: ae58a758617d9ed4ca03e352712dd05f, type: 2}
+  _vassalStats: {fileID: 11400000, guid: 13cea76e065ebc24e8563941232ecc49, type: 2}
+  _vassalExpAndLevel: {fileID: 11400000, guid: 992fba49a8399b846b65dae64cd1ac6f, type: 2}
+  _items: {fileID: 11400000, guid: 0ef39ddcc32dd5d4a83d7e292b6e8904, type: 2}
+  _itemGroups: {fileID: 11400000, guid: 3a060f47391baf54e814cb4aeec18fcd, type: 2}
+  _itemTypes: {fileID: 11400000, guid: 20ddb487a370b1a4d95ef4aa03bd5b95, type: 2}
+  _productionDesList: {fileID: 11400000, guid: e9089d8102bd251468f22c0d2848868d, type: 2}
+  _productFormulas: {fileID: 11400000, guid: 24e7ac4612f66e2479625fa39a76b5e6, type: 2}
+  _prefixes: {fileID: 11400000, guid: 96ec9e4d42ea2484088ae79a5c5076bb, type: 2}
+  _landStaticInfos: {fileID: 11400000, guid: 3ea999f8dc3a91148bf6b58dc7a0ac4c, type: 2}
+  _cities: {fileID: 11400000, guid: 54d615c25f35ffe4bbb7953629d45e44, type: 2}
+  _onMasterDataParsed: {fileID: 0}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6760f1fd2f911c241a6069ecea7613aa, type: 3}
+  m_Name: CaravanList
+  m_EditorClassIdentifier: 
+  _caranvans:
+  - id: 1
+    owner: 0
+    locationLand: 0
+    packs: 010000000200000003000000
+    storages:
+    - itemId: 110006
+      itemCount: 2
+    - itemId: 110005
+      itemCount: 3
+    - itemId: 110004
+      itemCount: 4
+    - itemId: 110003
+      itemCount: 4
+    storageRandomOptions:
+    - itemId: 110004
+      randomOptions:
+      - prefix: 1
+        star: 2
+    - itemId: 110005
+      randomOptions:
+      - prefix: 2
+        star: 3

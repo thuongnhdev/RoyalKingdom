@@ -1,0 +1,827 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ddda1913bd653d4eb480a3f99514a7e, type: 3}
+  m_Name: LandStaticInfoList
+  m_EditorClassIdentifier: 
+  _lands:
+  - landName: Eure
+    id: 27
+    landGeoId: 572539337
+    maxCity: 3
+    cities: 5b0000005c0000005d000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100009
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.10980392, g: 0.57254905, b: 0.28627452, a: 0.5}
+  - landName: Aisne
+    id: 2
+    landGeoId: 2028185585
+    maxCity: 3
+    cities: a6000000a7000000a8000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100002
+    terrainId: 2
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0, b: 0.5019608, a: 0.5}
+  - landName: "Bouches-du-Rh\xF4ne"
+    id: 13
+    landGeoId: 1718350095
+    maxCity: 3
+    cities: 850000008600000087000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100004
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.70980394, b: 0.8901961, a: 0.5}
+  - landName: Ille-et-Vilaine
+    id: 43
+    landGeoId: 1725852926
+    maxCity: 3
+    cities: 2b0000002c0000002d000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100007
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0.25490198, g: 0.44313726, b: 0.25490198, a: 0.5}
+  - landName: Creuse
+    id: 22
+    landGeoId: 1417670527
+    maxCity: 3
+    cities: 6a0000006b0000006c000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100004
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.043137256, g: 0.42745098, b: 0.7176471, a: 0.5}
+  - landName: Dordogne
+    id: 24
+    landGeoId: 126360137
+    maxCity: 3
+    cities: 640000006500000066000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100006
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0.08627451, g: 0.6666667, b: 0.32156864, a: 0.5}
+  - landName: "C\xF4te-d'Or"
+    id: 20
+    landGeoId: 2018115932
+    maxCity: 3
+    cities: 700000007100000072000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100002
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.007843138, g: 0.40784314, b: 0.57254905, a: 0.5}
+  - landName: Gard
+    id: 30
+    landGeoId: 2122047060
+    maxCity: 3
+    cities: 520000005300000054000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100003
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.1254902, g: 0.69803923, b: 0.6666667, a: 0.5}
+  - landName: Loire
+    id: 50
+    landGeoId: 16068813
+    maxCity: 3
+    cities: 160000001700000018000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100005
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.29411766, g: 0, b: 0.50980395, a: 0.5}
+  - landName: Indre-et-Loire
+    id: 45
+    landGeoId: 1103079481
+    maxCity: 3
+    cities: 250000002600000027000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100009
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.27058825, g: 0.2627451, b: 0.42352942, a: 0.5}
+  - landName: Loiret
+    id: 52
+    landGeoId: 747640860
+    maxCity: 3
+    cities: 100000001100000012000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100007
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.33333334, g: 0.41960785, b: 0.18431373, a: 0.5}
+  - landName: Manche
+    id: 57
+    landGeoId: 912613183
+    maxCity: 3
+    cities: 010000000200000003000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100003
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.3647059, g: 0.75686276, b: 0.60784316, a: 0.5}
+  - landName: Charente
+    id: 16
+    landGeoId: 1878674310
+    maxCity: 3
+    cities: 790000007c0000007d000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100007
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.98039216, b: 0.6039216, a: 0.5}
+  - landName: "Ard\xE8che"
+    id: 6
+    landGeoId: 1964376214
+    maxCity: 3
+    cities: 9a0000009b0000009c000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100006
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.39215687, b: 0, a: 0.5}
+  - landName: Land 59
+    id: 59
+    landGeoId: 0
+    maxCity: 3
+    cities: 
+    maxTown: 100
+    purchasable: 0
+    regionalProduct: 0
+    terrainId: 0
+    religion: 0
+    culture: 0
+    race: 0
+    populationGrade: 0
+    color: {r: 0.16926445, g: 0.09564413, b: 0.08805118, a: 1}
+  - landName: Bas-Rhin
+    id: 12
+    landGeoId: 119945953
+    maxCity: 3
+    cities: 88000000890000008a000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100003
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.6509804, b: 0.6627451, a: 0.5}
+  - landName: "Finist\xE8re"
+    id: 29
+    landGeoId: 1910678511
+    maxCity: 3
+    cities: 550000005600000057000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100002
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0.11764706, g: 0.5647059, b: 1, a: 0.5}
+  - landName: "Hautes-Pyr\xE9n\xE9es"
+    id: 41
+    landGeoId: 1455595222
+    maxCity: 3
+    cities: 310000003200000033000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100005
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.2509804, g: 0.8784314, b: 0.8156863, a: 0.5}
+  - landName: "Dr\xF4me"
+    id: 26
+    landGeoId: 1313284917
+    maxCity: 3
+    cities: 5e0000005f00000060000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100008
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.09803922, g: 0.09803922, b: 0.4392157, a: 0.5}
+  - landName: "Loz\xE8re"
+    id: 55
+    landGeoId: 1399768572
+    maxCity: 3
+    cities: 070000000800000009000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100001
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.36078432, g: 0.43137255, b: 0.7058824, a: 0.5}
+  - landName: "Deux-S\xE8vres"
+    id: 23
+    landGeoId: 794859048
+    maxCity: 3
+    cities: 670000006800000069000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100005
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0.08235294, g: 0.5137255, b: 0.6862745, a: 0.5}
+  - landName: Hautes-Alpes
+    id: 40
+    landGeoId: 496488668
+    maxCity: 3
+    cities: 340000003500000036000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100004
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.2509804, g: 0.24705882, b: 0.58431375, a: 0.5}
+  - landName: Cher
+    id: 18
+    landGeoId: 668102974
+    maxCity: 3
+    cities: 760000007700000078000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100009
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 1, b: 0.49803922, a: 0.5}
+  - landName: "Haute-Sa\xC3\xB4ne"
+    id: 37
+    landGeoId: 1652892541
+    maxCity: 3
+    cities: 3d0000003e0000003f000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100001
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.19607843, g: 0.8039216, b: 0.19607843, a: 0.5}
+  - landName: Maine-et-Loire
+    id: 56
+    landGeoId: 2140301174
+    maxCity: 3
+    cities: 040000000500000006000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100002
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.3647059, g: 0.20392157, b: 0.38431373, a: 0.5}
+  - landName: Land 58
+    id: 58
+    landGeoId: 0
+    maxCity: 3
+    cities: 
+    maxTown: 100
+    purchasable: 0
+    regionalProduct: 0
+    terrainId: 0
+    religion: 0
+    culture: 0
+    race: 0
+    populationGrade: 0
+    color: {r: 0.11851041, g: 0.17076565, b: 0.00093808444, a: 1}
+  - landName: "Is\xE8re"
+    id: 46
+    landGeoId: 1738130793
+    maxCity: 3
+    cities: 220000002300000024000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100001
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.27450982, g: 0.50980395, b: 0.7058824, a: 0.5}
+  - landName: Haute-Loire
+    id: 35
+    landGeoId: 207434947
+    maxCity: 3
+    cities: 430000004400000045000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100008
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.18431373, g: 0.30980393, b: 0.30980393, a: 0.5}
+  - landName: Alpes-Maritimes
+    id: 5
+    landGeoId: 279961951
+    maxCity: 3
+    cities: 9d0000009e0000009f000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100005
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0, g: 0, b: 1, a: 0.5}
+  - landName: "H\xE9rault"
+    id: 42
+    landGeoId: 1173122452
+    maxCity: 3
+    cities: 2e0000002f00000030000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100006
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.25490198, g: 0.4117647, b: 0.88235295, a: 0.5}
+  - landName: Lot-et-Garonne
+    id: 54
+    landGeoId: 1554885659
+    maxCity: 3
+    cities: 0a0000000b0000000c000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100009
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0.3529412, g: 0.7764706, b: 0.8156863, a: 0.5}
+  - landName: Haute-Marne
+    id: 36
+    landGeoId: 467135089
+    maxCity: 3
+    cities: 400000004100000042000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100009
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.19215687, g: 0.7137255, b: 0.45882353, a: 0.5}
+  - landName: Calvados
+    id: 14
+    landGeoId: 2141312083
+    maxCity: 3
+    cities: 820000008300000084000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100005
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.7490196, b: 1, a: 0.5}
+  - landName: Gers
+    id: 31
+    landGeoId: 1593175637
+    maxCity: 3
+    cities: 4f0000005000000051000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100004
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.13333334, g: 0.54509807, b: 0.13333334, a: 0.5}
+  - landName: Allier
+    id: 3
+    landGeoId: 639540819
+    maxCity: 3
+    cities: a3000000a4000000a5000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100003
+    terrainId: 3
+    religion: 3
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0, b: 0.54509807, a: 0.5}
+  - landName: Aveyron
+    id: 11
+    landGeoId: 1546601125
+    maxCity: 3
+    cities: 8b0000008c0000008d000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100002
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.5921569, b: 0.4392157, a: 0.5}
+  - landName: Haute-Rhin
+    id: 33
+    landGeoId: 1741556331
+    maxCity: 3
+    cities: 490000004a0000004b000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100006
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0.18039216, g: 0.40392157, b: 0.30588236, a: 0.5}
+  - landName: Aube
+    id: 9
+    landGeoId: 2043879422
+    maxCity: 3
+    cities: 910000009200000093000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100009
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.5019608, b: 0.5019608, a: 0.5}
+  - landName: Ain
+    id: 1
+    landGeoId: 1086652768
+    maxCity: 3
+    cities: af000000b0000000b1000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100001
+    terrainId: 1
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0, b: 0, a: 0.5}
+  - landName: Cantal
+    id: 15
+    landGeoId: 1505594216
+    maxCity: 3
+    cities: 7f0000008000000081000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100006
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0, g: 0.80784315, b: 0.81960785, a: 0.5}
+  - landName: Doubs
+    id: 25
+    landGeoId: 1701328121
+    maxCity: 3
+    cities: 610000006200000063000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100007
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0.09411765, g: 0.7058824, b: 0.9137255, a: 0.5}
+  - landName: "C\xF4tes-d'Armor"
+    id: 21
+    landGeoId: 1285932269
+    maxCity: 3
+    cities: 6d0000006e0000006f000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100003
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.039215688, g: 0.5529412, b: 0.36862746, a: 0.5}
+  - landName: Eure-et-Loir
+    id: 28
+    landGeoId: 113993354
+    maxCity: 3
+    cities: 58000000590000005a000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100001
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0.11372549, g: 0.11764706, b: 0.13725491, a: 0.5}
+  - landName: Loire-Atlantique
+    id: 51
+    landGeoId: 1572490973
+    maxCity: 3
+    cities: 130000001400000015000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100006
+    terrainId: 5
+    religion: 1
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.30980393, g: 0.34901962, b: 0.62352943, a: 0.5}
+  - landName: Landes
+    id: 48
+    landGeoId: 355245794
+    maxCity: 3
+    cities: 1c0000001d0000001e000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100003
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0.28235295, g: 0.23921569, b: 0.54509807, a: 0.5}
+  - landName: Haute-Garonne
+    id: 34
+    landGeoId: 907083897
+    maxCity: 3
+    cities: 460000004700000048000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100007
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0.18039216, g: 0.54509807, b: 0.34117648, a: 0.5}
+  - landName: Charente-Maritime
+    id: 17
+    landGeoId: 1453339893
+    maxCity: 3
+    cities: 7a0000007b0000007e000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100008
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 1, b: 0, a: 0.5}
+  - landName: Jura
+    id: 47
+    landGeoId: 1916138723
+    maxCity: 3
+    cities: 1f0000002000000021000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100002
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.2784314, g: 0.1882353, b: 0.18039216, a: 0.5}
+  - landName: Loir-et-Cher
+    id: 49
+    landGeoId: 703470101
+    maxCity: 3
+    cities: 190000001a0000001b000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100004
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0.28235295, g: 0.81960785, b: 0.8, a: 0.5}
+  - landName: Lot
+    id: 53
+    landGeoId: 1970772257
+    maxCity: 3
+    cities: 0d0000000e0000000f000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100008
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0.3372549, g: 0.6039216, b: 0.28627452, a: 0.5}
+  - landName: Aude
+    id: 10
+    landGeoId: 1015331579
+    maxCity: 3
+    cities: 8e0000008f00000090000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100001
+    terrainId: 4
+    religion: 5
+    culture: 3
+    race: 2
+    populationGrade: 1
+    color: {r: 0, g: 0.54509807, b: 0.54509807, a: 0.5}
+  - landName: Ardennes
+    id: 7
+    landGeoId: 665386092
+    maxCity: 3
+    cities: 970000009800000099000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100007
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.39215687, b: 0.5803922, a: 0.5}
+  - landName: "Corr\xE8ze"
+    id: 19
+    landGeoId: 310466664
+    maxCity: 3
+    cities: 730000007400000075000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100001
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 1, b: 1, a: 0.5}
+  - landName: Indre
+    id: 44
+    landGeoId: 615017183
+    maxCity: 3
+    cities: 28000000290000002a000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100008
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0.26666668, g: 0.54901963, b: 0.79607844, a: 0.5}
+  - landName: "Ari\xE8ge"
+    id: 8
+    landGeoId: 379169121
+    maxCity: 3
+    cities: 940000009500000096000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100008
+    terrainId: 6
+    religion: 3
+    culture: 2
+    race: 1
+    populationGrade: 1
+    color: {r: 0, g: 0.5019608, b: 0, a: 0.5}
+  - landName: Gironde
+    id: 32
+    landGeoId: 64435245
+    maxCity: 3
+    cities: 4c0000004d0000004e000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100005
+    terrainId: 5
+    religion: 2
+    culture: 1
+    race: 1
+    populationGrade: 1
+    color: {r: 0.14117648, g: 0.32941177, b: 0.25490198, a: 0.5}
+  - landName: Haute-Vienne
+    id: 39
+    landGeoId: 959916520
+    maxCity: 3
+    cities: 370000003800000039000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100003
+    terrainId: 7
+    religion: 4
+    culture: 3
+    race: 1
+    populationGrade: 1
+    color: {r: 0.23529412, g: 0.7019608, b: 0.44313726, a: 0.5}
+  - landName: Alpes-de-Haute-Provence
+    id: 4
+    landGeoId: 2013868351
+    maxCity: 3
+    cities: a0000000a1000000a2000000
+    maxTown: 150
+    purchasable: 1
+    regionalProduct: 100004
+    terrainId: 1
+    religion: 4
+    culture: 2
+    race: 2
+    populationGrade: 1
+    color: {r: 0, g: 0, b: 0.8039216, a: 0.5}

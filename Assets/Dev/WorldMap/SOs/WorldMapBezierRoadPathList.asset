@@ -1,0 +1,4639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ef5b3f33b8bc54bb1da1118617a9a9, type: 3}
+  m_Name: WorldMapBezierRoadPathList
+  m_EditorClassIdentifier: 
+  _pathFindingServices: {fileID: 11400000, guid: fe257f8bc3f754448a9a9fc363a9e1c8, type: 2}
+  _cities: {fileID: 11400000, guid: a9936185840f95d488f760c95c14f27b, type: 2}
+  _paths:
+  - pathName: Road Creator Template (1) -1464555638
+    pathId: 177870
+    center: {x: 981.86, y: 0, z: 766.39}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0.1
+    pathLength: 4.5545454
+    bezierPoints:
+    - {x: -3.6104126, y: 0, z: 4.4367065}
+    - {x: -2.0514526, y: 0, z: 3.9834595}
+    - {x: -1.5709229, y: 0, z: 2.4732056}
+    - {x: -0.4644165, y: 0, z: 1.8711548}
+    cities:
+    - stringId: 
+      cityId: 37
+      pathDistance: 0.030742014
+      pathTime: 0.0067497436
+    - stringId: 
+      cityId: 39
+      pathDistance: 4.549605
+      pathTime: 0.99891526
+  - pathName: Road Creator Template (2) 506750156
+    pathId: 178368
+    center: {x: 985.13, y: 0, z: 766.67}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0.1
+    pathLength: 4.915469
+    bezierPoints:
+    - {x: -3.7434692, y: 0, z: 1.5947266}
+    - {x: -2.606079, y: 0, z: 1.6292114}
+    - {x: -1.2644043, y: 0, z: 3.3844604}
+    - {x: -0.03326416, y: 0, z: 4.2677}
+    cities:
+    - stringId: 
+      cityId: 39
+      pathDistance: 0.004285134
+      pathTime: 0.000871765
+    - stringId: 
+      cityId: 38
+      pathDistance: 4.9108953
+      pathTime: 0.9990695
+  - pathName: Road Creator Template (3) 1764843900
+    pathId: 175780
+    center: {x: 988.07, y: 0, z: 769.61}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0.1
+    pathLength: 3.155529
+    bezierPoints:
+    - {x: -2.9714355, y: 0, z: 1.3375854}
+    - {x: -2.923523, y: 0, z: 1.2334595}
+    - {x: -2.4234009, y: 0, z: 0.3336792}
+    - {x: -1.7966309, y: 0, z: -0.421875}
+    - {x: -2.350525, y: 0, z: -1.2156372}
+    cities:
+    - stringId: 
+      cityId: 38
+      pathDistance: 0.0031672171
+      pathTime: 0.001003704
+    - stringId: 
+      cityId: 41
+      pathDistance: 3.155529
+      pathTime: 1
+  - pathName: Road Creator Template (4) -2107925270
+    pathId: 174864
+    center: {x: 986.54, y: 0, z: 767.22}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0.1
+    pathLength: 2.8919866
+    bezierPoints:
+    - {x: -0.7919922, y: 0, z: 1.1814575}
+    - {x: 0.026855469, y: 0, z: 0.45306396}
+    - {x: 0.33532715, y: 0, z: -0.41973877}
+    - {x: 0.92755127, y: 0, z: -1.0362549}
+    cities:
+    - stringId: 
+      cityId: 41
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 40
+      pathDistance: 2.8919866
+      pathTime: 1
+  - pathName: Road Creator Template (5) -893076890
+    pathId: 175734
+    center: {x: 989.111, y: 0, z: 766.461}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0.1
+    pathLength: 3.7458558
+    bezierPoints:
+    - {x: -1.642334, y: 0, z: -0.27844238}
+    - {x: -1.5532837, y: 0, z: -0.21325684}
+    - {x: -0.5230713, y: 0, z: 0.15393066}
+    - {x: 0.35479736, y: 0, z: 0.9319458}
+    - {x: 1.5049438, y: 0, z: 0.50109863}
+    - {x: 1.5985718, y: 0, z: 0.47802734}
+    cities:
+    - stringId: 
+      cityId: 40
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 42
+      pathDistance: 3.7458558
+      pathTime: 1
+  - pathName: Road Creator Template (6) 1078228904
+    pathId: 176138
+    center: {x: 992.051, y: 0, z: 766.597}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0.1
+    pathLength: 3.3253562
+    bezierPoints:
+    - {x: -1.333313, y: 0, z: 0.3411255}
+    - {x: -1.2188721, y: 0, z: 0.30963135}
+    - {x: -0.26483154, y: 0, z: 0.076049805}
+    - {x: 0.5980835, y: 0, z: -0.4376831}
+    - {x: 1.6658936, y: 0, z: -0.2567749}
+    - {x: 1.779419, y: 0, z: -0.29467773}
+    cities:
+    - stringId: 
+      cityId: 42
+      pathDistance: 0.0017024524
+      pathTime: 0.00051196094
+    - stringId: 
+      cityId: 43
+      pathDistance: 3.3218303
+      pathTime: 0.9989397
+  - pathName: Road Creator Template (7) -1245432598
+    pathId: 174110
+    center: {x: 994.17, y: 0, z: 767.8}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.509693
+    bezierPoints:
+    - {x: -0.3428955, y: 0, z: -1.4960327}
+    - {x: -0.32122803, y: 0, z: -1.3842773}
+    - {x: -0.28881836, y: 0, z: -0.45898438}
+    - {x: -0.8579712, y: 0, z: 0.59173584}
+    - {x: 0.09790039, y: 0, z: 0.8751221}
+    - {x: 0.10650635, y: 0, z: 0.9199829}
+    - {x: 0.12384033, y: 0, z: 1.0420532}
+    cities:
+    - stringId: 
+      cityId: 43
+      pathDistance: 0.006573087
+      pathTime: 0.0018728384
+    - stringId: 
+      cityId: 31
+      pathDistance: 3.5085196
+      pathTime: 0.9996657
+  - pathName: Road Creator Template (8) 921295402
+    pathId: 175848
+    center: {x: 992.45, y: 0, z: 769.88}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.140993
+    bezierPoints:
+    - {x: 1.854248, y: 0, z: -1.0455933}
+    - {x: 1.743103, y: 0, z: -1.0081177}
+    - {x: 0.680603, y: 0, z: -0.6132202}
+    - {x: -0.28198242, y: 0, z: 0.3890381}
+    - {x: -1.4370728, y: 0, z: 1.1278687}
+    - {x: -1.5321655, y: 0, z: 1.1991577}
+    cities:
+    - stringId: 
+      cityId: 31
+      pathDistance: 0.00584968
+      pathTime: 0.0014126274
+    - stringId: 
+      cityId: 32
+      pathDistance: 4.139821
+      pathTime: 0.99971694
+  - pathName: Road Creator Template (9) 216583986
+    pathId: 177272
+    center: {x: 993.74, y: 0, z: 771.16}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.2478104
+    bezierPoints:
+    - {x: -2.8251343, y: 0, z: -0.07867432}
+    - {x: -2.7546997, y: 0, z: 0.0043945312}
+    - {x: -1.9805298, y: 0, z: 0.96875}
+    - {x: -0.8355713, y: 0, z: 1.2160034}
+    - {x: 0.4588623, y: 0, z: 2.1254272}
+    - {x: 0.54766846, y: 0, z: 2.2106323}
+    cities:
+    - stringId: 
+      cityId: 32
+      pathDistance: 0.0023360087
+      pathTime: 0.0005499325
+    - stringId: 
+      cityId: 29
+      pathDistance: 4.234903
+      pathTime: 0.99696136
+  - pathName: Road Creator Template (10) -2107077516
+    pathId: 178076
+    center: {x: 996.08, y: 0, z: 769.01}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.047313
+    bezierPoints:
+    - {x: -1.7874146, y: 0, z: -0.1763916}
+    - {x: -0.14477539, y: 0, z: -0.38500977}
+    - {x: 0.86376953, y: 0, z: 0.19067383}
+    - {x: 1.9370728, y: 0, z: 0.3673706}
+    - {x: 2.048523, y: 0, z: 0.38830566}
+    cities:
+    - stringId: 
+      cityId: 31
+      pathDistance: 0.005232232
+      pathTime: 0.0012927668
+    - stringId: 
+      cityId: 33
+      pathDistance: 4.047313
+      pathTime: 1
+  - pathName: Road Creator Template (11) -135771722
+    pathId: 178432
+    center: {x: 992.68, y: 0, z: 775.05}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.327671
+    bezierPoints:
+    - {x: 1.6034546, y: 0, z: -1.6901855}
+    - {x: 0.39489746, y: 0, z: -0.42071533}
+    - {x: -1.2456055, y: 0, z: 0.3725586}
+    - {x: -1.822998, y: 0, z: 1.9730835}
+    cities:
+    - stringId: 
+      cityId: 29
+      pathDistance: 0.0022592028
+      pathTime: 0.0004240507
+    - stringId: 
+      cityId: 30
+      pathDistance: 5.3242087
+      pathTime: 0.99935013
+  - pathName: Road Creator Template (12) 1835534072
+    pathId: 176556
+    center: {x: 995.76, y: 0, z: 774.22}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 6.579918
+    bezierPoints:
+    - {x: -1.4707642, y: 0, z: -0.8666992}
+    - {x: -0.3406372, y: 0, z: -0.12213135}
+    - {x: 1.1316528, y: 0, z: 0.43151855}
+    - {x: 1.2037354, y: 0, z: 0.5192261}
+    - {x: 1.2855835, y: 0, z: 0.6069336}
+    - {x: 2.5101929, y: 0, z: 1.4750977}
+    - {x: 4.2764893, y: 0, z: 1.7059326}
+    - {x: 4.38385, y: 0, z: 1.6913452}
+    cities:
+    - stringId: 
+      cityId: 29
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 28
+      pathDistance: 3.046866
+      pathTime: 0.4630553
+    - stringId: 
+      cityId: 6
+      pathDistance: 6.579918
+      pathTime: 1
+  - pathName: Road Creator Template (13) -1262681264
+    pathId: 177468
+    center: {x: 1000.411, y: 0, z: 776.926}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8802261
+    bezierPoints:
+    - {x: -0.2666626, y: 0, z: -1.02948}
+    - {x: -0.09051514, y: 0, z: -0.17120361}
+    - {x: -0.4869995, y: 0, z: 0.8630371}
+    - {x: 0.098083496, y: 0, z: 1.3103027}
+    - {x: 0.18170166, y: 0, z: 1.3726807}
+    cities:
+    - stringId: 
+      cityId: 6
+      pathDistance: 0.014544539
+      pathTime: 0.0050497907
+    - stringId: 
+      cityId: 4
+      pathDistance: 2.8802261
+      pathTime: 1
+  - pathName: Road Creator Template (14) -1666288174
+    pathId: 174704
+    center: {x: 1002.25, y: 0, z: 777.33}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.8465939
+    bezierPoints:
+    - {x: -1.6561279, y: 0, z: 0.9667969}
+    - {x: -1.5836792, y: 0, z: 0.8776245}
+    - {x: -0.4263916, y: 0, z: 0.9043579}
+    - {x: 0.7614136, y: 0, z: 0.47576904}
+    - {x: 1.4368286, y: 0, z: -0.4725952}
+    - {x: 1.53302, y: 0, z: -0.5182495}
+    cities:
+    - stringId: 
+      cityId: 4
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 5
+      pathDistance: 3.8465939
+      pathTime: 1
+  - pathName: Road Creator Template (15) 305017620
+    pathId: 177842
+    center: {x: 1003.98, y: 0, z: 775.21}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.5381796
+    bezierPoints:
+    - {x: -0.18890381, y: 0, z: 1.6117554}
+    - {x: -0.24890137, y: 0, z: 1.5028076}
+    - {x: -0.3756714, y: 0, z: 1.3125}
+    - {x: -0.4373169, y: 0, z: 1.1749878}
+    - {x: -0.4262085, y: 0, z: 0.97991943}
+    - {x: -0.37799072, y: 0, z: 0.76000977}
+    - {x: -0.28045654, y: 0, z: 0.13690186}
+    - {x: -0.234375, y: 0, z: -0.4182129}
+    - {x: 0.42407227, y: 0, z: -0.89923096}
+    - {x: 0.34350586, y: 0, z: -1.359375}
+    - {x: 0.32269287, y: 0, z: -1.4637451}
+    cities:
+    - stringId: 
+      cityId: 5
+      pathDistance: 0.0020752773
+      pathTime: 0.00058653817
+    - stringId: 
+      cityId: 17
+      pathDistance: 3.5350666
+      pathTime: 0.9991201
+  - pathName: Road Creator Template (16) -2018643882
+    pathId: 178402
+    center: {x: 1002.95, y: 0, z: 773.58}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.2190852
+    bezierPoints:
+    - {x: 1.3501587, y: 0, z: 0.17004395}
+    - {x: 0.23236084, y: 0, z: 0.25720215}
+    - {x: -0.6828613, y: 0, z: -0.3435669}
+    - {x: -1.3396606, y: 0, z: 0.29858398}
+    cities:
+    - stringId: 
+      cityId: 17
+      pathDistance: 0.00019291148
+      pathTime: 0.000059927424
+    - stringId: 
+      cityId: 16
+      pathDistance: 3.2190852
+      pathTime: 1
+  - pathName: Road Creator Template (17) -47338088
+    pathId: 174238
+    center: {x: 1000.57, y: 0, z: 773.07}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.3963773
+    bezierPoints:
+    - {x: 1.0345459, y: 0, z: 0.8153076}
+    - {x: 0.93566895, y: 0, z: 0.7542114}
+    - {x: 0.2770996, y: 0, z: 0.29919434}
+    - {x: -0.18865967, y: 0, z: -0.15435791}
+    - {x: -0.6286011, y: 0, z: -0.70843506}
+    - {x: -0.69189453, y: 0, z: -0.8109131}
+    cities:
+    - stringId: 
+      cityId: 16
+      pathDistance: 0.006625721
+      pathTime: 0.0027648907
+    - stringId: 
+      cityId: 18
+      pathDistance: 2.385981
+      pathTime: 0.9956617
+  - pathName: Road Creator Template (18) 1923967706
+    pathId: 177242
+    center: {x: 999.23, y: 0, z: 770.39}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.6063852
+    bezierPoints:
+    - {x: 0.649353, y: 0, z: 1.8751831}
+    - {x: -0.064819336, y: 0, z: 0.88391113}
+    - {x: -1.1035156, y: 0, z: -0.0076904297}
+    - {x: -1.1184082, y: 0, z: -0.8862915}
+    - {x: -1.0956421, y: 0, z: -0.99017334}
+    cities:
+    - stringId: 
+      cityId: 18
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 33
+      pathDistance: 3.6050525
+      pathTime: 0.99963045
+  - pathName: Road Creator Template (19) -399693796
+    pathId: 177300
+    center: {x: 1000.7, y: 0, z: 770.71}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.1310225
+    bezierPoints:
+    - {x: -0.82354736, y: 0, z: 1.5673218}
+    - {x: -0.72088623, y: 0, z: 1.5150757}
+    - {x: -0.11035156, y: 0, z: 0.8081665}
+    - {x: -0.2078247, y: 0, z: -0.20465088}
+    - {x: 0.29211426, y: 0, z: -0.53430176}
+    - {x: 0.5460205, y: 0, z: -0.5048218}
+    - {x: 0.684021, y: 0, z: -0.45251465}
+    cities:
+    - stringId: 
+      cityId: 18
+      pathDistance: 0.0060756044
+      pathTime: 0.0019404537
+    - stringId: 
+      cityId: 20
+      pathDistance: 3.1283133
+      pathTime: 0.9991347
+  - pathName: Road Creator Template (20) 1571611998
+    pathId: 175930
+    center: {x: 1002.92, y: 0, z: 770.63}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.5030158
+    bezierPoints:
+    - {x: -1.5407104, y: 0, z: -0.3743286}
+    - {x: -1.435791, y: 0, z: -0.32073975}
+    - {x: -0.26763916, y: 0, z: 0.18005371}
+    - {x: 0.8587036, y: 0, z: 0.8413086}
+    - {x: 1.2932129, y: 0, z: 0.37438965}
+    - {x: 1.3563843, y: 0, z: 0.2810669}
+    cities:
+    - stringId: 
+      cityId: 20
+      pathDistance: 0.0026748565
+      pathTime: 0.0007635867
+    - stringId: 
+      cityId: 19
+      pathDistance: 3.5005443
+      pathTime: 0.9992945
+  - pathName: Road Creator Template (21) -752049504
+    pathId: 177508
+    center: {x: 1002.26, y: 0, z: 769.41}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8880985
+    bezierPoints:
+    - {x: -0.880249, y: 0, z: 0.8468628}
+    - {x: -0.8295288, y: 0, z: 0.74786377}
+    - {x: -0.35559082, y: 0, z: 0.05267334}
+    - {x: -0.1459961, y: 0, z: -0.5522461}
+    - {x: 0.82403564, y: 0, z: -0.021484375}
+    - {x: 0.9355469, y: 0, z: 0.003479004}
+    cities:
+    - stringId: 
+      cityId: 20
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 21
+      pathDistance: 2.8880985
+      pathTime: 1
+  - pathName: Road Creator Template (22) 1219256290
+    pathId: 178920
+    center: {x: 1005.329, y: 0, z: 769.346}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.265617
+    bezierPoints:
+    - {x: -2.1329956, y: 0, z: 0.06225586}
+    - {x: -2.1594238, y: 0, z: 0.1864624}
+    - {x: -2.150879, y: 0, z: 0.90075684}
+    - {x: -0.78704834, y: 0, z: 0.73742676}
+    - {x: -1.0064697, y: 0, z: 1.4714966}
+    - {x: -1.0567627, y: 0, z: 1.5646362}
+    cities:
+    - stringId: 
+      cityId: 21
+      pathDistance: 0.010337895
+      pathTime: 0.003165679
+    - stringId: 
+      cityId: 19
+      pathDistance: 3.265617
+      pathTime: 1
+  - pathName: Road Creator Template (23) -1104405212
+    pathId: 176324
+    center: {x: 1004.602, y: 0, z: 769.076}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8191862
+    bezierPoints:
+    - {x: -1.4025269, y: 0, z: 0.3395996}
+    - {x: -1.2965088, y: 0, z: 0.37249756}
+    - {x: -0.31848145, y: 0, z: 0.49920654}
+    - {x: 0.30725098, y: 0, z: -0.0836792}
+    - {x: 1.0288696, y: 0, z: -0.07299805}
+    - {x: 1.137207, y: 0, z: -0.068725586}
+    cities:
+    - stringId: 
+      cityId: 21
+      pathDistance: 0.0019511689
+      pathTime: 0.00069210364
+    - stringId: 
+      cityId: 23
+      pathDistance: 2.8191862
+      pathTime: 1
+  - pathName: Road Creator Template (24) 92346748
+    pathId: 178630
+    center: {x: 1005.764, y: 0, z: 773.429}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.5166807
+    bezierPoints:
+    - {x: -1.4593506, y: 0, z: 0.3131714}
+    - {x: -1.3543091, y: 0, z: 0.2935791}
+    - {x: -0.27624512, y: 0, z: 0.1954956}
+    - {x: -0.061767578, y: 0, z: 0.7798462}
+    - {x: 0.0018310547, y: 0, z: 1.1213379}
+    - {x: 0.033569336, y: 0, z: 1.5152588}
+    - {x: -0.18859863, y: 0, z: 2.302124}
+    - {x: 0.41906738, y: 0, z: 2.927124}
+    - {x: 0.57214355, y: 0, z: 3.0387573}
+    cities:
+    - stringId: 
+      cityId: 17
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 1
+      pathDistance: 4.5129056
+      pathTime: 0.99916416
+  - pathName: Road Creator Template (25) 2063652542
+    pathId: 178274
+    center: {x: 1006.184, y: 0, z: 773.076}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.82408
+    bezierPoints:
+    - {x: -1.8805542, y: 0, z: 0.66986084}
+    - {x: -1.914917, y: 0, z: 0.5621948}
+    - {x: -1.977417, y: 0, z: -0.54833984}
+    - {x: -0.015319824, y: 0, z: -0.035827637}
+    - {x: 1.2321777, y: 0, z: -0.07470703}
+    - {x: 1.3849487, y: 0, z: -0.10180664}
+    cities:
+    - stringId: 
+      cityId: 17
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 14
+      pathDistance: 4.8141236
+      pathTime: 0.99793607
+  - pathName: Road Creator Template (26) -260008960
+    pathId: 175366
+    center: {x: 1007.8, y: 0, z: 776.21}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.6878033
+    bezierPoints:
+    - {x: -1.4594116, y: 0, z: 0.2518921}
+    - {x: -1.5437012, y: 0, z: 0.35491943}
+    - {x: -2.4988403, y: 0, z: 1.4920654}
+    - {x: -2.0960083, y: 0, z: 2.3497314}
+    - {x: -1.6832886, y: 0, z: 3.1994019}
+    - {x: -1.6281128, y: 0, z: 3.3117676}
+    cities:
+    - stringId: 
+      cityId: 1
+      pathDistance: 0.012890224
+      pathTime: 0.0034953665
+    - stringId: 
+      cityId: 3
+      pathDistance: 3.6857014
+      pathTime: 0.99943006
+  - pathName: Road Creator Template (27) 1722340730
+    pathId: 176756
+    center: {x: 1008.43, y: 0, z: 778.9}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.8437696
+    bezierPoints:
+    - {x: -2.264038, y: 0, z: 0.6149292}
+    - {x: -0.91363525, y: 0, z: 0.029663086}
+    - {x: 0.5338135, y: 0, z: -0.10803223}
+    - {x: 2.1808472, y: 0, z: -0.79455566}
+    - {x: 2.2542725, y: 0, z: -0.88098145}
+    cities:
+    - stringId: 
+      cityId: 3
+      pathDistance: 0.0009840414
+      pathTime: 0.0002031561
+    - stringId: 
+      cityId: 2
+      pathDistance: 4.834748
+      pathTime: 0.9981375
+  - pathName: Road Creator Template (28) -601320772
+    pathId: 178956
+    center: {x: 1007.01, y: 0, z: 774.83}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.9862382
+    bezierPoints:
+    - {x: -0.6821289, y: 0, z: 1.6391602}
+    - {x: -0.6118164, y: 0, z: 1.543396}
+    - {x: 0.16113281, y: 0, z: 0.23590088}
+    - {x: 0.17663574, y: 0, z: -0.054504395}
+    - {x: 0.13122559, y: 0, z: -0.37921143}
+    - {x: 0.08929443, y: 0, z: -0.7039795}
+    - {x: 0.071777344, y: 0, z: -0.9064331}
+    - {x: 0.5673218, y: 0, z: -1.3538208}
+    - {x: 0.57440186, y: 0, z: -1.7277222}
+    - {x: 0.55267334, y: 0, z: -1.8551636}
+    cities:
+    - stringId: 
+      cityId: 1
+      pathDistance: 0.00069577666
+      pathTime: 0.00017454468
+    - stringId: 
+      cityId: 14
+      pathDistance: 3.9817512
+      pathTime: 0.99887437
+  - pathName: Road Creator Template (29) 1369985022
+    pathId: 177016
+    center: {x: 1007.05, y: 0, z: 772.13}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.468266
+    bezierPoints:
+    - {x: 0.5132446, y: 0, z: 0.8517456}
+    - {x: 0.4928589, y: 0, z: 0.7319946}
+    - {x: 0.49658203, y: 0, z: -0.022766113}
+    - {x: 0.44207764, y: 0, z: -0.6404419}
+    - {x: -0.35681152, y: 0, z: -0.7734375}
+    - {x: -0.47576904, y: 0, z: -0.7698364}
+    cities:
+    - stringId: 
+      cityId: 14
+      pathDistance: 0.0023708348
+      pathTime: 0.00096052646
+    - stringId: 
+      cityId: 22
+      pathDistance: 2.4624524
+      pathTime: 0.9976446
+  - pathName: Road Creator Template (30) -953676480
+    pathId: 177460
+    center: {x: 1005.959, y: 0, z: 770.466}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.153673
+    bezierPoints:
+    - {x: 0.62280273, y: 0, z: 0.8952637}
+    - {x: 0.50653076, y: 0, z: 0.89086914}
+    - {x: -0.24475098, y: 0, z: 0.7456665}
+    - {x: -0.2791748, y: 0, z: -0.44158936}
+    - {x: -0.22515869, y: 0, z: -1.3339844}
+    - {x: -0.21990967, y: 0, z: -1.46344}
+    cities:
+    - stringId: 
+      cityId: 22
+      pathDistance: 0.0017696813
+      pathTime: 0.00056114927
+    - stringId: 
+      cityId: 23
+      pathDistance: 3.146285
+      pathTime: 0.99765736
+  - pathName: Road Creator Template (31) 1017629314
+    pathId: 175724
+    center: {x: 1006.66, y: 0, z: 769.26}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.232773
+    bezierPoints:
+    - {x: -0.92974854, y: 0, z: -0.25421143}
+    - {x: -0.80700684, y: 0, z: -0.24914551}
+    - {x: -0.15570068, y: 0, z: -0.1564331}
+    - {x: 0.1126709, y: 0, z: 0.4237671}
+    - {x: 0.74243164, y: 0, z: 0.6010742}
+    - {x: 0.86657715, y: 0, z: 0.61450195}
+    cities:
+    - stringId: 
+      cityId: 23
+      pathDistance: 0.009827962
+      pathTime: 0.0044016843
+    - stringId: 
+      cityId: 24
+      pathDistance: 2.2266552
+      pathTime: 0.99726
+  - pathName: Road Creator Template (32) -2080586022
+    pathId: 178518
+    center: {x: 1008.477, y: 0, z: 770.145}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8298242
+    bezierPoints:
+    - {x: -0.96203613, y: 0, z: -0.26763916}
+    - {x: 0.06945801, y: 0, z: -0.14672852}
+    - {x: 0.89782715, y: 0, z: -0.11419678}
+    - {x: 1.7057495, y: 0, z: 0.11529541}
+    - {x: 1.8223267, y: 0, z: 0.14624023}
+    cities:
+    - stringId: 
+      cityId: 24
+      pathDistance: 0.0053606764
+      pathTime: 0.0018943496
+    - stringId: 
+      cityId: 26
+      pathDistance: 2.8298242
+      pathTime: 1
+  - pathName: Road Creator Template (33) -109280228
+    pathId: 177976
+    center: {x: 1009.084, y: 0, z: 773.365}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.1927452
+    bezierPoints:
+    - {x: -1.5209961, y: 0, z: -0.38360596}
+    - {x: -1.4164429, y: 0, z: -0.40270996}
+    - {x: -0.34661865, y: 0, z: -0.527771}
+    - {x: 0.0031738281, y: 0, z: -0.43884277}
+    - {x: 0.3430786, y: 0, z: -0.32751465}
+    - {x: 0.72058105, y: 0, z: -0.16394043}
+    - {x: 0.8984375, y: 0, z: 0.22717285}
+    - {x: 1.2017212, y: 0, z: 0.22229004}
+    - {x: 1.3209839, y: 0, z: 0.1975708}
+    cities:
+    - stringId: 
+      cityId: 14
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 15
+      pathDistance: 3.1885412
+      pathTime: 0.9986833
+  - pathName: Road Creator Template (34) 1862025566
+    pathId: 176646
+    center: {x: 1010.851, y: 0, z: 776.735}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8788583
+    bezierPoints:
+    - {x: -0.17602539, y: 0, z: 1.2918701}
+    - {x: -0.12402344, y: 0, z: 1.1825562}
+    - {x: 0.31225586, y: 0, z: 0.36828613}
+    - {x: 0.076049805, y: 0, z: -0.3909912}
+    - {x: -0.09674072, y: 0, z: -1.2747803}
+    - {x: -0.11590576, y: 0, z: -1.3934326}
+    cities:
+    - stringId: 
+      cityId: 2
+      pathDistance: 0.00409529
+      pathTime: 0.0014225395
+    - stringId: 
+      cityId: 12
+      pathDistance: 2.8713238
+      pathTime: 0.9973828
+  - pathName: Road Creator Template (35) -461635936
+    pathId: 178736
+    center: {x: 1010.649, y: 0, z: 774.55}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 1.8344673
+    bezierPoints:
+    - {x: 0.07879639, y: 0, z: 0.8048706}
+    - {x: 0.052978516, y: 0, z: 0.6757202}
+    - {x: -0.07318115, y: 0, z: 0.117614746}
+    - {x: -0.10333252, y: 0, z: -0.34960938}
+    - {x: -0.22027588, y: 0, z: -0.86968994}
+    - {x: -0.25048828, y: 0, z: -0.9946289}
+    cities:
+    - stringId: 
+      cityId: 12
+      pathDistance: 0.004358288
+      pathTime: 0.0023757785
+    - stringId: 
+      cityId: 15
+      pathDistance: 1.8296286
+      pathTime: 0.9973624
+  - pathName: Road Creator Template (36) 1509669858
+    pathId: 179078
+    center: {x: 1010.899, y: 0, z: 772.792}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.3851175
+    bezierPoints:
+    - {x: -0.50146484, y: 0, z: 0.77679443}
+    - {x: -0.52368164, y: 0, z: 0.6553345}
+    - {x: -0.5563965, y: 0, z: -0.099853516}
+    - {x: 0.16845703, y: 0, z: -0.12799072}
+    - {x: 0.37176514, y: 0, z: -0.6641846}
+    - {x: 0.4099121, y: 0, z: -0.78912354}
+    cities:
+    - stringId: 
+      cityId: 15
+      pathDistance: 0.008046357
+      pathTime: 0.0033735684
+    - stringId: 
+      cityId: 13
+      pathDistance: 2.3785715
+      pathTime: 0.99725544
+  - pathName: Road Creator Template (37) -813991644
+    pathId: 174356
+    center: {x: 1011.88, y: 0, z: 772.807}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.6379218
+    bezierPoints:
+    - {x: -1.4815674, y: 0, z: 0.74871826}
+    - {x: -0.10021973, y: 0, z: 0.23150635}
+    - {x: 0.47198486, y: 0, z: -1.0531616}
+    - {x: 1.0286865, y: 0, z: -0.9957886}
+    - {x: 1.1455688, y: 0, z: -0.9741821}
+    cities:
+    - stringId: 
+      cityId: 15
+      pathDistance: 0.0008632473
+      pathTime: 0.00023729133
+    - stringId: 
+      cityId: 7
+      pathDistance: 3.6379218
+      pathTime: 1
+  - pathName: Road Creator Template (38) 1157314150
+    pathId: 176890
+    center: {x: 1014.487, y: 0, z: 773.599}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.643348
+    bezierPoints:
+    - {x: -1.4563599, y: 0, z: -1.7765503}
+    - {x: -1.4732056, y: 0, z: -1.642334}
+    - {x: -1.366394, y: 0, z: 0.12573242}
+    - {x: -0.37823486, y: 0, z: 0.88720703}
+    - {x: 0.6451416, y: 0, z: 1.739563}
+    - {x: 0.73339844, y: 0, z: 1.8150024}
+    cities:
+    - stringId: 
+      cityId: 7
+      pathDistance: 0.0075575216
+      pathTime: 0.0016276018
+    - stringId: 
+      cityId: 11
+      pathDistance: 4.640402
+      pathTime: 0.9993655
+  - pathName: Road Creator Template (39) -1166347352
+    pathId: 176564
+    center: {x: 1012.476, y: 0, z: 770.311}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.7508326
+    bezierPoints:
+    - {x: 0.54803467, y: 0, z: 1.5189819}
+    - {x: 0.6768799, y: 0, z: 1.5405884}
+    - {x: 1.333252, y: 0, z: 1.6195679}
+    - {x: 1.5046997, y: 0, z: 1.4185181}
+    - {x: 1.6659546, y: 0, z: 1.0916138}
+    - {x: 1.6364746, y: 0, z: 0.70166016}
+    - {x: 1.5970459, y: 0, z: 0.4428711}
+    - {x: 1.532959, y: 0, z: 0.11779785}
+    - {x: 1.2022705, y: 0, z: -0.52508545}
+    - {x: 0.9746094, y: 0, z: -0.7276001}
+    - {x: 0.75439453, y: 0, z: -0.8529053}
+    - {x: -0.07446289, y: 0, z: -1.2486572}
+    - {x: -0.18048096, y: 0, z: -1.3079834}
+    cities:
+    - stringId: 
+      cityId: 7
+      pathDistance: 0.0058919056
+      pathTime: 0.0012401838
+    - stringId: 
+      cityId: 25
+      pathDistance: 4.7434497
+      pathTime: 0.99844605
+  - pathName: Road Creator Template (40) 804958442
+    pathId: 176796
+    center: {x: 1014.73, y: 0, z: 773.95}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 6.9821544
+    bezierPoints:
+    - {x: 0.48919678, y: 0, z: 1.4591675}
+    - {x: 0.56311035, y: 0, z: 1.3677979}
+    - {x: 1.1414185, y: 0, z: 0.10321045}
+    - {x: -0.8378906, y: 0, z: -1.9743042}
+    - {x: -0.7123413, y: 0, z: -2.2750244}
+    - {x: -0.5997925, y: 0, z: -2.468628}
+    - {x: -0.5378418, y: 0, z: -3.0266113}
+    - {x: 0.17114258, y: 0, z: -3.4205322}
+    - {x: 0.31207275, y: 0, z: -3.789734}
+    - {x: 0.34277344, y: 0, z: -3.9041138}
+    cities:
+    - stringId: 
+      cityId: 11
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 8
+      pathDistance: 6.977506
+      pathTime: 0.9993343
+  - pathName: Road Creator Template (41) 635697866
+    pathId: 176384
+    center: {x: 1014.087, y: 0, z: 770.806}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.8175006
+    bezierPoints:
+    - {x: -1.0546265, y: 0, z: 1.0272217}
+    - {x: -0.8421631, y: 0, z: 1.0647583}
+    - {x: -0.45196533, y: 0, z: 1.1480103}
+    - {x: -0.24084473, y: 0, z: 1.09906}
+    - {x: -0.14453125, y: 0, z: 0.99224854}
+    - {x: -0.08154297, y: 0, z: 0.8762207}
+    - {x: 0.04168701, y: 0, z: 0.670105}
+    - {x: 0.05218506, y: 0, z: 0.34246826}
+    - {x: 0.019042969, y: 0, z: 0.15838623}
+    - {x: 0.05633545, y: 0, z: -0.7805176}
+    - {x: 0.8618164, y: 0, z: -0.7937012}
+    - {x: 0.9862671, y: 0, z: -0.75372314}
+    cities:
+    - stringId: 
+      cityId: 7
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 8
+      pathDistance: 3.8136358
+      pathTime: 0.9989876
+  - pathName: Road Creator Template (42) 283342158
+    pathId: 177898
+    center: {x: 1016.498, y: 0, z: 770.384}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.922021
+    bezierPoints:
+    - {x: -1.4243164, y: 0, z: -0.34069824}
+    - {x: -0.5205078, y: 0, z: -0.082214355}
+    - {x: -0.0064086914, y: 0, z: 0.08099365}
+    - {x: 1.2617798, y: 0, z: 0.7648926}
+    cities:
+    - stringId: 
+      cityId: 8
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 9
+      pathDistance: 2.922021
+      pathTime: 1
+  - pathName: Road Creator Template (43) -2040319344
+    pathId: 175864
+    center: {x: 1018.906, y: 0, z: 771.79}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.4139292
+    bezierPoints:
+    - {x: -1.1335449, y: 0, z: -0.63842773}
+    - {x: -1.0371094, y: 0, z: -0.5907593}
+    - {x: -0.47973633, y: 0, z: -0.37286377}
+    - {x: -0.10430908, y: 0, z: 0.18218994}
+    - {x: 0.4029541, y: 0, z: 0.9321289}
+    - {x: 0.4817505, y: 0, z: 1.0287476}
+    cities:
+    - stringId: 
+      cityId: 9
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 10
+      pathDistance: 2.4099066
+      pathTime: 0.9983336
+  - pathName: Road Creator Template (44) -69013550
+    pathId: 175472
+    center: {x: 1021.233, y: 0, z: 773.689}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.054773
+    bezierPoints:
+    - {x: -1.8543091, y: 0, z: -0.8651123}
+    - {x: -1.78125, y: 0, z: -0.7713623}
+    - {x: -0.7102051, y: 0, z: 0.09112549}
+    - {x: 0.7628174, y: 0, z: 0.43041992}
+    - {x: 1.6740112, y: 0, z: 0.5147095}
+    - {x: 1.7931519, y: 0, z: 0.51867676}
+    cities:
+    - stringId: 
+      cityId: 10
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 177
+      pathDistance: 4.054773
+      pathTime: 1
+  - pathName: Road Creator Template (45) 1902292244
+    pathId: 176448
+    center: {x: 1024.461, y: 0, z: 774.695}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.9808865
+    bezierPoints:
+    - {x: -1.4231567, y: 0, z: -0.48413086}
+    - {x: -0.10876465, y: 0, z: -0.18933105}
+    - {x: 0.28186035, y: 0, z: 0.38616943}
+    - {x: 1.0449219, y: 0, z: 0.32244873}
+    - {x: 1.1619873, y: 0, z: 0.2890625}
+    cities:
+    - stringId: 
+      cityId: 177
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 176
+      pathDistance: 2.9761374
+      pathTime: 0.9984068
+  - pathName: Road Creator Template (46) -421369258
+    pathId: 175424
+    center: {x: 1023.691, y: 0, z: 775.585}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 6.590025
+    bezierPoints:
+    - {x: -2.0668335, y: 0, z: -0.08856201}
+    - {x: -2.0093994, y: 0, z: 0.01940918}
+    - {x: -1.4729004, y: 0, z: 0.9199829}
+    - {x: -0.41479492, y: 0, z: 1.1710205}
+    - {x: 0.8682251, y: 0, z: 0.7028198}
+    - {x: 2.1344604, y: 0, z: 0.9222412}
+    - {x: 1.9486694, y: 0, z: -0.52960205}
+    cities:
+    - stringId: 
+      cityId: 175
+      pathDistance: 0.005840067
+      pathTime: 0.00088619796
+    - stringId: 
+      cityId: 176
+      pathDistance: 6.590025
+      pathTime: 1
+  - pathName: Road Creator Template (47) 1549936536
+    pathId: 175480
+    center: {x: 1026.594, y: 0, z: 774.413}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.2685137
+    bezierPoints:
+    - {x: -0.97094727, y: 0, z: 0.5776367}
+    - {x: -0.86157227, y: 0, z: 0.54937744}
+    - {x: -0.16796875, y: 0, z: 0.4569702}
+    - {x: -0.015258789, y: 0, z: 0.40802002}
+    - {x: 0.1574707, y: 0, z: 0.20361328}
+    - {x: 0.3215332, y: 0, z: -0.009460449}
+    - {x: 0.4136963, y: 0, z: -0.11303711}
+    - {x: 0.7408447, y: 0, z: -0.45880127}
+    - {x: 0.8562012, y: 0, z: -0.5397339}
+    cities:
+    - stringId: 
+      cityId: 176
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 56
+      pathDistance: 2.261775
+      pathTime: 0.9970295
+  - pathName: Road Creator Template (48) -773724966
+    pathId: 177598
+    center: {x: 1022.318, y: 0, z: 775.083}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.2121108
+    bezierPoints:
+    - {x: -0.685791, y: 0, z: 0.41796875}
+    - {x: -0.5897217, y: 0, z: 0.36462402}
+    - {x: 0.07885742, y: 0, z: 0.02709961}
+    - {x: 0.5454712, y: 0, z: -0.052124023}
+    - {x: 0.7128296, y: 0, z: -0.7734375}
+    - {x: 0.7150879, y: 0, z: -0.8829346}
+    cities:
+    - stringId: 
+      cityId: 175
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 177
+      pathDistance: 2.202223
+      pathTime: 0.99553025
+  - pathName: Road Creator Template (49) 1197580828
+    pathId: 178032
+    center: {x: 1028.136, y: 0, z: 774.787}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.764419
+    bezierPoints:
+    - {x: -0.6972656, y: 0, z: -0.91900635}
+    - {x: -0.63134766, y: 0, z: -0.8275757}
+    - {x: 0.072753906, y: 0, z: -0.22814941}
+    - {x: 0.20397949, y: 0, z: 0.5808716}
+    - {x: 0.9001465, y: 0, z: 0.4244995}
+    - {x: 1.0205078, y: 0, z: 0.3908081}
+    cities:
+    - stringId: 
+      cityId: 56
+      pathDistance: 0.0023693629
+      pathTime: 0.00085709256
+    - stringId: 
+      cityId: 57
+      pathDistance: 2.764419
+      pathTime: 1
+  - pathName: Road Creator Template (50) 70671286
+    pathId: 174734
+    center: {x: 1032.169, y: 0, z: 773.524}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.3165736
+    bezierPoints:
+    - {x: -1.9766846, y: 0, z: -0.8401489}
+    - {x: -1.8741455, y: 0, z: -0.79278564}
+    - {x: -0.63220215, y: 0, z: -0.2631836}
+    - {x: 0.8919678, y: 0, z: 0.5652466}
+    - {x: 1.5727539, y: 0, z: -0.0579834}
+    - {x: 1.6453857, y: 0, z: -0.1618042}
+    cities:
+    - stringId: 
+      cityId: 55
+      pathDistance: 0.0005458362
+      pathTime: 0.00012645128
+    - stringId: 
+      cityId: 83
+      pathDistance: 4.3076797
+      pathTime: 0.99793965
+  - pathName: Road Creator Template (51) 2041977080
+    pathId: 178502
+    center: {x: 1025.75, y: 0, z: 774.27}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 1.88698
+    bezierPoints:
+    - {x: -0.12792969, y: 0, z: 0.71777344}
+    - {x: -0.1463623, y: 0, z: 0.6097412}
+    - {x: -0.28710938, y: 0, z: 0.045532227}
+    - {x: -0.4522705, y: 0, z: -0.34033203}
+    - {x: -0.1315918, y: 0, z: -0.8918457}
+    - {x: -0.0703125, y: 0, z: -0.99853516}
+    cities:
+    - stringId: 
+      cityId: 176
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 59
+      pathDistance: 1.88698
+      pathTime: 1
+  - pathName: Road Creator Template (52) -281684422
+    pathId: 178648
+    center: {x: 1029.629, y: 0, z: 773.808}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.993737
+    bezierPoints:
+    - {x: -0.47546387, y: 0, z: 1.3623047}
+    - {x: -0.5029297, y: 0, z: 1.2510986}
+    - {x: -0.6660156, y: 0, z: 0.49438477}
+    - {x: 0.04284668, y: 0, z: -0.16278076}
+    - {x: 0.5111084, y: 0, z: -1.0220947}
+    - {x: 0.5756836, y: 0, z: -1.1322021}
+    cities:
+    - stringId: 
+      cityId: 57
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 55
+      pathDistance: 2.97397
+      pathTime: 0.99339724
+  - pathName: Road Creator Template (53) 1689621372
+    pathId: 178158
+    center: {x: 1028.62, y: 0, z: 772.93}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.2884045
+    bezierPoints:
+    - {x: -1.1782227, y: 0, z: 0.9448242}
+    - {x: -1.0836182, y: 0, z: 0.87286377}
+    - {x: -0.12475586, y: 0, z: 0.22888184}
+    - {x: 0.7963867, y: 0, z: -0.49713135}
+    - {x: 1.46875, y: 0, z: -0.30181885}
+    - {x: 1.5682373, y: 0, z: -0.25109863}
+    cities:
+    - stringId: 
+      cityId: 56
+      pathDistance: 0.0015251251
+      pathTime: 0.00046378875
+    - stringId: 
+      cityId: 55
+      pathDistance: 3.2884045
+      pathTime: 1
+  - pathName: Road Creator Template (54) -634040130
+    pathId: 177812
+    center: {x: 1033.13, y: 0, z: 772.03}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.2462888
+    bezierPoints:
+    - {x: 0.69055176, y: 0, z: 1.3397217}
+    - {x: 0.5878906, y: 0, z: 1.2740479}
+    - {x: -0.053222656, y: 0, z: 0.6095581}
+    - {x: -0.26245117, y: 0, z: -0.44958496}
+    - {x: -1.083374, y: 0, z: -0.9581909}
+    - {x: -1.1885986, y: 0, z: -1.0218506}
+    cities:
+    - stringId: 
+      cityId: 83
+      pathDistance: 0.0089942105
+      pathTime: 0.002770613
+    - stringId: 
+      cityId: 84
+      pathDistance: 3.2462888
+      pathTime: 1
+  - pathName: Road Creator Template (55) 1337265664
+    pathId: 174226
+    center: {x: 1032.21, y: 0, z: 769.22}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.4031653
+    bezierPoints:
+    - {x: -0.26757812, y: 0, z: 1.7870483}
+    - {x: -0.37365723, y: 0, z: 1.7245483}
+    - {x: -1.0756836, y: 0, z: 0.9797363}
+    - {x: 0.091918945, y: 0, z: -0.38879395}
+    - {x: 0.07312012, y: 0, z: -1.6149902}
+    - {x: 0.064331055, y: 0, z: -1.7330933}
+    cities:
+    - stringId: 
+      cityId: 84
+      pathDistance: 0.000819325
+      pathTime: 0.00018607636
+    - stringId: 
+      cityId: 82
+      pathDistance: 4.4004087
+      pathTime: 0.999374
+  - pathName: Road Creator Template (56) 609100812
+    pathId: 177206
+    center: {x: 1027.838, y: 0, z: 772.275}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.8959064
+    bezierPoints:
+    - {x: -0.39990234, y: 0, z: 1.5900879}
+    - {x: -0.4696045, y: 0, z: 1.493103}
+    - {x: -0.5859375, y: 0, z: 1.1367188}
+    - {x: 0.26513672, y: 0, z: 0.15325928}
+    - {x: 0.7451172, y: 0, z: -0.954834}
+    - {x: 0.1348877, y: 0, z: -1.5421143}
+    - {x: -0.0021972656, y: 0, z: -1.618042}
+    - {x: -0.12963867, y: 0, z: -1.6869507}
+    - {x: -0.8054199, y: 0, z: -1.8900146}
+    - {x: -1.5913086, y: 0, z: -1.7676392}
+    - {x: -1.7340088, y: 0, z: -1.7289429}
+    cities:
+    - stringId: 
+      cityId: 56
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 58
+      pathDistance: 5.8959064
+      pathTime: 1
+  - pathName: Road Creator Template (57) -1714560690
+    pathId: 177606
+    center: {x: 1025.649, y: 0, z: 772.052}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.065354
+    bezierPoints:
+    - {x: 0.03515625, y: 0, z: 1.2263794}
+    - {x: 0.08508301, y: 0, z: 1.1098633}
+    - {x: -0.06530762, y: 0, z: -0.032287598}
+    - {x: 0.61328125, y: 0, z: -0.7971802}
+    - {x: 0.47888184, y: 0, z: -1.3890381}
+    - {x: 0.453125, y: 0, z: -1.4968872}
+    cities:
+    - stringId: 
+      cityId: 59
+      pathDistance: 0.0053029447
+      pathTime: 0.0017299614
+    - stringId: 
+      cityId: 58
+      pathDistance: 3.065354
+      pathTime: 1
+  - pathName: Road Creator Template (58) -95610604
+    pathId: 176522
+    center: {x: 1023.253, y: 0, z: 772.383}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.203758
+    bezierPoints:
+    - {x: -0.22021484, y: 0, z: 1.8339844}
+    - {x: -0.21679688, y: 0, z: 1.7086182}
+    - {x: 0.4173584, y: 0, z: 0.0368042}
+    - {x: 1.204895, y: 0, z: 0.30255127}
+    - {x: 1.4597778, y: 0, z: 0.41308594}
+    - {x: 1.8804321, y: 0, z: 0.6168213}
+    - {x: 2.3128052, y: 0, z: 0.8206177}
+    - {x: 2.4224243, y: 0, z: 0.88391113}
+    cities:
+    - stringId: 
+      cityId: 177
+      pathDistance: 0.007088367
+      pathTime: 0.0016861978
+    - stringId: 
+      cityId: 59
+      pathDistance: 4.203758
+      pathTime: 1
+  - pathName: Road Creator Template (59) 818628066
+    pathId: 177160
+    center: {x: 1023.253, y: 0, z: 772.383}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.8888998
+    bezierPoints:
+    - {x: -0.17877197, y: 0, z: -1.7571411}
+    - {x: 0.89556885, y: 0, z: 0.121276855}
+    - {x: 1.2212524, y: 0, z: 0.30273438}
+    - {x: 2.2907104, y: 0, z: 0.80914307}
+    - {x: 2.419983, y: 0, z: 0.88464355}
+    cities:
+    - stringId: 
+      cityId: 60
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 59
+      pathDistance: 3.8888998
+      pathTime: 1
+  - pathName: Road Creator Template (60) 1942558922
+    pathId: 178024
+    center: {x: 1024.725, y: 0, z: 771.27}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.3661535
+    bezierPoints:
+    - {x: 1.3786621, y: 0, z: -0.7206421}
+    - {x: 1.2650146, y: 0, z: -0.68927}
+    - {x: 0.5447998, y: 0, z: -0.4987793}
+    - {x: 0.23059082, y: 0, z: -0.41235352}
+    - {x: -0.06921387, y: 0, z: -0.3499756}
+    - {x: -0.28186035, y: 0, z: -0.31750488}
+    - {x: -0.89019775, y: 0, z: -0.8708496}
+    - {x: -1.5535278, y: 0, z: -0.6817627}
+    - {x: -1.6604614, y: 0, z: -0.65112305}
+    cities:
+    - stringId: 
+      cityId: 58
+      pathDistance: 0.003668715
+      pathTime: 0.0010898835
+    - stringId: 
+      cityId: 60
+      pathDistance: 3.3611937
+      pathTime: 0.9985265
+  - pathName: Road Creator Template (61) -381102580
+    pathId: 178316
+    center: {x: 1030.498, y: 0, z: 768.524}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.783035
+    bezierPoints:
+    - {x: 1.7730713, y: 0, z: -1.0322876}
+    - {x: 1.6563721, y: 0, z: -1.024231}
+    - {x: 0.3564453, y: 0, z: -0.73876953}
+    - {x: -1.1646729, y: 0, z: 0.43225098}
+    - {x: -2.3735352, y: 0, z: 0.13543701}
+    - {x: -2.4838867, y: 0, z: 0.09008789}
+    cities:
+    - stringId: 
+      cityId: 82
+      pathDistance: 0.0009774428
+      pathTime: 0.0002043562
+    - stringId: 
+      cityId: 86
+      pathDistance: 4.775281
+      pathTime: 0.9983788
+  - pathName: Road Creator Template (62) 1590203214
+    pathId: 177226
+    center: {x: 1027.15, y: 0, z: 768.05}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.462887
+    bezierPoints:
+    - {x: 0.86279297, y: 0, z: 0.56677246}
+    - {x: 0.75720215, y: 0, z: 0.5218506}
+    - {x: 0.30871582, y: 0, z: 0.26757812}
+    - {x: 0.03503418, y: 0, z: 0.12866211}
+    - {x: -0.23999023, y: 0, z: -0.048095703}
+    - {x: -0.42797852, y: 0, z: -0.5291748}
+    - {x: -0.79919434, y: 0, z: -0.93725586}
+    - {x: -0.88378906, y: 0, z: -1.0268555}
+    cities:
+    - stringId: 
+      cityId: 86
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 85
+      pathDistance: 2.462887
+      pathTime: 1
+  - pathName: Road Creator Template (63) 463293672
+    pathId: 178064
+    center: {x: 1025.626, y: 0, z: 766.356}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.1467803
+    bezierPoints:
+    - {x: 0.6356201, y: 0, z: 0.66223145}
+    - {x: 0.5574951, y: 0, z: 0.5755005}
+    - {x: 0.1394043, y: 0, z: 0.115234375}
+    - {x: -0.30773926, y: 0, z: -0.36138916}
+    - {x: -0.8778076, y: 0, z: -0.6338501}
+    - {x: -0.9908447, y: 0, z: -0.6721802}
+    cities:
+    - stringId: 
+      cityId: 85
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 90
+      pathDistance: 2.1467803
+      pathTime: 1
+  - pathName: Road Creator Template (64) -1015971578
+    pathId: 176764
+    center: {x: 1022.34, y: 0, z: 769.98}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.281028
+    bezierPoints:
+    - {x: 0.72662354, y: 0, z: 0.63964844}
+    - {x: 0.61120605, y: 0, z: 0.67755127}
+    - {x: -0.043823242, y: 0, z: 0.7996826}
+    - {x: -0.89282227, y: 0, z: -0.031677246}
+    - {x: -2.0307007, y: 0, z: -0.5518799}
+    - {x: -1.7220459, y: 0, z: -1.3285522}
+    - {x: -1.6800537, y: 0, z: -1.4371338}
+    cities:
+    - stringId: 
+      cityId: 60
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 63
+      pathDistance: 4.2779546
+      pathTime: 0.9992821
+  - pathName: Road Creator Template (65) 180780382
+    pathId: 175082
+    center: {x: 1019.96, y: 0, z: 767.87}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.3817518
+    bezierPoints:
+    - {x: 0.7121582, y: 0, z: 0.675354}
+    - {x: 0.77056885, y: 0, z: 0.58343506}
+    - {x: 1.088623, y: 0, z: 0.053466797}
+    - {x: 1.1809692, y: 0, z: -0.723999}
+    - {x: 1.2858887, y: 0, z: -1.4736328}
+    - {x: 1.2858887, y: 0, z: -1.5839233}
+    cities:
+    - stringId: 
+      cityId: 63
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 61
+      pathDistance: 2.3777196
+      pathTime: 0.9983071
+  - pathName: Road Creator Template (66) -2142881120
+    pathId: 176016
+    center: {x: 1022.671, y: 0, z: 766.836}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.3084512
+    bezierPoints:
+    - {x: 0.7219238, y: 0, z: 0.6191406}
+    - {x: 0.62268066, y: 0, z: 0.67944336}
+    - {x: -0.43951416, y: 0, z: 1.3199463}
+    - {x: -1.1748657, y: 0, z: 2.0338135}
+    - {x: -1.9034424, y: 0, z: 1.7680054}
+    - {x: -2.0028687, y: 0, z: 1.7147217}
+    cities:
+    - stringId: 
+      cityId: 62
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 63
+      pathDistance: 3.3072479
+      pathTime: 0.9996363
+  - pathName: Road Creator Template (67) -171575326
+    pathId: 175032
+    center: {x: 1023.91, y: 0, z: 764.978}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.659303
+    bezierPoints:
+    - {x: 0.7271118, y: 0, z: 0.7106323}
+    - {x: 0.6154175, y: 0, z: 0.6760864}
+    - {x: -0.48565674, y: 0, z: 0.5326538}
+    - {x: -1.1483765, y: 0, z: 1.0819702}
+    - {x: -2.5457153, y: 0, z: 1.309082}
+    - {x: -2.666809, y: 0, z: 1.309082}
+    cities:
+    - stringId: 
+      cityId: 90
+      pathDistance: 0.006213411
+      pathTime: 0.0016979767
+    - stringId: 
+      cityId: 61
+      pathDistance: 3.652404
+      pathTime: 0.99811465
+  - pathName: Road Creator Template (68) 1799730468
+    pathId: 178558
+    center: {x: 1023.056, y: 0, z: 766.359}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.6587815
+    bezierPoints:
+    - {x: 0.3340454, y: 0, z: 1.0879517}
+    - {x: 0.28118896, y: 0, z: 0.99108887}
+    - {x: -0.083496094, y: 0, z: 0.38983154}
+    - {x: -0.7668457, y: 0, z: 0.0021972656}
+    - {x: -1.1032715, y: 0, z: -0.0569458}
+    - {x: -1.6820679, y: 0, z: -0.076416016}
+    - {x: -1.8098145, y: 0, z: -0.08477783}
+    cities:
+    - stringId: 
+      cityId: 62
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 61
+      pathDistance: 2.6538875
+      pathTime: 0.9981593
+  - pathName: Road Creator Template (69) -1298484868
+    pathId: 178932
+    center: {x: 1021.412, y: 0, z: 764.482}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.2798002
+    bezierPoints:
+    - {x: -0.16314697, y: 0, z: 1.8029785}
+    - {x: -0.16143799, y: 0, z: 1.6925659}
+    - {x: -0.13323975, y: 0, z: 0.8358154}
+    - {x: 0.092163086, y: 0, z: 0.5297241}
+    - {x: 0.8138428, y: 0, z: 0.16253662}
+    - {x: 1.262207, y: 0, z: -0.6951904}
+    - {x: 1.3126831, y: 0, z: -0.81591797}
+    cities:
+    - stringId: 
+      cityId: 61
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 92
+      pathDistance: 3.271992
+      pathTime: 0.9976193
+  - pathName: Road Creator Template (70) 672820926
+    pathId: 178814
+    center: {x: 1021.412, y: 0, z: 764.482}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.0733676
+    bezierPoints:
+    - {x: -0.1628418, y: 0, z: 1.8050537}
+    - {x: -0.16436768, y: 0, z: 1.6896973}
+    - {x: -0.18499756, y: 0, z: 1.2345581}
+    - {x: -0.21826172, y: 0, z: 0.8487549}
+    - {x: -0.55908203, y: 0, z: 0.62976074}
+    - {x: -1.8600464, y: 0, z: 1.3297119}
+    - {x: -2.8103027, y: 0, z: 0.70599365}
+    cities:
+    - stringId: 
+      cityId: 61
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 64
+      pathDistance: 4.066239
+      pathTime: 0.9982499
+  - pathName: Road Creator Template (71) -1650840576
+    pathId: 175856
+    center: {x: 1021.062, y: 0, z: 763.608}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.3288262
+    bezierPoints:
+    - {x: 1.6690674, y: 0, z: 0.06896973}
+    - {x: 1.5604858, y: 0, z: 0.0178833}
+    - {x: 0.5661621, y: 0, z: -0.4468994}
+    - {x: -0.7391968, y: 0, z: -0.7907715}
+    - {x: -1.03302, y: 0, z: -1.3302612}
+    - {x: -1.074585, y: 0, z: -1.4470215}
+    cities:
+    - stringId: 
+      cityId: 92
+      pathDistance: 0.004505866
+      pathTime: 0.00135359
+    - stringId: 
+      cityId: 91
+      pathDistance: 3.3288262
+      pathTime: 1
+  - pathName: Road Creator Template (72) -684690976
+    pathId: 175442
+    center: {x: 1016.174, y: 0, z: 769.432}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.3001723
+    bezierPoints:
+    - {x: 1.5906982, y: 0, z: 1.7216187}
+    - {x: 1.1140137, y: 0, z: 1.435791}
+    - {x: 0.7715454, y: 0, z: 1.2521973}
+    - {x: 0.5026245, y: 0, z: 1.1087646}
+    - {x: 0.21710205, y: 0, z: 0.9059448}
+    - {x: 0.97662354, y: 0, z: 0.020568848}
+    - {x: 1.6082153, y: 0, z: -0.25054932}
+    - {x: 1.0776367, y: 0, z: -1.7276611}
+    - {x: 1.029602, y: 0, z: -1.8380737}
+    cities:
+    - stringId: 
+      cityId: 9
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 65
+      pathDistance: 5.296158
+      pathTime: 0.9992426
+  - pathName: Road Creator Template (73) 1778655362
+    pathId: 177214
+    center: {x: 1017.75, y: 0, z: 766.09}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.206433
+    bezierPoints:
+    - {x: -0.5527954, y: 0, z: 1.5112305}
+    - {x: -0.4463501, y: 0, z: 1.4694214}
+    - {x: 0.38757324, y: 0, z: 0.8218994}
+    - {x: 0.20831299, y: 0, z: -0.06500244}
+    - {x: 0.76446533, y: 0, z: -0.81536865}
+    - {x: 0.8602295, y: 0, z: -0.91290283}
+    cities:
+    - stringId: 
+      cityId: 65
+      pathDistance: 0.0030888463
+      pathTime: 0.0009633278
+    - stringId: 
+      cityId: 64
+      pathDistance: 3.19724
+      pathTime: 0.99713296
+  - pathName: Road Creator Template (74) 299390112
+    pathId: 178166
+    center: {x: 1019.71, y: 0, z: 763.68}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.847463
+    bezierPoints:
+    - {x: -1.1037598, y: 0, z: 1.5144653}
+    - {x: -1.0037231, y: 0, z: 1.4242554}
+    - {x: -0.25793457, y: 0, z: 0.34594727}
+    - {x: -0.5629883, y: 0, z: -0.8985596}
+    - {x: 0.15826416, y: 0, z: -1.4779053}
+    - {x: 0.26989746, y: 0, z: -1.5165405}
+    cities:
+    - stringId: 
+      cityId: 64
+      pathDistance: 0.0057246354
+      pathTime: 0.0014878988
+    - stringId: 
+      cityId: 91
+      pathDistance: 3.847463
+      pathTime: 1
+  - pathName: Road Creator Template (75) -1602073264
+    pathId: 177308
+    center: {x: 1032.753, y: 0, z: 766.127}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.4737
+    bezierPoints:
+    - {x: -0.4822998, y: 0, z: 1.3671875}
+    - {x: -0.4897461, y: 0, z: 1.237793}
+    - {x: -0.49853516, y: 0, z: 0.5675049}
+    - {x: -0.18481445, y: 0, z: 0.14025879}
+    - {x: 0.63720703, y: 0, z: -0.6439209}
+    - {x: 1.1833496, y: 0, z: -1.0927734}
+    - {x: 2.1774902, y: 0, z: -0.56451416}
+    - {x: 2.2906494, y: 0, z: -0.51556396}
+    cities:
+    - stringId: 
+      cityId: 82
+      pathDistance: 0.0042170286
+      pathTime: 0.0009426266
+    - stringId: 
+      cityId: 137
+      pathDistance: 4.469732
+      pathTime: 0.999113
+  - pathName: Road Creator Template (76) 369232530
+    pathId: 176576
+    center: {x: 1032.753, y: 0, z: 766.127}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.003994
+    bezierPoints:
+    - {x: -2.0158691, y: 0, z: -0.043151855}
+    - {x: -1.8922119, y: 0, z: -0.10797119}
+    - {x: -1.2739258, y: 0, z: -0.36486816}
+    - {x: -0.20336914, y: 0, z: -0.029968262}
+    - {x: 0.55981445, y: 0, z: -0.58221436}
+    - {x: 1.2028809, y: 0, z: -1.0938721}
+    - {x: 2.1038818, y: 0, z: -0.60217285}
+    - {x: 2.2844238, y: 0, z: -0.5111084}
+    cities:
+    - stringId: 
+      cityId: 87
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 137
+      pathDistance: 5.003721
+      pathTime: 0.99994546
+  - pathName: Road Creator Template (77) -1954428972
+    pathId: 178146
+    center: {x: 1030.437, y: 0, z: 767.569}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.2886076
+    bezierPoints:
+    - {x: -2.4248047, y: 0, z: 1.0476685}
+    - {x: -2.203125, y: 0, z: 1.1322632}
+    - {x: -1.2155762, y: 0, z: 1.3995361}
+    - {x: -0.57177734, y: 0, z: 1.109375}
+    - {x: -0.40490723, y: 0, z: 0.9047241}
+    - {x: -0.2919922, y: 0, z: -0.10974121}
+    - {x: 0.6126709, y: 0, z: -0.6706543}
+    - {x: 0.34606934, y: 0, z: -1.3706665}
+    - {x: 0.30456543, y: 0, z: -1.4918823}
+    cities:
+    - stringId: 
+      cityId: 86
+      pathDistance: 0.008461728
+      pathTime: 0.0015999917
+    - stringId: 
+      cityId: 87
+      pathDistance: 5.279999
+      pathTime: 0.99837226
+  - pathName: Road Creator Template (78) 1300037044
+    pathId: 178716
+    center: {x: 1032.753, y: 0, z: 766.127}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.3706846
+    bezierPoints:
+    - {x: -2.0159912, y: 0, z: -0.03692627}
+    - {x: -2.083374, y: 0, z: -0.13995361}
+    - {x: -2.4230957, y: 0, z: -0.7738037}
+    - {x: -2.9454346, y: 0, z: -1.5292358}
+    - {x: -3.1132812, y: 0, z: -2.1012573}
+    - {x: -3.9504395, y: 0, z: -1.9624023}
+    - {x: -4.041992, y: 0, z: -1.9004517}
+    cities:
+    - stringId: 
+      cityId: 87
+      pathDistance: 0.0040810914
+      pathTime: 0.0012107603
+    - stringId: 
+      cityId: 88
+      pathDistance: 3.3706846
+      pathTime: 1
+  - pathName: Road Creator Template (79) -1023624458
+    pathId: 178266
+    center: {x: 1032.606, y: 0, z: 765.042}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 14.065911
+    bezierPoints:
+    - {x: 2.435913, y: 0, z: 0.5663452}
+    - {x: 2.2502441, y: 0, z: 0.47717285}
+    - {x: 1.8167725, y: 0, z: 0.15893555}
+    - {x: 1.4266357, y: 0, z: -0.29266357}
+    - {x: 0.9881592, y: 0, z: -0.4465332}
+    - {x: 0.74365234, y: 0, z: -0.710022}
+    - {x: 0.66967773, y: 0, z: -0.80615234}
+    - {x: 0.25024414, y: 0, z: -1.3557129}
+    - {x: -0.9465332, y: 0, z: -1.0922241}
+    - {x: -1.8383789, y: 0, z: -1.1567993}
+    - {x: -1.9449463, y: 0, z: -1.1564941}
+    - {x: -2.057373, y: 0, z: -1.1585083}
+    - {x: -2.779419, y: 0, z: -1.187439}
+    - {x: -3.4781494, y: 0, z: -1.0129395}
+    - {x: -3.8028564, y: 0, z: -0.87249756}
+    - {x: -3.9030762, y: 0, z: -0.8135376}
+    - {x: -4.0058594, y: 0, z: -0.75671387}
+    - {x: -4.4849854, y: 0, z: -0.5631714}
+    - {x: -4.873657, y: 0, z: -0.697876}
+    - {x: -5.1466064, y: 0, z: -1.0674438}
+    - {x: -5.432617, y: 0, z: -1.2697144}
+    - {x: -5.5195312, y: 0, z: -1.3585815}
+    - {x: -5.61438, y: 0, z: -1.4276733}
+    - {x: -6.479248, y: 0, z: -2.0367432}
+    - {x: -7.62854, y: 0, z: -2.5736694}
+    - {x: -8.559692, y: 0, z: -2.951233}
+    - {x: -9.4991455, y: 0, z: -3.7076416}
+    - {x: -9.596863, y: 0, z: -3.7942505}
+    cities:
+    - stringId: 
+      cityId: 137
+      pathDistance: 0.0010669442
+      pathTime: 0.00007585319
+    - stringId: 
+      cityId: 136
+      pathDistance: 2.2881312
+      pathTime: 0.16267209
+    - stringId: 
+      cityId: 138
+      pathDistance: 5.2526937
+      pathTime: 0.37343428
+    - stringId: 
+      cityId: 88
+      pathDistance: 7.274729
+      pathTime: 0.51718855
+    - stringId: 
+      cityId: 89
+      pathDistance: 9.276812
+      pathTime: 0.6595244
+    - stringId: 
+      cityId: 93
+      pathDistance: 14.063707
+      pathTime: 0.9998433
+  - pathName: Road Creator Template (80) 947681336
+    pathId: 174830
+    center: {x: 1026.2, y: 0, z: 764.98}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.7072756
+    bezierPoints:
+    - {x: -1.5618896, y: 0, z: 0.70318604}
+    - {x: -1.532959, y: 0, z: 0.5864868}
+    - {x: -1.2624512, y: 0, z: -0.036193848}
+    - {x: -0.42297363, y: 0, z: 0.05419922}
+    - {x: 0.37878418, y: 0, z: -0.35217285}
+    - {x: 0.44702148, y: 0, z: -0.6195679}
+    - {x: 0.50634766, y: 0, z: -0.82385254}
+    - {x: 0.795166, y: 0, z: -1.2028809}
+    - {x: 0.8864746, y: 0, z: -1.3023682}
+    cities:
+    - stringId: 
+      cityId: 90
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 89
+      pathDistance: 3.693807
+      pathTime: 0.9963669
+  - pathName: Road Creator Template (81) -1375980166
+    pathId: 175358
+    center: {x: 1023.588, y: 0, z: 762.688}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.7083495
+    bezierPoints:
+    - {x: -0.85510254, y: 0, z: 0.9893799}
+    - {x: -1.4622192, y: 0, z: 0.67163086}
+    - {x: -1.878479, y: 0, z: 0.44335938}
+    - {x: -1.8292236, y: 0, z: -0.09301758}
+    - {x: -1.7122192, y: 0, z: -0.6253052}
+    - {x: -1.0576172, y: 0, z: -0.9238281}
+    - {x: -0.65686035, y: 0, z: -1.3532104}
+    - {x: -0.5775757, y: 0, z: -1.4362793}
+    cities:
+    - stringId: 
+      cityId: 92
+      pathDistance: 0.006305702
+      pathTime: 0.0017004067
+    - stringId: 
+      cityId: 93
+      pathDistance: 3.7083495
+      pathTime: 1
+  - pathName: Road Creator Template (82) 1439721880
+    pathId: 174260
+    center: {x: 1022.843, y: 0, z: 762.688}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.985908
+    bezierPoints:
+    - {x: -2.8499756, y: 0, z: -0.53930664}
+    - {x: -2.8890991, y: 0, z: -0.6472168}
+    - {x: -3.0773926, y: 0, z: -1.4780273}
+    - {x: -2.7818604, y: 0, z: -2.1782837}
+    - {x: -1.8479614, y: 0, z: -2.2958984}
+    - {x: -1.111145, y: 0, z: -2.0275269}
+    - {x: -0.38604736, y: 0, z: -1.8876953}
+    - {x: 0.08581543, y: 0, z: -1.513977}
+    - {x: 0.18157959, y: 0, z: -1.4257812}
+    cities:
+    - stringId: 
+      cityId: 91
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 93
+      pathDistance: 4.9669104
+      pathTime: 0.9961897
+  - pathName: Road Creator Template (83) 1861920006
+    pathId: 178360
+    center: {x: 994.158, y: 0, z: 764.708}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.2768931
+    bezierPoints:
+    - {x: -0.33026123, y: 0, z: 1.6054077}
+    - {x: -0.35546875, y: 0, z: 1.447937}
+    - {x: -0.46295166, y: 0, z: 0.92193604}
+    - {x: -0.11669922, y: 0, z: 0.55145264}
+    - {x: -0.22540283, y: 0, z: -0.08068848}
+    - {x: -0.41467285, y: 0, z: -0.66052246}
+    - {x: -0.8867798, y: 0, z: -1.1139526}
+    - {x: -0.9764404, y: 0, z: -1.2123413}
+    cities:
+    - stringId: 
+      cityId: 43
+      pathDistance: 0.0030223548
+      pathTime: 0.00092232326
+    - stringId: 
+      cityId: 44
+      pathDistance: 3.267207
+      pathTime: 0.9970441
+  - pathName: Road Creator Template (84) -1518808620
+    pathId: 175292
+    center: {x: 996.123, y: 0, z: 763.924}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 7.772782
+    bezierPoints:
+    - {x: -2.9378662, y: 0, z: -0.4138794}
+    - {x: -2.8620605, y: 0, z: -0.4973755}
+    - {x: -2.1464233, y: 0, z: -1.074585}
+    - {x: -0.75006104, y: 0, z: -1.8486328}
+    - {x: 0.44891357, y: 0, z: -1.1049194}
+    - {x: 1.8674316, y: 0, z: -0.5970459}
+    - {x: 1.9223022, y: 0, z: -0.031982422}
+    - {x: 2.2636108, y: 0, z: 0.6548462}
+    - {x: 2.3878174, y: 0, z: 1.3178711}
+    - {x: 2.4161377, y: 0, z: 1.4279175}
+    cities:
+    - stringId: 
+      cityId: 44
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 45
+      pathDistance: 7.771139
+      pathTime: 0.99978864
+  - pathName: Road Creator Template (85) -228595874
+    pathId: 177614
+    center: {x: 999.3, y: 0, z: 764.762}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 8.466699
+    bezierPoints:
+    - {x: -0.76239014, y: 0, z: 0.5834961}
+    - {x: -0.649353, y: 0, z: 0.56256104}
+    - {x: 0.001953125, y: 0, z: 0.49243164}
+    - {x: 0.51086426, y: 0, z: 1.0981445}
+    - {x: 1.0390015, y: 0, z: 1.296814}
+    - {x: 1.1466675, y: 0, z: 1.3322144}
+    - {x: 1.2573853, y: 0, z: 1.3708496}
+    - {x: 1.8765259, y: 0, z: 1.5644531}
+    - {x: 2.9804688, y: 0, z: 1.4569092}
+    - {x: 3.4798584, y: 0, z: 1.9190063}
+    - {x: 3.9890747, y: 0, z: 2.3550415}
+    - {x: 4.0613403, y: 0, z: 2.4141846}
+    - {x: 4.1567993, y: 0, z: 2.4882202}
+    - {x: 4.72052, y: 0, z: 2.928833}
+    - {x: 4.298828, y: 0, z: 3.3739624}
+    - {x: 3.9279785, y: 0, z: 4.5512085}
+    - {x: 3.8921509, y: 0, z: 4.662964}
+    cities:
+    - stringId: 
+      cityId: 45
+      pathDistance: 0.0014371627
+      pathTime: 0.00016974298
+    - stringId: 
+      cityId: 35
+      pathDistance: 2.2699695
+      pathTime: 0.26810563
+    - stringId: 
+      cityId: 36
+      pathDistance: 5.616371
+      pathTime: 0.6633484
+    - stringId: 
+      cityId: 21
+      pathDistance: 8.459518
+      pathTime: 0.9991519
+  - pathName: Road Creator Template (86) -964084534
+    pathId: 174988
+    center: {x: 992.8, y: 0, z: 761.59}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.7706733
+    bezierPoints:
+    - {x: 0.3838501, y: 0, z: 1.9241943}
+    - {x: 0.29974365, y: 0, z: 1.8400269}
+    - {x: -0.44006348, y: 0, z: 1.1395874}
+    - {x: -1.659729, y: 0, z: 0.5022583}
+    - {x: -2.6207886, y: 0, z: -0.103027344}
+    - {x: -2.7230225, y: 0, z: -0.16113281}
+    cities:
+    - stringId: 
+      cityId: 44
+      pathDistance: 0.005699864
+      pathTime: 0.0015116304
+    - stringId: 
+      cityId: 53
+      pathDistance: 3.7587345
+      pathTime: 0.9968338
+  - pathName: Road Creator Template (87) 1007221260
+    pathId: 178602
+    center: {x: 993.173, y: 0, z: 761.231}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.5973067
+    bezierPoints:
+    - {x: 0.008056641, y: 0, z: 2.2756958}
+    - {x: 0.097229004, y: 0, z: 2.1915894}
+    - {x: 0.3411255, y: 0, z: 1.9691772}
+    - {x: 0.6713257, y: 0, z: 1.7108765}
+    - {x: 1.3986206, y: 0, z: 1.1481934}
+    - {x: 1.8717651, y: 0, z: 0.6456909}
+    - {x: 1.7518921, y: 0, z: 0.20806885}
+    - {x: 1.5854492, y: 0, z: -0.2772827}
+    - {x: 1.5490112, y: 0, z: -0.39959717}
+    cities:
+    - stringId: 
+      cityId: 44
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 54
+      pathDistance: 3.589621
+      pathTime: 0.99786353
+  - pathName: Road Creator Template (88) -1316440242
+    pathId: 176676
+    center: {x: 993.086, y: 0, z: 761.175}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.785874
+    bezierPoints:
+    - {x: -3.0041504, y: 0, z: 0.2522583}
+    - {x: -2.935913, y: 0, z: 0.15118408}
+    - {x: -2.421875, y: 0, z: -0.5584717}
+    - {x: -0.5935669, y: 0, z: -0.48986816}
+    - {x: 1.2567749, y: 0, z: -1.1170654}
+    - {x: 1.6029663, y: 0, z: -0.44030762}
+    - {x: 1.6338501, y: 0, z: -0.3300171}
+    cities:
+    - stringId: 
+      cityId: 53
+      pathDistance: 0.0022521955
+      pathTime: 0.00038925762
+    - stringId: 
+      cityId: 54
+      pathDistance: 5.781105
+      pathTime: 0.9991758
+  - pathName: Road Creator Template (89) 654865552
+    pathId: 175074
+    center: {x: 1003.47, y: 0, z: 765.88}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.2198296
+    bezierPoints:
+    - {x: -3.019165, y: 0, z: 0.22277832}
+    - {x: -2.9854126, y: 0, z: 0.10430908}
+    - {x: -2.7869873, y: 0, z: -0.26501465}
+    - {x: -2.267334, y: 0, z: -0.22479248}
+    - {x: -1.005249, y: 0, z: -0.09893799}
+    - {x: -0.63653564, y: 0, z: -0.37384033}
+    - {x: -0.55755615, y: 0, z: -0.6451416}
+    - {x: -0.52319336, y: 0, z: -0.85754395}
+    - {x: -0.4550171, y: 0, z: -1.1620483}
+    - {x: -0.0044555664, y: 0, z: -1.7801514}
+    - {x: -0.17669678, y: 0, z: -2.4189453}
+    - {x: -0.21728516, y: 0, z: -2.53833}
+    cities:
+    - stringId: 
+      cityId: 35
+      pathDistance: 0.0025762818
+      pathTime: 0.00049355667
+    - stringId: 
+      cityId: 48
+      pathDistance: 5.212902
+      pathTime: 0.99867284
+  - pathName: Road Creator Template (90) -1668795950
+    pathId: 177990
+    center: {x: 1004.938, y: 0, z: 766.614}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.0856318
+    bezierPoints:
+    - {x: -1.5664673, y: 0, z: 0.5611572}
+    - {x: -1.4995117, y: 0, z: 0.47576904}
+    - {x: -1.0389404, y: 0, z: -0.033935547}
+    - {x: -0.7224121, y: 0, z: -0.31750488}
+    - {x: -0.49951172, y: 0, z: -0.44677734}
+    - {x: -0.27294922, y: 0, z: -0.57891846}
+    - {x: -0.07623291, y: 0, z: -0.75268555}
+    - {x: 0.24639893, y: 0, z: -1.0822144}
+    - {x: 0.7046509, y: 0, z: -1.298584}
+    - {x: 0.8106079, y: 0, z: -1.3319702}
+    cities:
+    - stringId: 
+      cityId: 36
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 34
+      pathDistance: 3.0856318
+      pathTime: 1
+  - pathName: Road Creator Template (91) 302509844
+    pathId: 177772
+    center: {x: 1004.034, y: 0, z: 765.775}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 7.18074
+    bezierPoints:
+    - {x: 1.7663574, y: 0, z: -0.5154419}
+    - {x: 1.1956787, y: 0, z: -0.28234863}
+    - {x: 0.81695557, y: 0, z: -0.016174316}
+    - {x: 0.47406006, y: 0, z: -0.5374756}
+    - {x: -0.17254639, y: 0, z: -0.79052734}
+    - {x: -0.8442383, y: 0, z: -1.2457275}
+    - {x: -0.99645996, y: 0, z: -1.0970459}
+    - {x: -1.0619507, y: 0, z: -0.9057617}
+    - {x: -1.0866089, y: 0, z: -0.772522}
+    - {x: -1.1565552, y: 0, z: -0.36608887}
+    - {x: -1.2649536, y: 0, z: -0.18188477}
+    - {x: -1.7994385, y: 0, z: 0.040527344}
+    - {x: -2.395752, y: 0, z: -0.040405273}
+    - {x: -2.61792, y: 0, z: -0.08984375}
+    - {x: -2.9256592, y: 0, z: -0.13793945}
+    - {x: -3.138794, y: 0, z: -0.18389893}
+    - {x: -3.3535767, y: 0, z: -0.15692139}
+    - {x: -3.5489502, y: 0, z: 0.2119751}
+    - {x: -3.5854492, y: 0, z: 0.32696533}
+    cities:
+    - stringId: 
+      cityId: 34
+      pathDistance: 0.054288577
+      pathTime: 0.007560305
+    - stringId: 
+      cityId: 35
+      pathDistance: 7.1784
+      pathTime: 0.99967414
+  - pathName: Road Creator Template (92) -2021151658
+    pathId: 178208
+    center: {x: 1011.33, y: 0, z: 768.67}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.296516
+    bezierPoints:
+    - {x: 0.96606445, y: 0, z: 0.3334961}
+    - {x: 0.8685913, y: 0, z: 0.2921753}
+    - {x: 0.26385498, y: 0, z: 0.10852051}
+    - {x: -0.19152832, y: 0, z: 1.6295166}
+    - {x: -0.91259766, y: 0, z: 1.6530151}
+    - {x: -1.0340576, y: 0, z: 1.6152344}
+    cities:
+    - stringId: 
+      cityId: 25
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 26
+      pathDistance: 3.2910328
+      pathTime: 0.9983367
+  - pathName: Road Creator Template (93) -49845864
+    pathId: 179092
+    center: {x: 1011.33, y: 0, z: 768.67}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.9792707
+    bezierPoints:
+    - {x: 0.97302246, y: 0, z: 0.33569336}
+    - {x: 0.8389282, y: 0, z: 0.28179932}
+    - {x: 0.34472656, y: 0, z: 0.082458496}
+    - {x: 0.09411621, y: 0, z: 0.27349854}
+    - {x: -0.008850098, y: 0, z: 0.52893066}
+    - {x: -0.45751953, y: 0, z: 0.27166748}
+    - {x: -0.93255615, y: 0, z: 0.22241211}
+    - {x: -1.2087402, y: 0, z: -0.22442627}
+    - {x: -1.2522583, y: 0, z: -0.34448242}
+    cities:
+    - stringId: 
+      cityId: 25
+      pathDistance: 0.0011787846
+      pathTime: 0.00039566218
+    - stringId: 
+      cityId: 27
+      pathDistance: 2.974274
+      pathTime: 0.99832284
+  - pathName: Road Creator Template (94) 1921459930
+    pathId: 177452
+    center: {x: 1008.88, y: 0, z: 767.03}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.3931751
+    bezierPoints:
+    - {x: 1.201416, y: 0, z: 1.2982178}
+    - {x: 0.95880127, y: 0, z: 0.64660645}
+    - {x: 0.7675171, y: 0, z: 0.11993408}
+    - {x: 0.54785156, y: 0, z: -0.32244873}
+    - {x: 0.23931885, y: 0, z: -0.99676514}
+    - {x: -0.35736084, y: 0, z: -1.4811401}
+    - {x: -0.4534912, y: 0, z: -1.5654907}
+    cities:
+    - stringId: 
+      cityId: 27
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 69
+      pathDistance: 3.3869524
+      pathTime: 0.99816614
+  - pathName: Road Creator Template (95) -402201572
+    pathId: 174004
+    center: {x: 1007.18, y: 0, z: 765.91}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8890476
+    bezierPoints:
+    - {x: 1.2559814, y: 0, z: -0.4437256}
+    - {x: 1.1629639, y: 0, z: -0.5195923}
+    - {x: 0.541626, y: 0, z: -0.9060669}
+    - {x: -0.06854248, y: 0, z: -0.8518677}
+    - {x: -0.6636963, y: 0, z: -0.8708496}
+    - {x: -1.3338013, y: 0, z: -0.67370605}
+    - {x: -1.4440918, y: 0, z: -0.6312866}
+    cities:
+    - stringId: 
+      cityId: 69
+      pathDistance: 0.0021189377
+      pathTime: 0.0007334381
+    - stringId: 
+      cityId: 34
+      pathDistance: 2.8764768
+      pathTime: 0.9956488
+  - pathName: Road Creator Template (96) -332359154
+    pathId: 174670
+    center: {x: 1012.416, y: 0, z: 767.237}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8445256
+    bezierPoints:
+    - {x: -0.124572754, y: 0, z: 1.7705688}
+    - {x: -0.06512451, y: 0, z: 1.6783447}
+    - {x: 0.22302246, y: 0, z: 1.0945435}
+    - {x: 0.6732788, y: 0, z: 0.45977783}
+    - {x: 0.95373535, y: 0, z: -0.123291016}
+    - {x: 1.4484253, y: 0, z: -0.33599854}
+    - {x: 1.5444336, y: 0, z: -0.38916016}
+    cities:
+    - stringId: 
+      cityId: 25
+      pathDistance: 0.002776208
+      pathTime: 0.0009759828
+    - stringId: 
+      cityId: 66
+      pathDistance: 2.8375561
+      pathTime: 0.99754983
+  - pathName: Road Creator Template (97) 1638946640
+    pathId: 177758
+    center: {x: 1010.35, y: 0, z: 764.15}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.538774
+    bezierPoints:
+    - {x: -1.9223633, y: 0, z: 1.3210449}
+    - {x: -1.8428345, y: 0, z: 1.2231445}
+    - {x: -1.352356, y: 0, z: 0.6855469}
+    - {x: 0.24926758, y: 0, z: 0.041992188}
+    - {x: 1.510376, y: 0, z: -0.48565674}
+    - {x: 1.7617798, y: 0, z: -0.37213135}
+    - {x: 1.9202881, y: 0, z: -0.18444824}
+    - {x: 2.0636597, y: 0, z: -0.0030517578}
+    - {x: 2.1818237, y: 0, z: 0.13122559}
+    - {x: 2.5292969, y: 0, z: 0.49725342}
+    - {x: 2.6132812, y: 0, z: 0.5901489}
+    cities:
+    - stringId: 
+      cityId: 69
+      pathDistance: 0.0023461895
+      pathTime: 0.00042359362
+    - stringId: 
+      cityId: 68
+      pathDistance: 5.5298247
+      pathTime: 0.99838424
+  - pathName: Road Creator Template (98) -684714862
+    pathId: 178106
+    center: {x: 1014.81, y: 0, z: 763.05}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.1055193
+    bezierPoints:
+    - {x: -1.8564453, y: 0, z: 1.6878052}
+    - {x: -1.7618408, y: 0, z: 1.6127319}
+    - {x: -1.1091919, y: 0, z: 1.1467896}
+    - {x: 0.11022949, y: 0, z: 0.5518799}
+    - {x: 1.1108398, y: 0, z: -0.22888184}
+    - {x: 1.888794, y: 0, z: 0.12133789}
+    - {x: 2.44458, y: 0, z: 0.17175293}
+    - {x: 2.5479736, y: 0, z: 0.18206787}
+    cities:
+    - stringId: 
+      cityId: 68
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 67
+      pathDistance: 5.1055193
+      pathTime: 1
+  - pathName: Road Creator Template (99) 1286590932
+    pathId: 175338
+    center: {x: 1015.813, y: 0, z: 766.458}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.440292
+    bezierPoints:
+    - {x: 1.3861694, y: 0, z: 1.1444702}
+    - {x: 1.3393555, y: 0, z: 1.0244751}
+    - {x: 1.0499878, y: 0, z: 0.36102295}
+    - {x: 0.4630127, y: 0, z: -0.49224854}
+    - {x: -0.3569336, y: 0, z: -0.19366455}
+    - {x: -1.161438, y: 0, z: 0.089904785}
+    - {x: -1.7548218, y: 0, z: 0.3590088}
+    - {x: -1.8605957, y: 0, z: 0.41027832}
+    cities:
+    - stringId: 
+      cityId: 65
+      pathDistance: 0.0020280033
+      pathTime: 0.00045672746
+    - stringId: 
+      cityId: 66
+      pathDistance: 4.43022
+      pathTime: 0.9977318
+  - pathName: Road Creator Template (100) 1981551540
+    pathId: 177440
+    center: {x: 1014.051, y: 0, z: 765.175}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.678264
+    bezierPoints:
+    - {x: -0.0947876, y: 0, z: 1.6912231}
+    - {x: 0.69885254, y: 0, z: 1.3324585}
+    - {x: 1.416687, y: 0, z: 1.0830688}
+    - {x: 2.1152344, y: 0, z: 0.6888428}
+    - {x: 3.12677, y: 0, z: 0.06976318}
+    - {x: 3.2201538, y: 0, z: -1.0374146}
+    - {x: 3.2999268, y: 0, z: -1.8284302}
+    - {x: 3.312561, y: 0, z: -1.9451294}
+    cities:
+    - stringId: 
+      cityId: 66
+      pathDistance: 0.0056770667
+      pathTime: 0.0009997891
+    - stringId: 
+      cityId: 67
+      pathDistance: 5.677772
+      pathTime: 0.99991333
+  - pathName: Road Creator Template (101) -342109962
+    pathId: 177582
+    center: {x: 1008.08, y: 0, z: 763.78}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 10.776606
+    bezierPoints:
+    - {x: -2.3341675, y: 0, z: 1.4932861}
+    - {x: -2.3789062, y: 0, z: 1.3909912}
+    - {x: -2.6108398, y: 0, z: 0.55285645}
+    - {x: -2.0552979, y: 0, z: 0.33544922}
+    - {x: -1.5513306, y: 0, z: -0.63494873}
+    - {x: -0.8464966, y: 0, z: -0.47125244}
+    - {x: -0.7369995, y: 0, z: -0.42944336}
+    - {x: -0.61553955, y: 0, z: -0.38964844}
+    - {x: 0.5079346, y: 0, z: -0.23779297}
+    - {x: 1.1804199, y: 0, z: -1.3587646}
+    - {x: 2.0037231, y: 0, z: -1.0493774}
+    - {x: 2.0899658, y: 0, z: -0.97662354}
+    - {x: 2.1843872, y: 0, z: -0.89123535}
+    - {x: 2.965271, y: 0, z: -0.38555908}
+    - {x: 3.8945312, y: 0, z: -0.12670898}
+    - {x: 4.3535156, y: 0, z: 0.39227295}
+    - {x: 4.8033447, y: 0, z: 0.8731079}
+    - {x: 4.868469, y: 0, z: 0.95391846}
+    cities:
+    - stringId: 
+      cityId: 34
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 70
+      pathDistance: 3.6116207
+      pathTime: 0.33513528
+    - stringId: 
+      cityId: 72
+      pathDistance: 7.2911544
+      pathTime: 0.67657244
+    - stringId: 
+      cityId: 68
+      pathDistance: 10.776606
+      pathTime: 1
+  - pathName: Road Creator Template (102) 1629195832
+    pathId: 175980
+    center: {x: 1001.3, y: 0, z: 762.35}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 14.504016
+    bezierPoints:
+    - {x: 1.9501953, y: 0, z: 1.0072632}
+    - {x: 1.899353, y: 0, z: 0.89068604}
+    - {x: 1.6686401, y: 0, z: 0.30474854}
+    - {x: 1.4766235, y: 0, z: -0.26513672}
+    - {x: 1.7041016, y: 0, z: -0.76208496}
+    - {x: 0.961792, y: 0, z: -1.2202148}
+    - {x: 0.85565186, y: 0, z: -1.2851562}
+    - {x: 0.7527466, y: 0, z: -1.3421631}
+    - {x: 0.07922363, y: 0, z: -1.7728271}
+    - {x: -0.06890869, y: 0, z: -1.8632202}
+    - {x: -0.22467041, y: 0, z: -1.9536133}
+    - {x: -0.5380249, y: 0, z: -1.9741821}
+    - {x: -1.4574585, y: 0, z: -0.36114502}
+    - {x: -1.894104, y: 0, z: -0.65441895}
+    - {x: -2.2261353, y: 0, z: -0.9960327}
+    - {x: -2.300476, y: 0, z: -1.0880737}
+    - {x: -2.3833008, y: 0, z: -1.1943359}
+    - {x: -2.7108154, y: 0, z: -1.7269897}
+    - {x: -1.895935, y: 0, z: -3.1069946}
+    - {x: -1.4744873, y: 0, z: -4.0759277}
+    - {x: -1.2921143, y: 0, z: -4.444336}
+    - {x: -1.2390137, y: 0, z: -4.5462036}
+    - {x: -1.1428833, y: 0, z: -4.4887695}
+    - {x: -0.67718506, y: 0, z: -4.3361206}
+    - {x: -0.15594482, y: 0, z: -4.2042847}
+    - {x: 0.29333496, y: 0, z: -4.180298}
+    - {x: 0.90441895, y: 0, z: -3.994629}
+    - {x: 1.3533325, y: 0, z: -4.2303467}
+    - {x: 1.4620972, y: 0, z: -4.2973633}
+    cities:
+    - stringId: 
+      cityId: 48
+      pathDistance: 0.0066928775
+      pathTime: 0.00046144993
+    - stringId: 
+      cityId: 46
+      pathDistance: 2.9560695
+      pathTime: 0.20381041
+    - stringId: 
+      cityId: 47
+      pathDistance: 7.63724
+      pathTime: 0.52656037
+    - stringId: 
+      cityId: 50
+      pathDistance: 11.621319
+      pathTime: 0.8012484
+    - stringId: 
+      cityId: 51
+      pathDistance: 14.498309
+      pathTime: 0.99960655
+  - pathName: Road Creator Template (103) -694465670
+    pathId: 175094
+    center: {x: 997.69, y: 0, z: 760.56}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.6111026
+    bezierPoints:
+    - {x: -2.974121, y: 0, z: 0.2831421}
+    - {x: -2.8665771, y: 0, z: 0.25274658}
+    - {x: -1.9320068, y: 0, z: -0.020080566}
+    - {x: -0.49816895, y: 0, z: -0.87768555}
+    - {x: 0.3890381, y: 0, z: -1.4803467}
+    - {x: -0.13824463, y: 0, z: -2.0411377}
+    - {x: -0.6187744, y: 0, z: -2.6867065}
+    - {x: -0.68792725, y: 0, z: -2.786438}
+    cities:
+    - stringId: 
+      cityId: 54
+      pathDistance: 0.0047529917
+      pathTime: 0.00084706914
+    - stringId: 
+      cityId: 52
+      pathDistance: 5.6111026
+      pathTime: 1
+  - pathName: Road Creator Template (104) 1276840124
+    pathId: 176456
+    center: {x: 994.34, y: 0, z: 759.37}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 8.154344
+    bezierPoints:
+    - {x: 2.6622925, y: 0, z: -1.6014404}
+    - {x: 2.5664062, y: 0, z: -1.53302}
+    - {x: 1.6565552, y: 0, z: -1.076294}
+    - {x: -0.3953247, y: 0, z: -0.8545532}
+    - {x: -2.6113892, y: 0, z: 0.75561523}
+    - {x: -3.7978516, y: 0, z: 1.3273315}
+    - {x: -4.0979004, y: 0, z: 1.8112793}
+    - {x: -4.2478027, y: 0, z: 2.0615845}
+    cities:
+    - stringId: 
+      cityId: 52
+      pathDistance: 0.002744955
+      pathTime: 0.0003366249
+    - stringId: 
+      cityId: 53
+      pathDistance: 8.154124
+      pathTime: 0.99997306
+  - pathName: Road Creator Template (105) -1046821378
+    pathId: 177040
+    center: {x: 997.7, y: 0, z: 755.57}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 8.247585
+    bezierPoints:
+    - {x: 2.3536377, y: 0, z: 2.2491455}
+    - {x: 2.4161987, y: 0, z: 2.130188}
+    - {x: 2.6334229, y: 0, z: 1.6425171}
+    - {x: 2.8499146, y: 0, z: 0.69799805}
+    - {x: 2.2858276, y: 0, z: 0.15362549}
+    - {x: 1.8634644, y: 0, z: -0.21618652}
+    - {x: 1.7940674, y: 0, z: -0.30773926}
+    - {x: 1.7094727, y: 0, z: -0.23278809}
+    - {x: 1.28656, y: 0, z: 0.1003418}
+    - {x: -0.2944336, y: 0, z: 0.2849121}
+    - {x: -1.2103271, y: 0, z: 0.98547363}
+    - {x: -2.0245361, y: 0, z: 0.47027588}
+    - {x: -2.465271, y: 0, z: 0.117126465}
+    - {x: -2.5527344, y: 0, z: 0.035461426}
+    cities:
+    - stringId: 
+      cityId: 50
+      pathDistance: 0.011065227
+      pathTime: 0.0013416323
+    - stringId: 
+      cityId: 81
+      pathDistance: 3.1411786
+      pathTime: 0.38086042
+    - stringId: 
+      cityId: 79
+      pathDistance: 8.24249
+      pathTime: 0.99938214
+  - pathName: Road Creator Template (106) -1399177086
+    pathId: 176494
+    center: {x: 998.125, y: 0, z: 755.265}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 13.932182
+    bezierPoints:
+    - {x: -2.97052, y: 0, z: 0.34405518}
+    - {x: -2.8961182, y: 0, z: 0.26190186}
+    - {x: -2.194519, y: 0, z: -0.3411255}
+    - {x: -0.1697998, y: 0, z: -1.6466675}
+    - {x: 1.2862549, y: 0, z: -1.2622681}
+    - {x: 2.230835, y: 0, z: -1.3325195}
+    - {x: 2.7525024, y: 0, z: -1.4941406}
+    - {x: 2.8497925, y: 0, z: -1.5401001}
+    - {x: 2.8131104, y: 0, z: -1.6382446}
+    - {x: 2.670044, y: 0, z: -2.0586548}
+    - {x: 3.1185913, y: 0, z: -2.7052612}
+    - {x: 3.1708984, y: 0, z: -3.1471558}
+    - {x: 3.7000732, y: 0, z: -3.6762695}
+    - {x: 3.3338013, y: 0, z: -4.0441895}
+    - {x: 2.362976, y: 0, z: -3.9849854}
+    - {x: 1.4379883, y: 0, z: -3.8739624}
+    - {x: 1.1434326, y: 0, z: -4.185486}
+    - {x: 1.2174683, y: 0, z: -4.83667}
+    - {x: 1.3973389, y: 0, z: -5.210022}
+    - {x: 1.0178833, y: 0, z: -5.6748657}
+    - {x: 0.93322754, y: 0, z: -5.756714}
+    cities:
+    - stringId: 
+      cityId: 79
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 80
+      pathDistance: 6.6082215
+      pathTime: 0.47431347
+    - stringId: 
+      cityId: 106
+      pathDistance: 9.134229
+      pathTime: 0.6556208
+    - stringId: 
+      cityId: 107
+      pathDistance: 13.930281
+      pathTime: 0.99986345
+  - pathName: Road Creator Template (107) 572128708
+    pathId: 174572
+    center: {x: 998.125, y: 0, z: 755.265}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 8.083571
+    bezierPoints:
+    - {x: -2.968872, y: 0, z: 0.34747314}
+    - {x: -2.8848267, y: 0, z: 0.2574463}
+    - {x: -2.5883179, y: 0, z: -0.018371582}
+    - {x: -2.2006226, y: 0, z: -0.33465576}
+    - {x: -0.88220215, y: 0, z: -1.3848267}
+    - {x: -0.26794434, y: 0, z: -1.7247314}
+    - {x: 0.3133545, y: 0, z: -2.9126587}
+    - {x: 1.0477905, y: 0, z: -4.1141357}
+    - {x: 1.2174683, y: 0, z: -4.83667}
+    - {x: 1.3973389, y: 0, z: -5.210022}
+    - {x: 1.0115356, y: 0, z: -5.6793213}
+    - {x: 0.9169922, y: 0, z: -5.774414}
+    cities:
+    - stringId: 
+      cityId: 79
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 107
+      pathDistance: 8.057282
+      pathTime: 0.9967478
+  - pathName: Road Creator Template (108) -1751532794
+    pathId: 175872
+    center: {x: 1003.08, y: 0, z: 757.51}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.5306914
+    bezierPoints:
+    - {x: -3.0093994, y: 0, z: 0.3024292}
+    - {x: -2.6994019, y: 0, z: -0.3850708}
+    - {x: -2.3660889, y: 0, z: -1.1226196}
+    - {x: -0.8845825, y: 0, z: -1.9401245}
+    - {x: -0.7998657, y: 0, z: -2.0563965}
+    - {x: -0.7392578, y: 0, z: -2.1496582}
+    cities:
+    - stringId: 
+      cityId: 50
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 49
+      pathDistance: 3.5306072
+      pathTime: 0.99997616
+  - pathName: Road Creator Template (109) -2103888502
+    pathId: 173916
+    center: {x: 1000.77, y: 0, z: 754.97}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.2637823
+    bezierPoints:
+    - {x: -1.2844238, y: 0, z: 0.3005371}
+    - {x: -1.1985474, y: 0, z: 0.22235107}
+    - {x: -0.7192383, y: 0, z: -0.26434326}
+    - {x: -0.36572266, y: 0, z: -1.0161743}
+    - {x: -0.15039062, y: 0, z: -1.105957}
+    - {x: 0.10443115, y: 0, z: -1.1947021}
+    - {x: 0.21447754, y: 0, z: -1.2414551}
+    cities:
+    - stringId: 
+      cityId: 81
+      pathDistance: 0.0035895458
+      pathTime: 0.0015856408
+    - stringId: 
+      cityId: 80
+      pathDistance: 2.2590554
+      pathTime: 0.99791193
+  - pathName: Road Creator Template (110) -907136542
+    pathId: 175704
+    center: {x: 1000.974, y: 0, z: 755.116}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.2036736
+    bezierPoints:
+    - {x: 1.3630371, y: 0, z: 0.23999023}
+    - {x: 1.2746582, y: 0, z: 0.18377686}
+    - {x: 0.86102295, y: 0, z: -0.024963379}
+    - {x: 0.5462036, y: 0, z: -0.4567871}
+    - {x: 0.24224854, y: 0, z: -0.8305054}
+    - {x: 0.051208496, y: 0, z: -1.2789307}
+    - {x: 0.004211426, y: 0, z: -1.3970337}
+    cities:
+    - stringId: 
+      cityId: 49
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 80
+      pathDistance: 2.1927898
+      pathTime: 0.9950611
+  - pathName: Road Creator Template (111) 1064169252
+    pathId: 174796
+    center: {x: 1005.12, y: 0, z: 760.21}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 21.930653
+    bezierPoints:
+    - {x: 2.2177124, y: 0, z: 3.1472168}
+    - {x: 2.2584229, y: 0, z: 3.0354004}
+    - {x: 2.5506592, y: 0, z: 2.439209}
+    - {x: 2.8693237, y: 0, z: 1.8758545}
+    - {x: 2.3094482, y: 0, z: 1.3431396}
+    - {x: 1.5543213, y: 0, z: 1.2738037}
+    - {x: 1.678833, y: 0, z: 0.45111084}
+    - {x: 1.7199097, y: 0, z: 0.34326172}
+    - {x: 1.7644653, y: 0, z: 0.23370361}
+    - {x: 1.6621094, y: 0, z: 0.19769287}
+    - {x: 1.501648, y: 0, z: 0.14123535}
+    - {x: 1.0158691, y: 0, z: -0.1593628}
+    - {x: 1.411377, y: 0, z: -1.029419}
+    - {x: 2.076416, y: 0, z: -1.979065}
+    - {x: 1.4932861, y: 0, z: -2.5558472}
+    - {x: 0.9523926, y: 0, z: -2.8181763}
+    - {x: 0.8534546, y: 0, z: -2.8867188}
+    - {x: 0.75598145, y: 0, z: -2.9415283}
+    - {x: 0.300354, y: 0, z: -3.1651611}
+    - {x: -0.22052002, y: 0, z: -3.3272705}
+    - {x: -0.26672363, y: 0, z: -3.510315}
+    - {x: -0.27038574, y: 0, z: -3.7008057}
+    - {x: 0.18670654, y: 0, z: -4.782959}
+    - {x: 0.7116089, y: 0, z: -5.3554688}
+    - {x: 0.42633057, y: 0, z: -6.204834}
+    - {x: 0.3739624, y: 0, z: -6.3146973}
+    - {x: 0.30969238, y: 0, z: -6.4178467}
+    - {x: 0.08331299, y: 0, z: -6.7615967}
+    - {x: -0.18597412, y: 0, z: -7.4959717}
+    - {x: -0.569458, y: 0, z: -7.8060303}
+    - {x: -0.8914795, y: 0, z: -8.046265}
+    - {x: -0.98913574, y: 0, z: -8.0998535}
+    - {x: -0.9324951, y: 0, z: -8.195679}
+    - {x: -0.79089355, y: 0, z: -8.431702}
+    - {x: -0.6244507, y: 0, z: -8.649109}
+    - {x: -0.4381714, y: 0, z: -8.857849}
+    - {x: -0.30114746, y: 0, z: -9.103821}
+    - {x: -0.30114746, y: 0, z: -9.603394}
+    - {x: -0.5201416, y: 0, z: -10.6604}
+    - {x: 0.7967529, y: 0, z: -10.618225}
+    - {x: 1.6071167, y: 0, z: -11.394775}
+    - {x: 1.7252808, y: 0, z: -12.2473755}
+    cities:
+    - stringId: 
+      cityId: 70
+      pathDistance: 0.0076077646
+      pathTime: 0.00034690095
+    - stringId: 
+      cityId: 75
+      pathDistance: 4.1417227
+      pathTime: 0.18885542
+    - stringId: 
+      cityId: 78
+      pathDistance: 8.774707
+      pathTime: 0.4001115
+    - stringId: 
+      cityId: 76
+      pathDistance: 13.340631
+      pathTime: 0.60830975
+    - stringId: 
+      cityId: 105
+      pathDistance: 15.673141
+      pathTime: 0.7146682
+    - stringId: 
+      cityId: 115
+      pathDistance: 21.893768
+      pathTime: 0.99831814
+  - pathName: Road Creator Template (112) -1259492250
+    pathId: 174406
+    center: {x: 998.86, y: 0, z: 748.94}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.0717282
+    bezierPoints:
+    - {x: 0.18756104, y: 0, z: 0.58428955}
+    - {x: 0.2672119, y: 0, z: 0.5031738}
+    - {x: 0.6256714, y: 0, z: 0.09185791}
+    - {x: 0.7515869, y: 0, z: -0.6506958}
+    - {x: 1.173584, y: 0, z: -0.93969727}
+    - {x: 1.2927246, y: 0, z: -0.98846436}
+    cities:
+    - stringId: 
+      cityId: 107
+      pathDistance: 0.004746235
+      pathTime: 0.0022909543
+    - stringId: 
+      cityId: 108
+      pathDistance: 2.0663388
+      pathTime: 0.99739856
+  - pathName: Road Creator Template (113) 711813544
+    pathId: 176940
+    center: {x: 998.026, y: 0, z: 748.01}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.517789
+    bezierPoints:
+    - {x: 1.0247803, y: 0, z: 1.5065308}
+    - {x: 0.9300537, y: 0, z: 1.421814}
+    - {x: 0.6937866, y: 0, z: 1.1713257}
+    - {x: 0.9968262, y: 0, z: 0.50634766}
+    - {x: 0.7925415, y: 0, z: 0.2574463}
+    - {x: 0.58099365, y: 0, z: 0.15740967}
+    - {x: 0.41235352, y: 0, z: 0.08880615}
+    - {x: 0.26708984, y: 0, z: -0.02520752}
+    - {x: 0.056396484, y: 0, z: -1.3499756}
+    - {x: -0.36340332, y: 0, z: -2.1343994}
+    - {x: -0.42279053, y: 0, z: -2.2199707}
+    cities:
+    - stringId: 
+      cityId: 107
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 112
+      pathDistance: 4.517789
+      pathTime: 1
+  - pathName: Road Creator Template (114) -1611847958
+    pathId: 177882
+    center: {x: 996.436, y: 0, z: 744.28}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.5004432
+    bezierPoints:
+    - {x: 1.1610107, y: 0, z: 1.4918823}
+    - {x: 1.0635986, y: 0, z: 1.5628662}
+    - {x: 0.7293701, y: 0, z: 1.7363892}
+    - {x: -0.2597046, y: 0, z: 1.2543945}
+    - {x: -0.9850464, y: 0, z: 1.0282593}
+    - {x: -1.0907593, y: 0, z: 0.9690552}
+    cities:
+    - stringId: 
+      cityId: 112
+      pathDistance: 0.002611607
+      pathTime: 0.0010444577
+    - stringId: 
+      cityId: 111
+      pathDistance: 2.5004432
+      pathTime: 1
+  - pathName: Road Creator Template (115) 722857440
+    pathId: 177146
+    center: {x: 994.258, y: 0, z: 748.944}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 8.805341
+    bezierPoints:
+    - {x: 1.0814209, y: 0, z: -3.6940308}
+    - {x: 1.0250244, y: 0, z: -3.6000366}
+    - {x: 0.741272, y: 0, z: -3.1567993}
+    - {x: 1.0303955, y: 0, z: -1.8103027}
+    - {x: 0.6221924, y: 0, z: -0.7692261}
+    - {x: -0.0071411133, y: 0, z: 0.017822266}
+    - {x: -0.3508911, y: 0, z: 0.049804688}
+    - {x: -0.45550537, y: 0, z: 0.05340576}
+    - {x: -0.46264648, y: 0, z: 0.15710449}
+    - {x: -0.4694214, y: 0, z: 0.45837402}
+    - {x: -0.2664795, y: 0, z: 1.86969}
+    - {x: -0.12237549, y: 0, z: 3.610962}
+    - {x: -0.46661377, y: 0, z: 3.532898}
+    - {x: -0.57421875, y: 0, z: 3.4832764}
+    cities:
+    - stringId: 
+      cityId: 111
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 109
+      pathDistance: 4.6419806
+      pathTime: 0.5271779
+    - stringId: 
+      cityId: 110
+      pathDistance: 8.798543
+      pathTime: 0.99922794
+  - pathName: Road Creator Template (116) 1002227112
+    pathId: 177008
+    center: {x: 994.55, y: 0, z: 744.09}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 15.598807
+    bezierPoints:
+    - {x: 0.7927246, y: 0, z: 1.1604614}
+    - {x: 0.6902466, y: 0, z: 1.0908203}
+    - {x: 0.44500732, y: 0, z: 0.9312744}
+    - {x: -0.4395752, y: 0, z: 0.5866089}
+    - {x: -1.0899658, y: 0, z: -0.109375}
+    - {x: -1.3677368, y: 0, z: -0.24389648}
+    - {x: -1.46875, y: 0, z: -0.29541016}
+    - {x: -1.5656128, y: 0, z: -0.3381958}
+    - {x: -1.8458862, y: 0, z: -0.47784424}
+    - {x: -2.307312, y: 0, z: -1.2387695}
+    - {x: -2.9627075, y: 0, z: -2.2218018}
+    - {x: -3.3165283, y: 0, z: -2.3006592}
+    - {x: -3.413147, y: 0, z: -2.3223267}
+    - {x: -3.3988647, y: 0, z: -2.42865}
+    - {x: -3.3406372, y: 0, z: -2.7580566}
+    - {x: -1.6279907, y: 0, z: -2.9332275}
+    - {x: -0.10998535, y: 0, z: -3.1472778}
+    - {x: 0.19171143, y: 0, z: -2.9956665}
+    - {x: 0.29412842, y: 0, z: -2.947998}
+    - {x: 0.39666748, y: 0, z: -2.8927002}
+    - {x: 0.62176514, y: 0, z: -2.7976074}
+    - {x: 1.34375, y: 0, z: -3.3861694}
+    - {x: 2.0404053, y: 0, z: -3.7254028}
+    - {x: 2.2919922, y: 0, z: -3.923523}
+    - {x: 2.3723755, y: 0, z: -4.0009155}
+    - {x: 2.4337158, y: 0, z: -3.9191284}
+    - {x: 2.6953125, y: 0, z: -3.701294}
+    - {x: 3.8145752, y: 0, z: -3.6757202}
+    - {x: 4.954712, y: 0, z: -3.437622}
+    - {x: 5.331726, y: 0, z: -3.532959}
+    cities:
+    - stringId: 
+      cityId: 111
+      pathDistance: 0.0025046105
+      pathTime: 0.00016056423
+    - stringId: 
+      cityId: 168
+      pathDistance: 2.747502
+      pathTime: 0.1761354
+    - stringId: 
+      cityId: 167
+      pathDistance: 5.7245526
+      pathTime: 0.36698657
+    - stringId: 
+      cityId: 166
+      pathDistance: 9.940367
+      pathTime: 0.63725173
+    - stringId: 
+      cityId: 163
+      pathDistance: 12.461444
+      pathTime: 0.7988716
+    - stringId: 
+      cityId: 165
+      pathDistance: 15.598807
+      pathTime: 1
+  - pathName: Road Creator Template (117) -1321434390
+    pathId: 174662
+    center: {x: 997.73, y: 0, z: 743.693}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 18.640041
+    bezierPoints:
+    - {x: -0.137146, y: 0, z: 2.0880737}
+    - {x: -0.03692627, y: 0, z: 2.020935}
+    - {x: 0.22515869, y: 0, z: 1.8808594}
+    - {x: 1.0765991, y: 0, z: 1.7816162}
+    - {x: 1.8371582, y: 0, z: 1.7733765}
+    - {x: 2.0778198, y: 0, z: 1.9708862}
+    - {x: 2.1533203, y: 0, z: 2.0562134}
+    - {x: 2.2318726, y: 0, z: 1.975769}
+    - {x: 2.4819336, y: 0, z: 1.789917}
+    - {x: 2.8780518, y: 0, z: 0.9289551}
+    - {x: 2.414978, y: 0, z: 0.17425537}
+    - {x: 2.123413, y: 0, z: -0.6832886}
+    - {x: 1.3214722, y: 0, z: -1.1710815}
+    - {x: 1.055603, y: 0, z: -1.335083}
+    - {x: 0.9688721, y: 0, z: -1.3890381}
+    - {x: 1.0299072, y: 0, z: -1.4911499}
+    - {x: 1.2393799, y: 0, z: -1.7473145}
+    - {x: 2.4180908, y: 0, z: -2.2263184}
+    - {x: 3.4506836, y: 0, z: -1.9106445}
+    - {x: 3.9760742, y: 0, z: -2.244812}
+    - {x: 4.060486, y: 0, z: -2.3166504}
+    - {x: 4.1520386, y: 0, z: -2.3920898}
+    - {x: 4.359741, y: 0, z: -2.5881958}
+    - {x: 5.0619507, y: 0, z: -3.255066}
+    - {x: 4.974182, y: 0, z: -4.071167}
+    - {x: 4.947571, y: 0, z: -4.38385}
+    - {x: 4.930664, y: 0, z: -4.4925537}
+    - {x: 5.0386353, y: 0, z: -4.5127563}
+    - {x: 5.3253174, y: 0, z: -4.571594}
+    - {x: 6.755615, y: 0, z: -4.1591187}
+    - {x: 7.0248413, y: 0, z: -4.344116}
+    - {x: 7.1134033, y: 0, z: -4.4198}
+    - {x: 7.1746216, y: 0, z: -4.328064}
+    - {x: 7.352234, y: 0, z: -4.1812134}
+    - {x: 7.7269897, y: 0, z: -3.9747314}
+    - {x: 8.089844, y: 0, z: -3.8136597}
+    - {x: 8.8396, y: 0, z: -3.7440186}
+    - {x: 9.392883, y: 0, z: -3.8828125}
+    - {x: 9.884033, y: 0, z: -3.9866943}
+    cities:
+    - stringId: 
+      cityId: 112
+      pathDistance: 0.0064866613
+      pathTime: 0.0003479961
+    - stringId: 
+      cityId: 113
+      pathDistance: 2.4738894
+      pathTime: 0.1327191
+    - stringId: 
+      cityId: 114
+      pathDistance: 7.0493417
+      pathTime: 0.37818274
+    - stringId: 
+      cityId: 162
+      pathDistance: 10.630389
+      pathTime: 0.57029855
+    - stringId: 
+      cityId: 161
+      pathDistance: 13.277725
+      pathTime: 0.7123227
+    - stringId: 
+      cityId: 160
+      pathDistance: 15.634735
+      pathTime: 0.83877146
+    - stringId: 
+      cityId: 159
+      pathDistance: 18.640041
+      pathTime: 1
+  - pathName: Road Creator Template (118) -703319262
+    pathId: 175390
+    center: {x: 997.4, y: 0, z: 737.92}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.6794782
+    bezierPoints:
+    - {x: -0.4814453, y: 0, z: 2.1691284}
+    - {x: -0.3904419, y: 0, z: 2.0916748}
+    - {x: -0.13116455, y: 0, z: 1.9063721}
+    - {x: 0.8726196, y: 0, z: 0.84661865}
+    - {x: 2.2001343, y: 0, z: 0.73828125}
+    - {x: 2.4640503, y: 0, z: 0.8635864}
+    - {x: 2.5773926, y: 0, z: 0.90338135}
+    cities:
+    - stringId: 
+      cityId: 163
+      pathDistance: 0.00047686015
+      pathTime: 0.00012959994
+    - stringId: 
+      cityId: 164
+      pathDistance: 3.6744585
+      pathTime: 0.99863577
+  - pathName: Road Creator Template (119) 493432698
+    pathId: 177800
+    center: {x: 996.71, y: 0, z: 743.31}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.828595
+    bezierPoints:
+    - {x: 0.8918457, y: 0, z: 2.4574585}
+    - {x: 0.8250122, y: 0, z: 2.3730469}
+    - {x: 0.63220215, y: 0, z: 2.1149292}
+    - {x: -0.049194336, y: 0, z: 0.64019775}
+    - {x: 1.7478027, y: 0, z: -0.64056396}
+    - {x: 1.9204102, y: 0, z: -0.9029541}
+    - {x: 1.9869995, y: 0, z: -1.0179443}
+    cities:
+    - stringId: 
+      cityId: 112
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 114
+      pathDistance: 4.8182425
+      pathTime: 0.997856
+  - pathName: Road Creator Template (120) 1690184658
+    pathId: 176510
+    center: {x: 1000.195, y: 0, z: 740.403}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.6170352
+    bezierPoints:
+    - {x: -0.2208252, y: 0, z: -1.5811157}
+    - {x: -0.117370605, y: 0, z: -1.5375366}
+    - {x: 0.16986084, y: 0, z: -1.3973999}
+    - {x: 1.2528076, y: 0, z: -0.8208618}
+    - {x: 1.3051758, y: 0, z: 0.61950684}
+    - {x: 1.5258789, y: 0, z: 0.88830566}
+    - {x: 1.5976562, y: 0, z: 0.97839355}
+    cities:
+    - stringId: 
+      cityId: 164
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 162
+      pathDistance: 3.6142523
+      pathTime: 0.9992306
+  - pathName: Road Creator Template (121) 1760027076
+    pathId: 178656
+    center: {x: 993.01, y: 0, z: 742.04}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.269956
+    bezierPoints:
+    - {x: 0.06488037, y: 0, z: 1.7662964}
+    - {x: 0.11529541, y: 0, z: 1.6585083}
+    - {x: 0.3460083, y: 0, z: 1.2275391}
+    - {x: 1.1296997, y: 0, z: 0.5899658}
+    - {x: 1.6078491, y: 0, z: -0.4593506}
+    - {x: 1.7728882, y: 0, z: -0.77770996}
+    - {x: 1.8358154, y: 0, z: -0.8909912}
+    cities:
+    - stringId: 
+      cityId: 168
+      pathDistance: 0.00783909
+      pathTime: 0.0023973074
+    - stringId: 
+      cityId: 166
+      pathDistance: 3.2661865
+      pathTime: 0.9988472
+  - pathName: Road Creator Template (122) -1338188260
+    pathId: 176586
+    center: {x: 997.4, y: 0, z: 737.92}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.459959
+    bezierPoints:
+    - {x: -0.48913574, y: 0, z: 2.1623535}
+    - {x: -0.41271973, y: 0, z: 2.249878}
+    - {x: -0.08831787, y: 0, z: 2.5150757}
+    - {x: 0.5821533, y: 0, z: 2.6435547}
+    - {x: 0.48358154, y: 0, z: 3.8029175}
+    - {x: 0.92926025, y: 0, z: 4.1017456}
+    - {x: 1.1957397, y: 0, z: 4.320984}
+    - {x: 1.2956543, y: 0, z: 4.3848267}
+    cities:
+    - stringId: 
+      cityId: 163
+      pathDistance: 0.011720944
+      pathTime: 0.0033875962
+    - stringId: 
+      cityId: 114
+      pathDistance: 3.4526198
+      pathTime: 0.99787885
+  - pathName: Road Creator Template (123) -1992789814
+    pathId: 177928
+    center: {x: 1006.66, y: 0, z: 741.6}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 19.990969
+    bezierPoints:
+    - {x: 0.9597168, y: 0, z: -1.8831787}
+    - {x: 1.0194702, y: 0, z: -1.4620972}
+    - {x: 1.0412598, y: 0, z: -0.40704346}
+    - {x: 1.9052124, y: 0, z: 0.682251}
+    - {x: 1.6074829, y: 0, z: 1.7440796}
+    - {x: 1.4588623, y: 0, z: 2.0929565}
+    - {x: 1.4208374, y: 0, z: 2.1941528}
+    - {x: 1.3275757, y: 0, z: 2.144226}
+    - {x: 1.0272827, y: 0, z: 2.0054321}
+    - {x: 0.07910156, y: 0, z: 1.7914429}
+    - {x: -1.3240967, y: 0, z: 2.0355225}
+    - {x: -1.4350586, y: 0, z: 2.0317993}
+    - {x: -2.2085571, y: 0, z: 1.9333496}
+    - {x: -2.7644043, y: 0, z: 1.7980347}
+    - {x: -3.0493164, y: 0, z: 0.9279785}
+    - {x: -3.3338013, y: 0, z: 0.71698}
+    - {x: -3.4104004, y: 0, z: 0.6386719}
+    - {x: -3.4851685, y: 0, z: 0.72387695}
+    - {x: -3.7142334, y: 0, z: 0.95043945}
+    - {x: -4.376953, y: 0, z: 1.458435}
+    - {x: -5.09021, y: 0, z: 1.9495239}
+    - {x: -5.082947, y: 0, z: 2.300354}
+    - {x: -5.062866, y: 0, z: 2.3964844}
+    - {x: -5.032593, y: 0, z: 2.50708}
+    - {x: -4.934143, y: 0, z: 2.8519287}
+    - {x: -3.7260132, y: 0, z: 4.246521}
+    - {x: -3.6540527, y: 0, z: 4.340576}
+    - {x: -3.3274536, y: 0, z: 4.88855}
+    - {x: -3.2748413, y: 0, z: 4.982666}
+    - {x: -3.0664062, y: 0, z: 5.4735107}
+    - {x: -2.78125, y: 0, z: 5.650696}
+    - {x: -2.6778564, y: 0, z: 5.7075806}
+    - {x: -2.576477, y: 0, z: 5.7717896}
+    - {x: -2.270752, y: 0, z: 5.9455566}
+    - {x: -1.4185791, y: 0, z: 6.1191406}
+    - {x: -0.4022827, y: 0, z: 6.3549194}
+    - {x: 0.05895996, y: 0, z: 6.3952026}
+    - {x: 0.18023682, y: 0, z: 6.4038086}
+    cities:
+    - stringId: 
+      cityId: 159
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 157
+      pathDistance: 4.509403
+      pathTime: 0.22557203
+    - stringId: 
+      cityId: 158
+      pathDistance: 10.227941
+      pathTime: 0.5116281
+    - stringId: 
+      cityId: 117
+      pathDistance: 12.84096
+      pathTime: 0.64233804
+    - stringId: 
+      cityId: 116
+      pathDistance: 17.018436
+      pathTime: 0.8513063
+    - stringId: 
+      cityId: 115
+      pathDistance: 19.980566
+      pathTime: 0.9994796
+  - pathName: Road Creator Template (124) -21484020
+    pathId: 174040
+    center: {x: 1009.49, y: 0, z: 741.33}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 43.489788
+    bezierPoints:
+    - {x: -1.8626099, y: 0, z: -1.6253662}
+    - {x: -1.7564087, y: 0, z: -1.6381836}
+    - {x: -1.4197998, y: 0, z: -1.6605835}
+    - {x: -0.059387207, y: 0, z: -1.520752}
+    - {x: 1.3830566, y: 0, z: -1.7421875}
+    - {x: 2.0291138, y: 0, z: -2.078003}
+    - {x: 2.0645142, y: 0, z: -1.7501221}
+    - {x: 2.0749512, y: 0, z: -1.6396484}
+    - {x: 2.180359, y: 0, z: -1.6431274}
+    - {x: 2.5307007, y: 0, z: -1.6045532}
+    - {x: 2.8573608, y: 0, z: -0.3024292}
+    - {x: 3.4987793, y: 0, z: 0.4267578}
+    - {x: 3.8187866, y: 0, z: 0.55633545}
+    - {x: 3.9207764, y: 0, z: 0.5977783}
+    - {x: 4.031189, y: 0, z: 0.63671875}
+    - {x: 4.336792, y: 0, z: 0.7350464}
+    - {x: 5.5807495, y: 0, z: 1.1120605}
+    - {x: 6.711731, y: 0, z: 0.9380493}
+    - {x: 7.0183716, y: 0, z: 1.3936768}
+    - {x: 6.6643066, y: 0, z: 1.572815}
+    - {x: 6.557495, y: 0, z: 1.5979614}
+    - {x: 6.5891113, y: 0, z: 1.704895}
+    - {x: 6.6937866, y: 0, z: 2.039795}
+    - {x: 6.685669, y: 0, z: 2.779663}
+    - {x: 6.685547, y: 0, z: 3.59198}
+    - {x: 6.376892, y: 0, z: 3.7365112}
+    - {x: 6.2634277, y: 0, z: 3.7703857}
+    - {x: 6.159485, y: 0, z: 3.796875}
+    - {x: 5.8325806, y: 0, z: 3.8722534}
+    - {x: 4.9293213, y: 0, z: 3.3254395}
+    - {x: 3.397644, y: 0, z: 3.0611572}
+    - {x: 3.3988037, y: 0, z: 3.5500488}
+    - {x: 3.4170532, y: 0, z: 3.668213}
+    - {x: 3.3165894, y: 0, z: 3.6854858}
+    - {x: 2.87146, y: 0, z: 3.7938232}
+    - {x: 1.0776978, y: 0, z: 4.423584}
+    - {x: -0.38146973, y: 0, z: 4.5341187}
+    - {x: -0.24829102, y: 0, z: 4.970703}
+    - {x: -0.18786621, y: 0, z: 5.0613403}
+    - {x: -0.1317749, y: 0, z: 5.1677856}
+    - {x: 0.0871582, y: 0, z: 5.479065}
+    - {x: 1.5032349, y: 0, z: 6.052429}
+    - {x: 2.4067383, y: 0, z: 6.7228394}
+    - {x: 2.6826172, y: 0, z: 7.006775}
+    - {x: 2.7440186, y: 0, z: 7.0890503}
+    - {x: 2.6609497, y: 0, z: 7.166931}
+    - {x: 2.3876953, y: 0, z: 7.461792}
+    - {x: 2.5964966, y: 0, z: 9.767334}
+    - {x: 2.6419067, y: 0, z: 11.587097}
+    - {x: 1.97229, y: 0, z: 12.0216675}
+    - {x: 1.6924438, y: 0, z: 12.184509}
+    - {x: 1.6003418, y: 0, z: 12.228027}
+    - {x: 1.5554199, y: 0, z: 12.134277}
+    - {x: 1.427002, y: 0, z: 11.805847}
+    - {x: 1.1208496, y: 0, z: 11.180664}
+    - {x: -0.33013916, y: 0, z: 10.481812}
+    - {x: -2.2086792, y: 0, z: 8.972107}
+    - {x: -3.0913696, y: 0, z: 8.111755}
+    - {x: -3.6583862, y: 0, z: 8.282227}
+    - {x: -4.8928833, y: 0, z: 8.236206}
+    - {x: -4.6726685, y: 0, z: 9.288147}
+    - {x: -4.6898804, y: 0, z: 9.81012}
+    - {x: -5.1325684, y: 0, z: 10.40033}
+    - {x: -5.31427, y: 0, z: 10.693298}
+    - {x: -5.3633423, y: 0, z: 10.777771}
+    cities:
+    - stringId: 
+      cityId: 159
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 155
+      pathDistance: 4.502055
+      pathTime: 0.10351983
+    - stringId: 
+      cityId: 156
+      pathDistance: 7.782797
+      pathTime: 0.17895688
+    - stringId: 
+      cityId: 151
+      pathDistance: 11.81363
+      pathTime: 0.27164146
+    - stringId: 
+      cityId: 123
+      pathDistance: 14.3074665
+      pathTime: 0.32898453
+    - stringId: 
+      cityId: 120
+      pathDistance: 18.089012
+      pathTime: 0.415937
+    - stringId: 
+      cityId: 118
+      pathDistance: 22.688116
+      pathTime: 0.52168834
+    - stringId: 
+      cityId: 119
+      pathDistance: 26.349222
+      pathTime: 0.6058715
+    - stringId: 
+      cityId: 104
+      pathDistance: 32.30756
+      pathTime: 0.74287695
+    - stringId: 
+      cityId: 105
+      pathDistance: 43.489788
+      pathTime: 1
+  - pathName: Road Creator Template (125) -373839728
+    pathId: 175110
+    center: {x: 1011.8, y: 0, z: 741.31}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 6.3319097
+    bezierPoints:
+    - {x: -0.23583984, y: 0, z: -1.6174316}
+    - {x: -0.23291016, y: 0, z: -1.5074463}
+    - {x: -0.22076416, y: 0, z: -1.1480713}
+    - {x: -0.80682373, y: 0, z: -0.009094238}
+    - {x: -1.0013428, y: 0, z: 1.0441284}
+    - {x: -1.0374756, y: 0, z: 1.4105835}
+    - {x: -1.0366821, y: 0, z: 1.5263062}
+    - {x: -0.9326782, y: 0, z: 1.5231323}
+    - {x: -0.54919434, y: 0, z: 1.5217896}
+    - {x: 0.72283936, y: 0, z: 1.2314453}
+    - {x: 1.4412231, y: 0, z: 1.0408936}
+    - {x: 1.572815, y: 0, z: 0.7189331}
+    - {x: 1.6187744, y: 0, z: 0.61676025}
+    cities:
+    - stringId: 
+      cityId: 155
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 154
+      pathDistance: 3.310739
+      pathTime: 0.52286583
+    - stringId: 
+      cityId: 156
+      pathDistance: 6.325329
+      pathTime: 0.9989607
+  - pathName: Road Creator Template (126) 1597466066
+    pathId: 178846
+    center: {x: 1012.287, y: 0, z: 743.675}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.42203
+    bezierPoints:
+    - {x: -1.5270996, y: 0, z: -0.8491211}
+    - {x: -1.5371704, y: 0, z: -0.72961426}
+    - {x: -1.4891357, y: 0, z: -0.3920288}
+    - {x: 0.50561523, y: 0, z: 0.7023926}
+    - {x: 0.557251, y: 0, z: 0.9785156}
+    - {x: 0.6279297, y: 0, z: 1.319397}
+    cities:
+    - stringId: 
+      cityId: 154
+      pathDistance: 0.004127659
+      pathTime: 0.0012062019
+    - stringId: 
+      cityId: 120
+      pathDistance: 3.4167283
+      pathTime: 0.9984507
+  - pathName: Road Creator Template (127) -726195436
+    pathId: 175972
+    center: {x: 1012.88, y: 0, z: 746.63}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 15.365862
+    bezierPoints:
+    - {x: 0.030212402, y: 0, z: -1.6517944}
+    - {x: 0.05609131, y: 0, z: -1.5325317}
+    - {x: 0.13708496, y: 0, z: -1.1847534}
+    - {x: 1.0213623, y: 0, z: 0.5083008}
+    - {x: -0.33544922, y: 0, z: 1.5007935}
+    - {x: -0.55841064, y: 0, z: 1.71698}
+    - {x: -0.63720703, y: 0, z: 1.7876587}
+    - {x: -0.5661011, y: 0, z: 1.8688354}
+    - {x: -0.3048706, y: 0, z: 2.0322266}
+    - {x: 0.38433838, y: 0, z: 2.2262573}
+    - {x: 1.2157593, y: 0, z: 2.687683}
+    - {x: 1.5511475, y: 0, z: 2.8561401}
+    - {x: 1.6528931, y: 0, z: 2.9084473}
+    - {x: 1.7515259, y: 0, z: 2.9598389}
+    - {x: 2.218933, y: 0, z: 3.222168}
+    - {x: 2.7339478, y: 0, z: 3.6515503}
+    - {x: 3.3933716, y: 0, z: 0.033569336}
+    - {x: 4.278015, y: 0, z: 0.2331543}
+    - {x: 4.5113525, y: 0, z: 0.32006836}
+    - {x: 4.687744, y: 0, z: 0.44787598}
+    - {x: 4.875366, y: 0, z: 0.7255249}
+    - {x: 4.997864, y: 0, z: 0.92193604}
+    - {x: 5.3901367, y: 0, z: 1.2770386}
+    - {x: 5.6707764, y: 0, z: 1.5140381}
+    cities:
+    - stringId: 
+      cityId: 120
+      pathDistance: 0.011483962
+      pathTime: 0.00074736855
+    - stringId: 
+      cityId: 119
+      pathDistance: 4.6004124
+      pathTime: 0.29939175
+    - stringId: 
+      cityId: 126
+      pathDistance: 7.176291
+      pathTime: 0.4670282
+    - stringId: 
+      cityId: 122
+      pathDistance: 15.353724
+      pathTime: 0.99921006
+  - pathName: Road Creator Template (128) 1245110358
+    pathId: 176428
+    center: {x: 1016.82, y: 0, z: 745.81}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.2533054
+    bezierPoints:
+    - {x: -1.0403442, y: 0, z: -0.7213135}
+    - {x: -0.907959, y: 0, z: -0.27764893}
+    - {x: -0.027404785, y: 0, z: 0.8774414}
+    - {x: 0.7268677, y: 0, z: 1.2409668}
+    - {x: 0.9094238, y: 0, z: 1.5004883}
+    - {x: 1.043396, y: 0, z: 1.725769}
+    - {x: 1.2062378, y: 0, z: 1.8912964}
+    - {x: 1.5539551, y: 0, z: 2.182129}
+    - {x: 1.7051392, y: 0, z: 2.3356934}
+    cities:
+    - stringId: 
+      cityId: 123
+      pathDistance: 0.0072199227
+      pathTime: 0.0016974852
+    - stringId: 
+      cityId: 122
+      pathDistance: 4.2533054
+      pathTime: 1
+  - pathName: Road Creator Template (129) 1314952776
+    pathId: 174886
+    center: {x: 1016.82, y: 0, z: 745.81}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.4444723
+    bezierPoints:
+    - {x: 1.451477, y: 0, z: -0.69091797}
+    - {x: 1.085022, y: 0, z: -0.36871338}
+    - {x: 0.04876709, y: 0, z: 0.6248169}
+    - {x: 0.3088379, y: 0, z: 1.0311279}
+    - {x: 0.52545166, y: 0, z: 1.1218872}
+    - {x: 0.76153564, y: 0, z: 1.2719116}
+    - {x: 1.0484619, y: 0, z: 1.7349854}
+    - {x: 1.2120361, y: 0, z: 1.8953857}
+    - {x: 1.6169434, y: 0, z: 2.2398682}
+    - {x: 1.7246094, y: 0, z: 2.341919}
+    cities:
+    - stringId: 
+      cityId: 152
+      pathDistance: 0.036788903
+      pathTime: 0.008277452
+    - stringId: 
+      cityId: 122
+      pathDistance: 4.43269
+      pathTime: 0.9973491
+  - pathName: Road Creator Template (130) -2135618268
+    pathId: 176246
+    center: {x: 1017.68, y: 0, z: 743.58}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.815999
+    bezierPoints:
+    - {x: -1.640625, y: 0, z: -0.6483154}
+    - {x: -1.5301514, y: 0, z: -0.67578125}
+    - {x: -1.3017578, y: 0, z: -0.73602295}
+    - {x: -1.0543213, y: 0, z: -0.878479}
+    - {x: -0.68444824, y: 0, z: -0.88342285}
+    - {x: -0.24017334, y: 0, z: 0.18682861}
+    - {x: 0.23187256, y: 0, z: 1.1065063}
+    - {x: 0.5175781, y: 0, z: 1.4962158}
+    - {x: 0.57958984, y: 0, z: 1.5670166}
+    cities:
+    - stringId: 
+      cityId: 151
+      pathDistance: 0.010744156
+      pathTime: 0.0028155553
+    - stringId: 
+      cityId: 152
+      pathDistance: 3.815999
+      pathTime: 1
+  - pathName: Road Creator Template (131) -164312474
+    pathId: 177032
+    center: {x: 1020.53, y: 0, z: 744.07}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.5695968
+    bezierPoints:
+    - {x: -2.2720337, y: 0, z: 1.0854492}
+    - {x: -2.1864014, y: 0, z: 1.0184326}
+    - {x: -1.9188232, y: 0, z: 0.77593994}
+    - {x: -1.3648071, y: 0, z: 0.37451172}
+    - {x: -1.2730103, y: 0, z: 0.23382568}
+    - {x: -1.1777344, y: 0, z: -0.0836792}
+    - {x: -1.081665, y: 0, z: -0.20806885}
+    - {x: -0.463562, y: 0, z: -0.5648804}
+    - {x: -0.17700195, y: 0, z: -1.0540771}
+    - {x: 0.12286377, y: 0, z: -1.2136841}
+    - {x: 0.23901367, y: 0, z: -1.2599487}
+    cities:
+    - stringId: 
+      cityId: 152
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 153
+      pathDistance: 3.5695968
+      pathTime: 1
+  - pathName: Road Creator Template (132) 1806993320
+    pathId: 175212
+    center: {x: 1008.85, y: 0, z: 748.25}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.7300024
+    bezierPoints:
+    - {x: 2.2315063, y: 0, z: 5.314636}
+    - {x: 2.0739136, y: 0, z: 4.8980713}
+    - {x: 1.8508301, y: 0, z: 4.3237305}
+    - {x: 1.220459, y: 0, z: 2.9675903}
+    - {x: 0.18029785, y: 0, z: 1.8181152}
+    - {x: 0.18597412, y: 0, z: 1.3518677}
+    - {x: 0.19128418, y: 0, z: 1.217102}
+    cities:
+    - stringId: 
+      cityId: 104
+      pathDistance: 0.0013145759
+      pathTime: 0.0002779229
+    - stringId: 
+      cityId: 103
+      pathDistance: 4.7270694
+      pathTime: 0.99937993
+  - pathName: Road Creator Template (133) -516668182
+    pathId: 174934
+    center: {x: 1004.237, y: 0, z: 755.429}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 3.5604792
+    bezierPoints:
+    - {x: -1.8952637, y: 0, z: -0.07672119}
+    - {x: -1.8392334, y: 0, z: -0.16552734}
+    - {x: -1.6174927, y: 0, z: -0.42840576}
+    - {x: -0.5267334, y: 0, z: -0.66552734}
+    - {x: 0.83966064, y: 0, z: -1.2851562}
+    - {x: 1.1570435, y: 0, z: -1.4801636}
+    - {x: 1.2548828, y: 0, z: -1.529602}
+    cities:
+    - stringId: 
+      cityId: 49
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 76
+      pathDistance: 3.5585124
+      pathTime: 0.99944764
+  - pathName: Road Creator Template (134) -1874212296
+    pathId: 177500
+    center: {x: 1004.237, y: 0, z: 755.429}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.9253783
+    bezierPoints:
+    - {x: -1.920044, y: 0, z: -0.07232666}
+    - {x: -1.8024902, y: 0, z: -0.011047363}
+    - {x: 0.69262695, y: 0, z: 0.5025635}
+    - {x: 0.61639404, y: 0, z: 1.046814}
+    - {x: 0.6699829, y: 0, z: 1.4569702}
+    - {x: 0.87628174, y: 0, z: 1.552124}
+    - {x: 1.1021729, y: 0, z: 1.5875244}
+    - {x: 1.3710327, y: 0, z: 1.7020264}
+    - {x: 1.7390747, y: 0, z: 1.895813}
+    cities:
+    - stringId: 
+      cityId: 49
+      pathDistance: 0.02151441
+      pathTime: 0.0043680724
+    - stringId: 
+      cityId: 78
+      pathDistance: 4.9233036
+      pathTime: 0.9995787
+  - pathName: Road Creator Template (135) -255262210
+    pathId: 177356
+    center: {x: 1007.398, y: 0, z: 753.965}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 6.398023
+    bezierPoints:
+    - {x: -1.920044, y: 0, z: -0.07232666}
+    - {x: -1.6253052, y: 0, z: 0.47094727}
+    - {x: -1.5385742, y: 0, z: 0.7331543}
+    - {x: -0.5119629, y: 0, z: 1.5566406}
+    - {x: -0.46887207, y: 0, z: 1.8184204}
+    - {x: -0.42565918, y: 0, z: 2.0965576}
+    - {x: 0.29089355, y: 0, z: 2.5264893}
+    - {x: 0.47332764, y: 0, z: 2.722351}
+    - {x: 0.52282715, y: 0, z: 2.8114624}
+    - {x: 0.44592285, y: 0, z: 2.8709106}
+    - {x: 0.29693604, y: 0, z: 2.9821777}
+    - {x: -0.035095215, y: 0, z: 3.1430054}
+    - {x: -1.0291748, y: 0, z: 2.8341064}
+    - {x: -1.2490845, y: 0, z: 3.0718994}
+    - {x: -1.380188, y: 0, z: 3.277771}
+    - {x: -1.4290161, y: 0, z: 3.3671265}
+    cities:
+    - stringId: 
+      cityId: 76
+      pathDistance: 0.012483617
+      pathTime: 0.0019511678
+    - stringId: 
+      cityId: 77
+      pathDistance: 3.9977634
+      pathTime: 0.62484354
+    - stringId: 
+      cityId: 78
+      pathDistance: 6.398023
+      pathTime: 1
+  - pathName: Road Creator Template (136) 1716043584
+    pathId: 175768
+    center: {x: 1009.211, y: 0, z: 761.153}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 8.066287
+    bezierPoints:
+    - {x: -2.3289795, y: 0, z: -0.69750977}
+    - {x: -2.2787476, y: 0, z: -0.8065796}
+    - {x: -2.1937866, y: 0, z: -0.9793091}
+    - {x: -1.572937, y: 0, z: -1.3045654}
+    - {x: -0.37591553, y: 0, z: -1.1599121}
+    - {x: -0.21612549, y: 0, z: -1.3613281}
+    - {x: -0.128479, y: 0, z: -1.5474243}
+    - {x: -0.07220459, y: 0, z: -1.6343384}
+    - {x: 0.018127441, y: 0, z: -1.5739136}
+    - {x: 0.22296143, y: 0, z: -1.4400024}
+    - {x: 1.230835, y: 0, z: -1.0980835}
+    - {x: 2.06958, y: 0, z: -0.6465454}
+    - {x: 2.2366333, y: 0, z: -0.51013184}
+    - {x: 2.3164673, y: 0, z: -0.4451294}
+    - {x: 2.2473145, y: 0, z: -0.3624878}
+    - {x: 2.133728, y: 0, z: -0.21179199}
+    - {x: 1.7064209, y: 0, z: 0.43579102}
+    - {x: 1.5894775, y: 0, z: 0.9227905}
+    - {x: 1.1695557, y: 0, z: 1.383667}
+    - {x: 1.0279541, y: 0, z: 1.5736084}
+    - {x: 0.9609375, y: 0, z: 1.6505737}
+    cities:
+    - stringId: 
+      cityId: 75
+      pathDistance: 0.0071828635
+      pathTime: 0.0008904795
+    - stringId: 
+      cityId: 74
+      pathDistance: 2.8217828
+      pathTime: 0.34982425
+    - stringId: 
+      cityId: 71
+      pathDistance: 5.5213976
+      pathTime: 0.684503
+    - stringId: 
+      cityId: 72
+      pathDistance: 8.066287
+      pathTime: 1
+  - pathName: Road Creator Template (137) -1382171752
+    pathId: 176226
+    center: {x: 1010.76, y: 0, z: 759.03}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 11.354137
+    bezierPoints:
+    - {x: -1.6335449, y: 0, z: 0.49957275}
+    - {x: -1.5670776, y: 0, z: 0.39440918}
+    - {x: -1.4481812, y: 0, z: 0.22607422}
+    - {x: -1.0964355, y: 0, z: -0.3626709}
+    - {x: -0.8596802, y: 0, z: -0.89349365}
+    - {x: -0.7241821, y: 0, z: -1.1105957}
+    - {x: -0.6536865, y: 0, z: -1.2078857}
+    - {x: -0.5687256, y: 0, z: -1.1785889}
+    - {x: -0.4036255, y: 0, z: -1.0410767}
+    - {x: 0.07531738, y: 0, z: -0.8494873}
+    - {x: 0.53125, y: 0, z: -1.6600952}
+    - {x: 0.61920166, y: 0, z: -2.4990234}
+    - {x: 1.0169067, y: 0, z: -2.687561}
+    - {x: 1.1997681, y: 0, z: -2.74292}
+    - {x: 1.2900391, y: 0, z: -2.7838745}
+    - {x: 1.3358154, y: 0, z: -2.6780396}
+    - {x: 1.3796997, y: 0, z: -2.4447021}
+    - {x: 1.597168, y: 0, z: -2.0292358}
+    - {x: 2.517212, y: 0, z: -1.7772217}
+    - {x: 2.5822144, y: 0, z: -1.2554932}
+    - {x: 2.527832, y: 0, z: -0.98309326}
+    - {x: 2.5106812, y: 0, z: -0.88153076}
+    - {x: 2.4838867, y: 0, z: -0.7657471}
+    - {x: 2.4208374, y: 0, z: -0.48724365}
+    - {x: 2.4002686, y: 0, z: -0.0881958}
+    - {x: 1.5168457, y: 0, z: 0.65997314}
+    - {x: 1.0137329, y: 0, z: 1.3899536}
+    - {x: 0.8425293, y: 0, z: 1.5983887}
+    - {x: 0.77471924, y: 0, z: 1.6759644}
+    cities:
+    - stringId: 
+      cityId: 74
+      pathDistance: 0.011125611
+      pathTime: 0.0009798729
+    - stringId: 
+      cityId: 73
+      pathDistance: 1.9658697
+      pathTime: 0.17314126
+    - stringId: 
+      cityId: 99
+      pathDistance: 5.392527
+      pathTime: 0.4749394
+    - stringId: 
+      cityId: 98
+      pathDistance: 8.117036
+      pathTime: 0.7148967
+    - stringId: 
+      cityId: 71
+      pathDistance: 11.354137
+      pathTime: 1
+  - pathName: Road Creator Template (138) -185419792
+    pathId: 175432
+    center: {x: 1015.75, y: 0, z: 758.469}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.5835595
+    bezierPoints:
+    - {x: -2.4829102, y: 0, z: -0.31652832}
+    - {x: -2.367981, y: 0, z: -0.29473877}
+    - {x: -2.1864624, y: 0, z: -0.26190186}
+    - {x: -1.8277588, y: 0, z: -0.117492676}
+    - {x: -1.598999, y: 0, z: 0.020935059}
+    - {x: -1.3823853, y: 0, z: 0.15093994}
+    - {x: -0.54089355, y: 0, z: 1.0688477}
+    - {x: -0.44244385, y: 0, z: 1.149353}
+    cities:
+    - stringId: 
+      cityId: 98
+      pathDistance: 0.0024171458
+      pathTime: 0.0009355874
+    - stringId: 
+      cityId: 96
+      pathDistance: 2.5835595
+      pathTime: 1
+  - pathName: Road Creator Template (139) 1011332168
+    pathId: 178184
+    center: {x: 1013.861, y: 0, z: 755.749}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 10.313493
+    bezierPoints:
+    - {x: -1.8029785, y: 0, z: 0.49194336}
+    - {x: -1.8359985, y: 0, z: 0.38024902}
+    - {x: -1.9126587, y: 0, z: 0.08685303}
+    - {x: -1.9661865, y: 0, z: -0.22564697}
+    - {x: -1.605957, y: 0, z: -0.67974854}
+    - {x: -1.428833, y: 0, z: -1.1243286}
+    - {x: -0.7755127, y: 0, z: -0.9493408}
+    - {x: -0.32733154, y: 0, z: -0.6746216}
+    - {x: 0.8810425, y: 0, z: 0.1897583}
+    - {x: 1.9311523, y: 0, z: 0.8963623}
+    - {x: 2.0722656, y: 0, z: 1.1046143}
+    - {x: 2.1414795, y: 0, z: 1.1842651}
+    - {x: 2.0599365, y: 0, z: 1.2524414}
+    - {x: 1.8937378, y: 0, z: 1.3965454}
+    - {x: 1.5877075, y: 0, z: 1.7832642}
+    - {x: 1.0059814, y: 0, z: 3.1272583}
+    - {x: 0.6890259, y: 0, z: 3.0375977}
+    - {x: 0.46191406, y: 0, z: 2.835266}
+    - {x: 0.29187012, y: 0, z: 2.737793}
+    - {x: 0.095336914, y: 0, z: 2.6205444}
+    - {x: -0.24133301, y: 0, z: 2.4734497}
+    - {x: -0.4772339, y: 0, z: 2.4245605}
+    - {x: -0.61151123, y: 0, z: 2.3937378}
+    cities:
+    - stringId: 
+      cityId: 99
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 97
+      pathDistance: 6.169015
+      pathTime: 0.59814996
+    - stringId: 
+      cityId: 98
+      pathDistance: 10.291875
+      pathTime: 0.9979039
+  - pathName: Road Creator Template (140) -1312329334
+    pathId: 176436
+    center: {x: 1015.89, y: 0, z: 751.89}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 14.478545
+    bezierPoints:
+    - {x: -1.3544312, y: 0, z: -2.3607788}
+    - {x: -1.4072266, y: 0, z: -2.244873}
+    - {x: -1.4638062, y: 0, z: -2.0603027}
+    - {x: -1.8441162, y: 0, z: -1.034729}
+    - {x: -1.3322144, y: 0, z: 0.35888672}
+    - {x: -0.6970825, y: 0, z: 0.3590088}
+    - {x: -0.42852783, y: 0, z: 0.3590088}
+    - {x: -0.19543457, y: 0, z: 0.32354736}
+    - {x: 0.3519287, y: 0, z: 0.27282715}
+    - {x: 0.77893066, y: 0, z: -0.13952637}
+    - {x: 0.9996948, y: 0, z: -0.21551514}
+    - {x: 1.1033325, y: 0, z: -0.27001953}
+    - {x: 1.1962891, y: 0, z: -0.31518555}
+    - {x: 1.3662109, y: 0, z: -0.4295044}
+    - {x: 2.3188477, y: 0, z: -0.5192261}
+    - {x: 3.0146484, y: 0, z: -0.75115967}
+    - {x: 3.65979, y: 0, z: -0.67840576}
+    - {x: 3.8494873, y: 0, z: -0.61816406}
+    - {x: 3.961853, y: 0, z: -0.56903076}
+    - {x: 3.906311, y: 0, z: -0.47039795}
+    - {x: 3.815918, y: 0, z: -0.28637695}
+    - {x: 2.809082, y: 0, z: 1.3709106}
+    - {x: 2.5043335, y: 0, z: 1.8339233}
+    - {x: 0.42218018, y: 0, z: 1.0752563}
+    - {x: 0.47192383, y: 0, z: 1.4054565}
+    - {x: 0.5194702, y: 0, z: 1.5992432}
+    - {x: 0.55236816, y: 0, z: 1.7168579}
+    cities:
+    - stringId: 
+      cityId: 126
+      pathDistance: 0.012097223
+      pathTime: 0.0008355275
+    - stringId: 
+      cityId: 124
+      pathDistance: 5.618084
+      pathTime: 0.3880282
+    - stringId: 
+      cityId: 121
+      pathDistance: 8.598151
+      pathTime: 0.5938546
+    - stringId: 
+      cityId: 100
+      pathDistance: 14.471246
+      pathTime: 0.9994958
+  - pathName: Road Creator Template (141) 658976460
+    pathId: 178134
+    center: {x: 1016.54, y: 0, z: 754.66}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.69639
+    bezierPoints:
+    - {x: -0.10296631, y: 0, z: -1.0713501}
+    - {x: -0.066833496, y: 0, z: -0.9530029}
+    - {x: 0.010375977, y: 0, z: -0.68963623}
+    - {x: 0.1293335, y: 0, z: -0.2230835}
+    - {x: 1.0632324, y: 0, z: 0.57196045}
+    - {x: 1.3600464, y: 0, z: 1.583374}
+    - {x: 1.44104, y: 0, z: 1.7930908}
+    - {x: 1.4819946, y: 0, z: 1.8865967}
+    - {x: 1.3887329, y: 0, z: 1.9389648}
+    - {x: 1.2063599, y: 0, z: 2.0081787}
+    - {x: 0.87872314, y: 0, z: 2.0769043}
+    - {x: 0.06976318, y: 0, z: 1.9312744}
+    - {x: -0.28778076, y: 0, z: 2.0773926}
+    - {x: -0.45007324, y: 0, z: 2.217041}
+    - {x: -0.545166, y: 0, z: 2.2835083}
+    cities:
+    - stringId: 
+      cityId: 100
+      pathDistance: 0.011751895
+      pathTime: 0.0020630425
+    - stringId: 
+      cityId: 101
+      pathDistance: 3.5102336
+      pathTime: 0.6162207
+    - stringId: 
+      cityId: 97
+      pathDistance: 5.6901455
+      pathTime: 0.99890375
+  - pathName: Road Creator Template (142) -1664685042
+    pathId: 174292
+    center: {x: 1016.92, y: 0, z: 758.13}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 12.3778925
+    bezierPoints:
+    - {x: 1.0976562, y: 0, z: -1.5881958}
+    - {x: 1.1392212, y: 0, z: -1.4821167}
+    - {x: 1.2020264, y: 0, z: -1.3131104}
+    - {x: 1.5166626, y: 0, z: -0.3413086}
+    - {x: 1.8120117, y: 0, z: 0.5922241}
+    - {x: 1.8193359, y: 0, z: 0.76898193}
+    - {x: 1.8201904, y: 0, z: 0.868042}
+    - {x: 1.7125854, y: 0, z: 0.88568115}
+    - {x: 1.5074463, y: 0, z: 0.8753662}
+    - {x: 1.0962524, y: 0, z: 0.90509033}
+    - {x: 0.24713135, y: 0, z: 1.2559204}
+    - {x: -0.72351074, y: 0, z: 0.82751465}
+    - {x: -1.3849487, y: 0, z: 1.2179565}
+    - {x: -1.5429688, y: 0, z: 1.395935}
+    - {x: -1.6100464, y: 0, z: 1.492981}
+    - {x: -1.5235596, y: 0, z: 1.5583496}
+    - {x: -1.3642578, y: 0, z: 1.6616821}
+    - {x: -0.9637451, y: 0, z: 2.0830078}
+    - {x: -0.5862427, y: 0, z: 2.7660522}
+    - {x: 0.1184082, y: 0, z: 3.159912}
+    - {x: 0.32574463, y: 0, z: 3.2473145}
+    - {x: 0.43225098, y: 0, z: 3.2913208}
+    - {x: 0.515625, y: 0, z: 3.3339844}
+    - {x: 0.73132324, y: 0, z: 3.4468384}
+    - {x: 1.1032104, y: 0, z: 3.5860596}
+    - {x: 1.2280273, y: 0, z: 4.234009}
+    - {x: 1.3165283, y: 0, z: 4.9834595}
+    - {x: 0.87597656, y: 0, z: 5.1047363}
+    - {x: 0.5437622, y: 0, z: 5.1071167}
+    - {x: 0.44006348, y: 0, z: 5.104126}
+    cities:
+    - stringId: 
+      cityId: 101
+      pathDistance: 0.010491018
+      pathTime: 0.00084756094
+    - stringId: 
+      cityId: 94
+      pathDistance: 2.5783222
+      pathTime: 0.20830058
+    - stringId: 
+      cityId: 96
+      pathDistance: 6.454133
+      pathTime: 0.52142423
+    - stringId: 
+      cityId: 95
+      pathDistance: 9.264561
+      pathTime: 0.7484764
+    - stringId: 
+      cityId: 67
+      pathDistance: 12.3778925
+      pathTime: 1
+  - pathName: Road Creator Template (143) -1242486916
+    pathId: 174162
+    center: {x: 1017.79, y: 0, z: 760.19}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 2.8727453
+    bezierPoints:
+    - {x: 0.9449463, y: 0, z: -1.1848145}
+    - {x: 0.9625244, y: 0, z: -1.0632324}
+    - {x: 0.90515137, y: 0, z: -0.7038574}
+    - {x: 0.64471436, y: 0, z: -0.26513672}
+    - {x: -0.00982666, y: 0, z: 0.45141602}
+    - {x: -0.29089355, y: 0, z: 0.873291}
+    - {x: -0.40789795, y: 0, z: 1.1314087}
+    - {x: -0.4505005, y: 0, z: 1.2321167}
+    cities:
+    - stringId: 
+      cityId: 94
+      pathDistance: 0.0057350937
+      pathTime: 0.001996381
+    - stringId: 
+      cityId: 95
+      pathDistance: 2.8705564
+      pathTime: 0.9992381
+  - pathName: Road Creator Template (144) -820288790
+    pathId: 174902
+    center: {x: 1020.697, y: 0, z: 759.66}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 10.155664
+    bezierPoints:
+    - {x: -1.9639282, y: 0, z: -0.6571655}
+    - {x: -1.8376465, y: 0, z: -0.66033936}
+    - {x: -1.6248779, y: 0, z: -0.67419434}
+    - {x: -0.38165283, y: 0, z: 0.15197754}
+    - {x: 0.3225708, y: 0, z: 0.22296143}
+    - {x: 0.41418457, y: 0, z: 0.16851807}
+    - {x: 0.77490234, y: 0, z: -0.06323242}
+    - {x: 0.8491211, y: 0, z: -0.11517334}
+    - {x: 1.2880859, y: 0, z: -0.24353027}
+    - {x: 1.3535156, y: 0, z: -0.4453125}
+    - {x: 1.3929443, y: 0, z: -0.5516968}
+    - {x: 1.4963989, y: 0, z: -0.50701904}
+    - {x: 1.6903076, y: 0, z: -0.43585205}
+    - {x: 3.6430664, y: 0, z: -0.0048828125}
+    - {x: 4.3723145, y: 0, z: 0.34985352}
+    - {x: 4.570923, y: 0, z: 0.47131348}
+    - {x: 4.64209, y: 0, z: 0.5322876}
+    - {x: 4.609253, y: 0, z: 0.57507324}
+    - {x: 4.4298096, y: 0, z: 0.7668457}
+    - {x: 3.9676514, y: 0, z: 1.0767822}
+    - {x: 3.1782837, y: 0, z: 1.0962524}
+    - {x: 2.6245117, y: 0, z: 1.319458}
+    - {x: 2.2852173, y: 0, z: 1.5916748}
+    cities:
+    - stringId: 
+      cityId: 94
+      pathDistance: 0.0067786397
+      pathTime: 0.00066747377
+    - stringId: 
+      cityId: 131
+      pathDistance: 3.9827695
+      pathTime: 0.39217222
+    - stringId: 
+      cityId: 132
+      pathDistance: 7.4385734
+      pathTime: 0.7324556
+    - stringId: 
+      cityId: 93
+      pathDistance: 10.134193
+      pathTime: 0.9978858
+  - pathName: Road Creator Template (145) -1143504182
+    pathId: 176852
+    center: {x: 1021.51, y: 0, z: 756.06}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 18.828268
+    bezierPoints:
+    - {x: -3.4841309, y: 0, z: 0.49664307}
+    - {x: -3.168457, y: 0, z: 0.37347412}
+    - {x: -2.6126099, y: 0, z: 0.18884277}
+    - {x: -1.9602661, y: 0, z: -1.1031494}
+    - {x: -1.3969727, y: 0, z: -0.8745117}
+    - {x: -1.3192139, y: 0, z: -0.8427124}
+    - {x: -1.1723633, y: 0, z: -0.8248291}
+    - {x: -1.015686, y: 0, z: -0.80895996}
+    - {x: -0.9385376, y: 0, z: -0.8186035}
+    - {x: -0.28729248, y: 0, z: -0.9335327}
+    - {x: -0.11303711, y: 0, z: -0.82470703}
+    - {x: -0.026245117, y: 0, z: -0.76672363}
+    - {x: 0.022766113, y: 0, z: -0.8587036}
+    - {x: 0.16088867, y: 0, z: -1.0630493}
+    - {x: 0.41326904, y: 0, z: -1.3795166}
+    - {x: 1.5923462, y: 0, z: -1.8430176}
+    - {x: 1.645752, y: 0, z: -2.0915527}
+    - {x: 1.6947021, y: 0, z: -2.2670288}
+    - {x: 1.7127686, y: 0, z: -2.36969}
+    - {x: 1.8269653, y: 0, z: -2.3450317}
+    - {x: 2.0679321, y: 0, z: -2.274292}
+    - {x: 2.711792, y: 0, z: -2.1895142}
+    - {x: 3.348877, y: 0, z: -2.5119019}
+    - {x: 4.0773926, y: 0, z: -2.5495605}
+    - {x: 4.5859375, y: 0, z: -2.519043}
+    - {x: 4.815918, y: 0, z: -2.503479}
+    - {x: 4.901245, y: 0, z: -2.4922485}
+    - {x: 4.8928223, y: 0, z: -2.4083862}
+    - {x: 4.8391113, y: 0, z: -2.183899}
+    - {x: 4.774048, y: 0, z: -1.7497559}
+    - {x: 4.686157, y: 0, z: -0.35687256}
+    - {x: 4.3311768, y: 0, z: -0.08935547}
+    - {x: 4.039917, y: 0, z: 0.112976074}
+    - {x: 3.7728271, y: 0, z: 0.3031006}
+    - {x: 3.2615967, y: 0, z: 0.61553955}
+    - {x: 3.09375, y: 0, z: 0.7056885}
+    - {x: 2.9992676, y: 0, z: 0.7570801}
+    - {x: 3.055664, y: 0, z: 0.8479004}
+    - {x: 3.1481934, y: 0, z: 1.0117798}
+    - {x: 3.1125488, y: 0, z: 2.0112915}
+    - {x: 2.6478271, y: 0, z: 3.4273071}
+    - {x: 3.1547852, y: 0, z: 3.723938}
+    - {x: 3.5251465, y: 0, z: 3.9293213}
+    - {x: 3.8302002, y: 0, z: 4.1228027}
+    cities:
+    - stringId: 
+      cityId: 101
+      pathDistance: 0.00046463305
+      pathTime: 0.000024677418
+    - stringId: 
+      cityId: 102
+      pathDistance: 4.5006194
+      pathTime: 0.23903523
+    - stringId: 
+      cityId: 127
+      pathDistance: 7.104688
+      pathTime: 0.37734157
+    - stringId: 
+      cityId: 128
+      pathDistance: 10.402743
+      pathTime: 0.5525067
+    - stringId: 
+      cityId: 129
+      pathDistance: 14.604039
+      pathTime: 0.7756443
+    - stringId: 
+      cityId: 132
+      pathDistance: 18.826508
+      pathTime: 0.9999065
+  - pathName: Road Creator Template (146) 827801612
+    pathId: 178806
+    center: {x: 1023.05, y: 0, z: 756.95}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.7678666
+    bezierPoints:
+    - {x: -1.5639038, y: 0, z: -1.6635742}
+    - {x: -1.472168, y: 0, z: -1.5965576}
+    - {x: -1.3224487, y: 0, z: -1.512146}
+    - {x: -0.88848877, y: 0, z: -1.4279785}
+    - {x: 0.15045166, y: 0, z: -1.2328491}
+    - {x: 0.24230957, y: 0, z: -0.8482666}
+    - {x: 0.28625488, y: 0, z: -0.5906372}
+    - {x: 0.32366943, y: 0, z: -0.26641846}
+    - {x: 0.4196167, y: 0, z: 0.48675537}
+    - {x: -0.048461914, y: 0, z: 1.0992432}
+    - {x: -0.82147217, y: 0, z: 1.8598022}
+    - {x: -0.9165039, y: 0, z: 2.0587769}
+    - {x: -0.96325684, y: 0, z: 2.1609497}
+    cities:
+    - stringId: 
+      cityId: 102
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 131
+      pathDistance: 5.7655993
+      pathTime: 0.9996069
+  - pathName: Road Creator Template (147) 2024553572
+    pathId: 174252
+    center: {x: 1021.51, y: 0, z: 756.06}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 5.8423815
+    bezierPoints:
+    - {x: 1.7195435, y: 0, z: -2.371704}
+    - {x: 1.8439941, y: 0, z: -2.340271}
+    - {x: 2.0716553, y: 0, z: -2.2713623}
+    - {x: 2.244629, y: 0, z: -2.2177734}
+    - {x: 2.5682373, y: 0, z: -1.5586548}
+    - {x: 3.211914, y: 0, z: -1.2738037}
+    - {x: 3.8397217, y: 0, z: -0.9949341}
+    - {x: 4.1778564, y: 0, z: -0.6445923}
+    - {x: 4.680298, y: 0, z: -0.4215088}
+    - {x: 4.3311768, y: 0, z: -0.08935547}
+    - {x: 4.039917, y: 0, z: 0.112976074}
+    - {x: 3.7728271, y: 0, z: 0.3031006}
+    - {x: 3.2615967, y: 0, z: 0.61553955}
+    - {x: 3.0059814, y: 0, z: 0.76068115}
+    cities:
+    - stringId: 
+      cityId: 127
+      pathDistance: 0.00081426505
+      pathTime: 0.00013937212
+    - stringId: 
+      cityId: 129
+      pathDistance: 5.8423815
+      pathTime: 1
+  - pathName: Road Creator Template (148) -299107930
+    pathId: 176902
+    center: {x: 1031.39, y: 0, z: 762.11}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 53.775
+    bezierPoints:
+    - {x: -0.73291016, y: 0, z: 1.7846069}
+    - {x: -0.72436523, y: 0, z: 1.435669}
+    - {x: -0.7130127, y: 0, z: 0.9765625}
+    - {x: -2.6885986, y: 0, z: 0.2177124}
+    - {x: -2.4571533, y: 0, z: -0.091674805}
+    - {x: -2.3642578, y: 0, z: -0.23132324}
+    - {x: -2.2861328, y: 0, z: -0.32073975}
+    - {x: -2.2166748, y: 0, z: -0.3982544}
+    - {x: -2.0976562, y: 0, z: -0.56591797}
+    - {x: -1.1647949, y: 0, z: -1.0709229}
+    - {x: 0.6512451, y: 0, z: 0.03173828}
+    - {x: 2.1640625, y: 0, z: 0.25823975}
+    - {x: 2.6712646, y: 0, z: 0.36834717}
+    - {x: 2.8865967, y: 0, z: 0.42077637}
+    - {x: 2.9888916, y: 0, z: 0.4454956}
+    - {x: 3.0130615, y: 0, z: 0.34381104}
+    - {x: 3.0474854, y: 0, z: 0.11138916}
+    - {x: 3.095581, y: 0, z: -0.2649536}
+    - {x: 3.1201172, y: 0, z: -0.5871582}
+    - {x: 3.1271973, y: 0, z: -0.87091064}
+    - {x: 3.05542, y: 0, z: -1.3673706}
+    - {x: 1.2769775, y: 0, z: -1.3823853}
+    - {x: 1.0812988, y: 0, z: -1.9210205}
+    - {x: 1.1019287, y: 0, z: -2.1048584}
+    - {x: 1.1094971, y: 0, z: -2.2269287}
+    - {x: 1.1135254, y: 0, z: -2.3391724}
+    - {x: 1.1033936, y: 0, z: -2.5455933}
+    - {x: -1.4372559, y: 0, z: -3.7143555}
+    - {x: -1.9610596, y: 0, z: -5.05072}
+    - {x: -1.9696045, y: 0, z: -5.762085}
+    - {x: -1.6983643, y: 0, z: -6.0496216}
+    - {x: -1.4432373, y: 0, z: -6.2562866}
+    - {x: -0.15795898, y: 0, z: -7.151184}
+    - {x: 0.9371338, y: 0, z: -8.752441}
+    - {x: 0.48608398, y: 0, z: -8.84613}
+    - {x: 0.24645996, y: 0, z: -8.894714}
+    - {x: -0.091796875, y: 0, z: -9.000732}
+    - {x: -1.0299072, y: 0, z: -9.218018}
+    - {x: -1.487793, y: 0, z: -10.21991}
+    - {x: -1.451416, y: 0, z: -10.775879}
+    - {x: -1.4212646, y: 0, z: -11.138672}
+    - {x: -1.388794, y: 0, z: -11.441406}
+    - {x: -1.3398438, y: 0, z: -12.206909}
+    - {x: 0.68444824, y: 0, z: -12.287842}
+    - {x: 1.7895508, y: 0, z: -12.649475}
+    - {x: 2.083374, y: 0, z: -12.770569}
+    - {x: 2.3967285, y: 0, z: -12.898315}
+    - {x: 3.0109863, y: 0, z: -13.189941}
+    - {x: 2.481079, y: 0, z: -14.214661}
+    - {x: 2.256836, y: 0, z: -14.890442}
+    - {x: 2.2181396, y: 0, z: -15.238281}
+    - {x: 2.1774902, y: 0, z: -15.601746}
+    - {x: 2.0733643, y: 0, z: -16.845825}
+    - {x: 0.93444824, y: 0, z: -17.1333}
+    - {x: -0.28723145, y: 0, z: -17.7417}
+    - {x: -0.592041, y: 0, z: -17.874329}
+    - {x: -0.8925781, y: 0, z: -18.041138}
+    - {x: -2.2297363, y: 0, z: -19.118164}
+    - {x: -3.8908691, y: 0, z: -20.19043}
+    - {x: -4.0898438, y: 0, z: -19.8125}
+    - {x: -4.290039, y: 0, z: -19.411865}
+    - {x: -4.479248, y: 0, z: -19.065857}
+    - {x: -5.4450684, y: 0, z: -18.643555}
+    - {x: -7.2158203, y: 0, z: -18.51892}
+    - {x: -7.5738525, y: 0, z: -18.072021}
+    - {x: -7.73584, y: 0, z: -17.762451}
+    - {x: -7.7506714, y: 0, z: -17.681458}
+    - {x: -7.887146, y: 0, z: -17.708923}
+    - {x: -8.045227, y: 0, z: -17.779358}
+    - {x: -8.668457, y: 0, z: -18.101868}
+    - {x: -9.179993, y: 0, z: -19.290833}
+    - {x: -10.222778, y: 0, z: -19.39325}
+    - {x: -10.619446, y: 0, z: -19.270569}
+    cities:
+    - stringId: 
+      cityId: 138
+      pathDistance: 0.004640278
+      pathTime: 0.00008629061
+    - stringId: 
+      cityId: 133
+      pathDistance: 3.7350826
+      pathTime: 0.069457605
+    - stringId: 
+      cityId: 135
+      pathDistance: 9.687624
+      pathTime: 0.18015108
+    - stringId: 
+      cityId: 134
+      pathDistance: 14.279046
+      pathTime: 0.26553318
+    - stringId: 
+      cityId: 130
+      pathDistance: 20.067976
+      pathTime: 0.3731841
+    - stringId: 
+      cityId: 143
+      pathDistance: 24.811893
+      pathTime: 0.461402
+    - stringId: 
+      cityId: 144
+      pathDistance: 28.101097
+      pathTime: 0.52256805
+    - stringId: 
+      cityId: 142
+      pathDistance: 32.80779
+      pathTime: 0.6100937
+    - stringId: 
+      cityId: 147
+      pathDistance: 36.109512
+      pathTime: 0.6714925
+    - stringId: 
+      cityId: 146
+      pathDistance: 40.668365
+      pathTime: 0.756269
+    - stringId: 
+      cityId: 148
+      pathDistance: 45.657322
+      pathTime: 0.8490436
+    - stringId: 
+      cityId: 150
+      pathDistance: 49.9704
+      pathTime: 0.92924964
+    - stringId: 
+      cityId: 153
+      pathDistance: 53.76414
+      pathTime: 0.999798
+  - pathName: Road Creator Template (149) 1802712428
+    pathId: 178676
+    center: {x: 1023.36, y: 0, z: 748.11}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 14.836698
+    bezierPoints:
+    - {x: 0.2567749, y: 0, z: -3.6624756}
+    - {x: 0.34918213, y: 0, z: -3.6105347}
+    - {x: 0.5809326, y: 0, z: -3.4927368}
+    - {x: 1.237793, y: 0, z: -3.1489868}
+    - {x: 2.91687, y: 0, z: -2.0073242}
+    - {x: 2.4884033, y: 0, z: 0.4036255}
+    - {x: 2.3903809, y: 0, z: 0.7914429}
+    - {x: 2.3364258, y: 0, z: 0.99554443}
+    - {x: 2.2963867, y: 0, z: 1.0958862}
+    - {x: 2.197876, y: 0, z: 1.0709839}
+    - {x: 1.9943848, y: 0, z: 1.010376}
+    - {x: 1.4139404, y: 0, z: 0.9467163}
+    - {x: -1.302124, y: 0, z: 0.57611084}
+    - {x: -1.772522, y: 0, z: 0.32208252}
+    - {x: -2.0067139, y: 0, z: 0.1951294}
+    - {x: -2.0888062, y: 0, z: 0.1395874}
+    - {x: -2.1373901, y: 0, z: 0.2298584}
+    - {x: -2.2247925, y: 0, z: 0.47528076}
+    - {x: -2.3306885, y: 0, z: 0.7785034}
+    - {x: -2.117859, y: 0, z: 1.907898}
+    - {x: -2.487732, y: 0, z: 2.104065}
+    - {x: -2.7696533, y: 0, z: 2.2547607}
+    - {x: -3.0563965, y: 0, z: 2.4005737}
+    - {x: -3.3425903, y: 0, z: 2.8763428}
+    - {x: -3.4794922, y: 0, z: 3.1119995}
+    - {x: -3.5196533, y: 0, z: 3.2087402}
+    cities:
+    - stringId: 
+      cityId: 150
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 149
+      pathDistance: 6.4116693
+      pathTime: 0.43214935
+    - stringId: 
+      cityId: 125
+      pathDistance: 10.970913
+      pathTime: 0.7394444
+    - stringId: 
+      cityId: 121
+      pathDistance: 14.836698
+      pathTime: 1
+  - pathName: Road Creator Template (150) -520949074
+    pathId: 177484
+    center: {x: 1031.14, y: 0, z: 747.39}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 7.503331
+    bezierPoints:
+    - {x: -0.36779785, y: 0, z: -3.1773682}
+    - {x: -0.40979004, y: 0, z: -3.0742798}
+    - {x: -0.56066895, y: 0, z: -2.656189}
+    - {x: -1.6914062, y: 0, z: -1.4925537}
+    - {x: -1.5792236, y: 0, z: -0.58410645}
+    - {x: -1.449585, y: 0, z: -0.38269043}
+    - {x: -1.3708496, y: 0, z: -0.2798462}
+    - {x: -1.3049316, y: 0, z: -0.18988037}
+    - {x: -1.2102051, y: 0, z: -0.042785645}
+    - {x: -1.0234375, y: 0, z: 0.4154663}
+    - {x: -1.1459961, y: 0, z: 2.08313}
+    - {x: -1.1868896, y: 0, z: 2.7244263}
+    - {x: -1.1368408, y: 0, z: 3.2086182}
+    - {x: -1.1693115, y: 0, z: 3.500061}
+    - {x: -1.1959229, y: 0, z: 3.6084595}
+    cities:
+    - stringId: 
+      cityId: 146
+      pathDistance: 0.0037752872
+      pathTime: 0.0005031481
+    - stringId: 
+      cityId: 145
+      pathDistance: 3.499789
+      pathTime: 0.46643135
+    - stringId: 
+      cityId: 144
+      pathDistance: 7.4935913
+      pathTime: 0.99870193
+  - pathName: Road Creator Template (151) 675802886
+    pathId: 175540
+    center: {x: 1031.803, y: 0, z: 747.801}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.1300893
+    bezierPoints:
+    - {x: -2.0407715, y: 0, z: -0.69244385}
+    - {x: -1.954834, y: 0, z: -0.75598145}
+    - {x: -1.7297363, y: 0, z: -0.9046631}
+    - {x: -0.6085205, y: 0, z: -1.4298706}
+    - {x: 0.83203125, y: 0, z: -1.0064087}
+    - {x: 1.4960938, y: 0, z: -0.9242554}
+    - {x: 1.7137451, y: 0, z: -0.9328003}
+    - {x: 1.8133545, y: 0, z: -0.9421387}
+    cities:
+    - stringId: 
+      cityId: 145
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 147
+      pathDistance: 4.1300893
+      pathTime: 1
+  - pathName: Road Creator Template (152) 1872554846
+    pathId: 174894
+    center: {x: 1034.208, y: 0, z: 758.484}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 10.022455
+    bezierPoints:
+    - {x: -1.7147217, y: 0, z: 1.4031982}
+    - {x: -1.5887451, y: 0, z: 1.4125977}
+    - {x: -1.3256836, y: 0, z: 1.4219971}
+    - {x: -0.24121094, y: 0, z: 1.2583618}
+    - {x: 1.012207, y: 0, z: 1.5357056}
+    - {x: 1.2463379, y: 0, z: 1.3381958}
+    - {x: 1.4742432, y: 0, z: 1.1343384}
+    - {x: 1.7058105, y: 0, z: 0.8820801}
+    - {x: 2.3483887, y: 0, z: 0.005432129}
+    - {x: 2.729004, y: 0, z: -0.75128174}
+    - {x: 2.3432617, y: 0, z: -1.1428223}
+    - {x: 1.1123047, y: 0, z: -2.2098389}
+    - {x: 0.3218994, y: 0, z: -3.1343994}
+    - {x: -0.08947754, y: 0, z: -2.9874268}
+    - {x: -0.38671875, y: 0, z: -2.8607788}
+    - {x: -0.4855957, y: 0, z: -2.8163452}
+    cities:
+    - stringId: 
+      cityId: 134
+      pathDistance: 0.0069808676
+      pathTime: 0.0006965227
+    - stringId: 
+      cityId: 139
+      pathDistance: 3.3962204
+      pathTime: 0.33886114
+    - stringId: 
+      cityId: 141
+      pathDistance: 6.278903
+      pathTime: 0.6264835
+    - stringId: 
+      cityId: 140
+      pathDistance: 10.022455
+      pathTime: 1
+  - pathName: Road Creator Template (153) -451106656
+    pathId: 178570
+    center: {x: 1034.208, y: 0, z: 758.484}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.767294
+    bezierPoints:
+    - {x: -1.7067871, y: 0, z: 1.404602}
+    - {x: -1.6817627, y: 0, z: 0.96917725}
+    - {x: -1.6182861, y: 0, z: -0.0044555664}
+    - {x: -0.21569824, y: 0, z: -2.1010132}
+    - {x: -0.38671875, y: 0, z: -2.4403076}
+    - {x: -0.45410156, y: 0, z: -2.7109985}
+    - {x: -0.4951172, y: 0, z: -2.8187866}
+    cities:
+    - stringId: 
+      cityId: 134
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 140
+      pathDistance: 4.7640057
+      pathTime: 0.99931026
+  - pathName: Road Creator Template (154) 1942397264
+    pathId: 176692
+    center: {x: 1031.655, y: 0, z: 760.985}
+    controlSpacing: 0.35
+    maxAngleError: 0.1
+    minVertextDst: 0
+    pathLength: 4.1229277
+    bezierPoints:
+    - {x: 0.84375, y: 0, z: -1.0946045}
+    - {x: 0.717041, y: 0, z: -1.1010132}
+    - {x: 0.47253418, y: 0, z: -1.1101685}
+    - {x: -0.16931152, y: 0, z: -1.0151367}
+    - {x: -0.33691406, y: 0, z: -0.8743286}
+    - {x: -0.54711914, y: 0, z: -0.6994629}
+    - {x: -0.83691406, y: 0, z: -0.28497314}
+    - {x: -1.293335, y: 0, z: 0.02368164}
+    - {x: -1.6759033, y: 0, z: 0.083862305}
+    - {x: -2.0201416, y: 0, z: 0.27514648}
+    - {x: -2.3773193, y: 0, z: 0.5749512}
+    - {x: -2.4869385, y: 0, z: 0.7304077}
+    - {x: -2.5509033, y: 0, z: 0.8087158}
+    cities:
+    - stringId: 
+      cityId: 134
+      pathDistance: 0
+      pathTime: 0
+    - stringId: 
+      cityId: 133
+      pathDistance: 4.1229277
+      pathTime: 1

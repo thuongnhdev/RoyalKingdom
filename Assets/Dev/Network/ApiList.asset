@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e93ec9b67e0bfa479019f12d4b7e8ea, type: 3}
+  m_Name: ApiList
+  m_EditorClassIdentifier: 
+  _environment: {fileID: 11400000, guid: 622fc7c560a823d4fa69db64bcac8b41, type: 2}
+  _initData: admin/deletedataplayer
+  _login: common/login
+  _logout: common/logout
+  _chooseLand: admin/chooseland
+  _masterData: common/getlowdata
+  _timeGame: common/gettimesystem
+  _timeInGame: common/time
+  _leaveWorldMap: worldmap/remove
+  _populationLog: population/populationlog
+  _salaryWorker: population/salaryworker
+  _vassalChoice: population/vassalchoose
+  _changeVassalTask: vassal/changevassal
+  _fillresource: building/fillresource
+  _poterData: population/poter
+  _numberWorker: population/numberworker
+  _numberMilitary: population/numbermilitary
+  _populationChangeDetail: population/detailpopulation
+  _updateWorkerInProgress: population/updateworkerinprocess
+  _joinWorldMap: worldmap/join
+  _moveWorldMap: worldmap/move
+  _startBattle: worldmap/startbattle
+  _fetchKingdomInfo: worldmap/getinfokingdom
+  _fetchLandInfo: worldmap/getinfoland
+  _addTaskData: population/addtask
+  _removeTaskData: population/removetask
+  _startTaskData: population/starttask
+  _updateTaskData: population/updatetaskdata
+  _finishBuilding: contruction/finishcontruction
+  _finishItem: production/finishitem
+  _finishUpgrade: contruction/finishupgrade
+  _finishDestroy: contruction/finishdestroy
+  _getUserBuildings: building/getbuildinginfo
+  _rotateBuilding: building/rotatebuilding
+  _addNewBuilding: building/build
+  _startBuildingConstruction: building/buildprogress
+  _cancelBuildingConstruction: building/cancelbuild
+  _completeConstruction: building/completebuild
+  _upgradeBuilding: building/upgradebuilding
+  _startUpgradingBuilding: building/upgradeprogress
+  _completeUpgrade: building/upgradecomplete
+  _cancelUpgradeBuilding: building/canceluprgrade
+  _startDestroyBuilding: building/destroybuilding
+  _cancelDestroyingBuilding: building/canceldestroybuilding
+  _finishDestroyBuildingProgress: building/finishdestroybuilding
+  _completelyRemoveBuilding: building/completefinaldestroy
+  _getProductionInfo: production/getinfobuildingproduction
+  _queueAProduct: production/requestqueueproduct
+  _queueAsManyAsProductsPossible: production/choosemanyitem
+  _removeAQueuedProduct: production/removequeueproduct
+  _cancelCurrentProduct: production/cancelproduct
+  _queueRepeat: production/repeatproduct
+  _changeQueueOrder: production/changeindexqueue
+  _queueAllSlots: production/choosemanyitem
+  _updateBuildingProduction: production/updatebuildingproduction
+  _completeAProduction: production/completeproduct
+  _getInventory: production/getinfoinventory
+  _updateTroops: military/updatestroops
+  _sellAPack: trade/setupitempack
+  _buyAPack: trade/buyitempack
+  _getLandCaravans: getinfocaravanland
+  _getPlayerCaravans: trade/getinfocaravanplayer

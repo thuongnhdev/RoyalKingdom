@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad493943837ce0b42b74c0e33c935c6f, type: 3}
+  m_Name: ItemList
+  m_EditorClassIdentifier: 
+  _itemGroups: {fileID: 11400000, guid: 3a060f47391baf54e814cb4aeec18fcd, type: 2}
+  _items:
+  - name: Rice
+    itemId: 100001
+    itemType: 3
+    price: 0.1
+    grade: 0
+    prefixable: 0
+  - name: Wheat
+    itemId: 100002
+    itemType: 3
+    price: 0.1
+    grade: 0
+    prefixable: 0
+  - name: Apple
+    itemId: 100003
+    itemType: 3
+    price: 0.1
+    grade: 0
+    prefixable: 0
+  - name: Grape
+    itemId: 100004
+    itemType: 3
+    price: 0.1
+    grade: 0
+    prefixable: 0
+  - name: Potato
+    itemId: 100005
+    itemType: 3
+    price: 0.1
+    grade: 0
+    prefixable: 0
+  - name: Rubble
+    itemId: 110001
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: Granite
+    itemId: 110002
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: Marble
+    itemId: 110003
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: Limestone
+    itemId: 110004
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: Stone
+    itemId: 110005
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: Iron
+    itemId: 110006
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: PineWood
+    itemId: 120001
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: OakWood
+    itemId: 120002
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: Bamboo
+    itemId: 120003
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: HollyWood
+    itemId: 120004
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: BirchWood
+    itemId: 120005
+    itemType: 1
+    price: 0.2
+    grade: 0
+    prefixable: 0
+  - name: CookedRice
+    itemId: 130001
+    itemType: 3
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: Bread
+    itemId: 130002
+    itemType: 3
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: AppleJuice
+    itemId: 130003
+    itemType: 3
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: Wine
+    itemId: 130004
+    itemType: 3
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: PotatoStew
+    itemId: 130005
+    itemType: 3
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: Sugar
+    itemId: 140001
+    itemType: 4
+    price: 3
+    grade: 0
+    prefixable: 0
+  - name: Salt
+    itemId: 140002
+    itemType: 4
+    price: 5
+    grade: 0
+    prefixable: 0
+  - name: Silk
+    itemId: 140003
+    itemType: 4
+    price: 10
+    grade: 0
+    prefixable: 0
+  - name: Wool
+    itemId: 140004
+    itemType: 4
+    price: 5
+    grade: 0
+    prefixable: 0
+  - name: Glass
+    itemId: 140005
+    itemType: 4
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: RubbleSculpture
+    itemId: 150001
+    itemType: 4
+    price: 2
+    grade: 0
+    prefixable: 0
+  - name: GraniteSculpture
+    itemId: 150002
+    itemType: 4
+    price: 10
+    grade: 0
+    prefixable: 0
+  - name: OakSculpture
+    itemId: 150003
+    itemType: 4
+    price: 50
+    grade: 0
+    prefixable: 0
+  - name: BirchSculpture
+    itemId: 150004
+    itemType: 4
+    price: 80
+    grade: 0
+    prefixable: 0
+  - name: GoldenSculpture
+    itemId: 150005
+    itemType: 4
+    price: 100
+    grade: 0
+    prefixable: 0
+  - name: Sword
+    itemId: 160001
+    itemType: 6
+    price: 30
+    grade: 1
+    prefixable: 0
+  - name: LeatherShoes
+    itemId: 160002
+    itemType: 6
+    price: 30
+    grade: 2
+    prefixable: 0
+  - name: RoughHelmet
+    itemId: 160003
+    itemType: 6
+    price: 30
+    grade: 3
+    prefixable: 0
+  - name: ChainMail
+    itemId: 160004
+    itemType: 6
+    price: 30
+    grade: 1
+    prefixable: 0
+  - name: TradingCaravan
+    itemId: 160005
+    itemType: 7
+    price: 30
+    grade: 2
+    prefixable: 0
+  - name: Messenger
+    itemId: 900001
+    itemType: 0
+    price: 0
+    grade: 0
+    prefixable: 0
+  - name: Gold
+    itemId: 990099
+    itemType: 9
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: Diamond
+    itemId: 990100
+    itemType: 9
+    price: 1
+    grade: 0
+    prefixable: 0
+  - name: ScrollToken
+    itemId: 990101
+    itemType: 9
+    price: 1
+    grade: 0
+    prefixable: 0

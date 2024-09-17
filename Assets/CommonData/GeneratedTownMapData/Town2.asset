@@ -1,0 +1,5813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ca880e7d3ed6044b6315189aa82eb1, type: 3}
+  m_Name: Town2
+  m_EditorClassIdentifier: 
+  copyTown: {fileID: 0}
+  townMapId: Town2
+  prefabNo: 
+  climate: 0
+  gTerrain: 0
+  xSize: 50
+  ySize: 50
+  xOffset: 1
+  yOffset: 1
+  tiles:
+  - name: 210
+    tileId: 209
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 211
+    tileId: 210
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 212
+    tileId: 211
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 213
+    tileId: 212
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 214
+    tileId: 213
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 215
+    tileId: 214
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 216
+    tileId: 215
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 217
+    tileId: 216
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 218
+    tileId: 217
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 219
+    tileId: 218
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 220
+    tileId: 219
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 221
+    tileId: 220
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 222
+    tileId: 221
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 223
+    tileId: 222
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 224
+    tileId: 223
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 225
+    tileId: 224
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 226
+    tileId: 225
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 227
+    tileId: 226
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 228
+    tileId: 227
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 229
+    tileId: 228
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 230
+    tileId: 229
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 260
+    tileId: 259
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 261
+    tileId: 260
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 262
+    tileId: 261
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 263
+    tileId: 262
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 264
+    tileId: 263
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 265
+    tileId: 264
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 266
+    tileId: 265
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 267
+    tileId: 266
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 268
+    tileId: 267
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 269
+    tileId: 268
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 270
+    tileId: 269
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 271
+    tileId: 270
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 272
+    tileId: 271
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 273
+    tileId: 272
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 274
+    tileId: 273
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 275
+    tileId: 274
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 276
+    tileId: 275
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 277
+    tileId: 276
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 278
+    tileId: 277
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 279
+    tileId: 278
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 280
+    tileId: 279
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 310
+    tileId: 309
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 311
+    tileId: 310
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 312
+    tileId: 311
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 313
+    tileId: 312
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 314
+    tileId: 313
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 315
+    tileId: 314
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 316
+    tileId: 315
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 317
+    tileId: 316
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 318
+    tileId: 317
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 319
+    tileId: 318
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 320
+    tileId: 319
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 321
+    tileId: 320
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 322
+    tileId: 321
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 323
+    tileId: 322
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 324
+    tileId: 323
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 325
+    tileId: 324
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 326
+    tileId: 325
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 327
+    tileId: 326
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 328
+    tileId: 327
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 329
+    tileId: 328
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 330
+    tileId: 329
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 360
+    tileId: 359
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 361
+    tileId: 360
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 362
+    tileId: 361
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 363
+    tileId: 362
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 364
+    tileId: 363
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 365
+    tileId: 364
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 366
+    tileId: 365
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 367
+    tileId: 366
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 368
+    tileId: 367
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 369
+    tileId: 368
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 370
+    tileId: 369
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 371
+    tileId: 370
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 372
+    tileId: 371
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 373
+    tileId: 372
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 374
+    tileId: 373
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 375
+    tileId: 374
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 376
+    tileId: 375
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 377
+    tileId: 376
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 378
+    tileId: 377
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 379
+    tileId: 378
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 380
+    tileId: 379
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 410
+    tileId: 409
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 411
+    tileId: 410
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 412
+    tileId: 411
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 413
+    tileId: 412
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 414
+    tileId: 413
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 415
+    tileId: 414
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 416
+    tileId: 415
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 417
+    tileId: 416
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 418
+    tileId: 417
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 419
+    tileId: 418
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 420
+    tileId: 419
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 421
+    tileId: 420
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 422
+    tileId: 421
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 423
+    tileId: 422
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 424
+    tileId: 423
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 425
+    tileId: 424
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 426
+    tileId: 425
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 427
+    tileId: 426
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 428
+    tileId: 427
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 429
+    tileId: 428
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 430
+    tileId: 429
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 460
+    tileId: 459
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 461
+    tileId: 460
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 462
+    tileId: 461
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 463
+    tileId: 462
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 464
+    tileId: 463
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 465
+    tileId: 464
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 466
+    tileId: 465
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 467
+    tileId: 466
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 468
+    tileId: 467
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 469
+    tileId: 468
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 470
+    tileId: 469
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 471
+    tileId: 470
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 472
+    tileId: 471
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 473
+    tileId: 472
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 474
+    tileId: 473
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 475
+    tileId: 474
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 476
+    tileId: 475
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 477
+    tileId: 476
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 478
+    tileId: 477
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 479
+    tileId: 478
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 480
+    tileId: 479
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 510
+    tileId: 509
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 511
+    tileId: 510
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 512
+    tileId: 511
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 513
+    tileId: 512
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 514
+    tileId: 513
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 515
+    tileId: 514
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 516
+    tileId: 515
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 517
+    tileId: 516
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 518
+    tileId: 517
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 519
+    tileId: 518
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 520
+    tileId: 519
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 521
+    tileId: 520
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 522
+    tileId: 521
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 523
+    tileId: 522
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 524
+    tileId: 523
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 525
+    tileId: 524
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 526
+    tileId: 525
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 527
+    tileId: 526
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 528
+    tileId: 527
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 529
+    tileId: 528
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 530
+    tileId: 529
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 560
+    tileId: 559
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 561
+    tileId: 560
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 562
+    tileId: 561
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 563
+    tileId: 562
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 564
+    tileId: 563
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 565
+    tileId: 564
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 566
+    tileId: 565
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 567
+    tileId: 566
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 568
+    tileId: 567
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 569
+    tileId: 568
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 570
+    tileId: 569
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 571
+    tileId: 570
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 572
+    tileId: 571
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 573
+    tileId: 572
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 574
+    tileId: 573
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 575
+    tileId: 574
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 576
+    tileId: 575
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 577
+    tileId: 576
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 578
+    tileId: 577
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 579
+    tileId: 578
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 580
+    tileId: 579
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 610
+    tileId: 609
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 611
+    tileId: 610
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 612
+    tileId: 611
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 613
+    tileId: 612
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 614
+    tileId: 613
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 615
+    tileId: 614
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 616
+    tileId: 615
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 617
+    tileId: 616
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 618
+    tileId: 617
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 619
+    tileId: 618
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 620
+    tileId: 619
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 621
+    tileId: 620
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 622
+    tileId: 621
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 623
+    tileId: 622
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 624
+    tileId: 623
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 625
+    tileId: 624
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 626
+    tileId: 625
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 627
+    tileId: 626
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 628
+    tileId: 627
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 629
+    tileId: 628
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 630
+    tileId: 629
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 660
+    tileId: 659
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 661
+    tileId: 660
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 662
+    tileId: 661
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 663
+    tileId: 662
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 664
+    tileId: 663
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 665
+    tileId: 664
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 666
+    tileId: 665
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 667
+    tileId: 666
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 668
+    tileId: 667
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 669
+    tileId: 668
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 670
+    tileId: 669
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 671
+    tileId: 670
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 672
+    tileId: 671
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 673
+    tileId: 672
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 674
+    tileId: 673
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 675
+    tileId: 674
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 676
+    tileId: 675
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 677
+    tileId: 676
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 678
+    tileId: 677
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 679
+    tileId: 678
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 680
+    tileId: 679
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 710
+    tileId: 709
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 711
+    tileId: 710
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 712
+    tileId: 711
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 713
+    tileId: 712
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 714
+    tileId: 713
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 715
+    tileId: 714
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 716
+    tileId: 715
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 717
+    tileId: 716
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 718
+    tileId: 717
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 719
+    tileId: 718
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 720
+    tileId: 719
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 721
+    tileId: 720
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 722
+    tileId: 721
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 723
+    tileId: 722
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 724
+    tileId: 723
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 725
+    tileId: 724
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 726
+    tileId: 725
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 727
+    tileId: 726
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 728
+    tileId: 727
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 729
+    tileId: 728
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 730
+    tileId: 729
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 760
+    tileId: 759
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 761
+    tileId: 760
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 762
+    tileId: 761
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 763
+    tileId: 762
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 764
+    tileId: 763
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 765
+    tileId: 764
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 766
+    tileId: 765
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 767
+    tileId: 766
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 768
+    tileId: 767
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 769
+    tileId: 768
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 770
+    tileId: 769
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 771
+    tileId: 770
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 772
+    tileId: 771
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 773
+    tileId: 772
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 774
+    tileId: 773
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 775
+    tileId: 774
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 776
+    tileId: 775
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 777
+    tileId: 776
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 778
+    tileId: 777
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 779
+    tileId: 778
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 780
+    tileId: 779
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 810
+    tileId: 809
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 811
+    tileId: 810
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 812
+    tileId: 811
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 813
+    tileId: 812
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 814
+    tileId: 813
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 815
+    tileId: 814
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 816
+    tileId: 815
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 817
+    tileId: 816
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 818
+    tileId: 817
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 819
+    tileId: 818
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 820
+    tileId: 819
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 821
+    tileId: 820
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 822
+    tileId: 821
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 823
+    tileId: 822
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 824
+    tileId: 823
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 825
+    tileId: 824
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 826
+    tileId: 825
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 827
+    tileId: 826
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 828
+    tileId: 827
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 829
+    tileId: 828
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 830
+    tileId: 829
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 860
+    tileId: 859
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 861
+    tileId: 860
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 862
+    tileId: 861
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 863
+    tileId: 862
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 864
+    tileId: 863
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 865
+    tileId: 864
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 866
+    tileId: 865
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 867
+    tileId: 866
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 868
+    tileId: 867
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 869
+    tileId: 868
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 870
+    tileId: 869
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 871
+    tileId: 870
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 872
+    tileId: 871
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 873
+    tileId: 872
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 874
+    tileId: 873
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 875
+    tileId: 874
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 876
+    tileId: 875
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 877
+    tileId: 876
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 878
+    tileId: 877
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 879
+    tileId: 878
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 880
+    tileId: 879
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 608
+    tileId: 607
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 609
+    tileId: 608
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 631
+    tileId: 630
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 632
+    tileId: 631
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 633
+    tileId: 632
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 634
+    tileId: 633
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 635
+    tileId: 634
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 636
+    tileId: 635
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 637
+    tileId: 636
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 638
+    tileId: 637
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 639
+    tileId: 638
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 640
+    tileId: 639
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 658
+    tileId: 657
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 659
+    tileId: 658
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 681
+    tileId: 680
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 682
+    tileId: 681
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 683
+    tileId: 682
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 684
+    tileId: 683
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 685
+    tileId: 684
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 686
+    tileId: 685
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 687
+    tileId: 686
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 688
+    tileId: 687
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 689
+    tileId: 688
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 690
+    tileId: 689
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 708
+    tileId: 707
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 709
+    tileId: 708
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 731
+    tileId: 730
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 732
+    tileId: 731
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 733
+    tileId: 732
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 734
+    tileId: 733
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 735
+    tileId: 734
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 736
+    tileId: 735
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 737
+    tileId: 736
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 738
+    tileId: 737
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 739
+    tileId: 738
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 740
+    tileId: 739
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 758
+    tileId: 757
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 759
+    tileId: 758
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 781
+    tileId: 780
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 782
+    tileId: 781
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 783
+    tileId: 782
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 784
+    tileId: 783
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 785
+    tileId: 784
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 786
+    tileId: 785
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 787
+    tileId: 786
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 788
+    tileId: 787
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 789
+    tileId: 788
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 790
+    tileId: 789
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 808
+    tileId: 807
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 809
+    tileId: 808
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 831
+    tileId: 830
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 832
+    tileId: 831
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 833
+    tileId: 832
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 834
+    tileId: 833
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 835
+    tileId: 834
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 836
+    tileId: 835
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 837
+    tileId: 836
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 838
+    tileId: 837
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 839
+    tileId: 838
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 840
+    tileId: 839
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 858
+    tileId: 857
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 859
+    tileId: 858
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 881
+    tileId: 880
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 882
+    tileId: 881
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 883
+    tileId: 882
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 884
+    tileId: 883
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 885
+    tileId: 884
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 886
+    tileId: 885
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 887
+    tileId: 886
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 888
+    tileId: 887
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 889
+    tileId: 888
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 890
+    tileId: 889
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 908
+    tileId: 907
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 909
+    tileId: 908
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 910
+    tileId: 909
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 911
+    tileId: 910
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 912
+    tileId: 911
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 913
+    tileId: 912
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 914
+    tileId: 913
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 915
+    tileId: 914
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 916
+    tileId: 915
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 917
+    tileId: 916
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 918
+    tileId: 917
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 919
+    tileId: 918
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 920
+    tileId: 919
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 921
+    tileId: 920
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 922
+    tileId: 921
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 923
+    tileId: 922
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 924
+    tileId: 923
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 925
+    tileId: 924
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 926
+    tileId: 925
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 927
+    tileId: 926
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 928
+    tileId: 927
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 929
+    tileId: 928
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 930
+    tileId: 929
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 931
+    tileId: 930
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 932
+    tileId: 931
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 933
+    tileId: 932
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 934
+    tileId: 933
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 935
+    tileId: 934
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 936
+    tileId: 935
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 937
+    tileId: 936
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 938
+    tileId: 937
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 939
+    tileId: 938
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 940
+    tileId: 939
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 2
+    containedResources: []
+  - name: 1210
+    tileId: 1209
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1211
+    tileId: 1210
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1212
+    tileId: 1211
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1213
+    tileId: 1212
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1214
+    tileId: 1213
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1215
+    tileId: 1214
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1216
+    tileId: 1215
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1217
+    tileId: 1216
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1218
+    tileId: 1217
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1219
+    tileId: 1218
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1220
+    tileId: 1219
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1221
+    tileId: 1220
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1222
+    tileId: 1221
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1223
+    tileId: 1222
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1260
+    tileId: 1259
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1261
+    tileId: 1260
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1262
+    tileId: 1261
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1263
+    tileId: 1262
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1264
+    tileId: 1263
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1265
+    tileId: 1264
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1266
+    tileId: 1265
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1267
+    tileId: 1266
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1268
+    tileId: 1267
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1269
+    tileId: 1268
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1270
+    tileId: 1269
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1271
+    tileId: 1270
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1272
+    tileId: 1271
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1273
+    tileId: 1272
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1310
+    tileId: 1309
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1311
+    tileId: 1310
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1312
+    tileId: 1311
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1313
+    tileId: 1312
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1314
+    tileId: 1313
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1315
+    tileId: 1314
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1316
+    tileId: 1315
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1317
+    tileId: 1316
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1318
+    tileId: 1317
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1319
+    tileId: 1318
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1320
+    tileId: 1319
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1321
+    tileId: 1320
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1322
+    tileId: 1321
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1323
+    tileId: 1322
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1360
+    tileId: 1359
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1361
+    tileId: 1360
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1362
+    tileId: 1361
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1363
+    tileId: 1362
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1364
+    tileId: 1363
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1365
+    tileId: 1364
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1366
+    tileId: 1365
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1367
+    tileId: 1366
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1368
+    tileId: 1367
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1369
+    tileId: 1368
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1370
+    tileId: 1369
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1371
+    tileId: 1370
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1372
+    tileId: 1371
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1373
+    tileId: 1372
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1410
+    tileId: 1409
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1411
+    tileId: 1410
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1412
+    tileId: 1411
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1413
+    tileId: 1412
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1414
+    tileId: 1413
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1415
+    tileId: 1414
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1416
+    tileId: 1415
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1417
+    tileId: 1416
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1418
+    tileId: 1417
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1419
+    tileId: 1418
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1420
+    tileId: 1419
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1421
+    tileId: 1420
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1422
+    tileId: 1421
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1423
+    tileId: 1422
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 3
+    containedResources: []
+  - name: 1329
+    tileId: 1328
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1330
+    tileId: 1329
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1331
+    tileId: 1330
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1332
+    tileId: 1331
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1333
+    tileId: 1332
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1334
+    tileId: 1333
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1335
+    tileId: 1334
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1336
+    tileId: 1335
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1337
+    tileId: 1336
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1338
+    tileId: 1337
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1339
+    tileId: 1338
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1379
+    tileId: 1378
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1380
+    tileId: 1379
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1381
+    tileId: 1380
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1382
+    tileId: 1381
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1383
+    tileId: 1382
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1384
+    tileId: 1383
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1385
+    tileId: 1384
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1386
+    tileId: 1385
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1387
+    tileId: 1386
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1388
+    tileId: 1387
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1389
+    tileId: 1388
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1429
+    tileId: 1428
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1430
+    tileId: 1429
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1431
+    tileId: 1430
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1432
+    tileId: 1431
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1433
+    tileId: 1432
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1434
+    tileId: 1433
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1435
+    tileId: 1434
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1436
+    tileId: 1435
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1437
+    tileId: 1436
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1438
+    tileId: 1437
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1439
+    tileId: 1438
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1479
+    tileId: 1478
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1480
+    tileId: 1479
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1481
+    tileId: 1480
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1482
+    tileId: 1481
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1483
+    tileId: 1482
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1484
+    tileId: 1483
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1485
+    tileId: 1484
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1486
+    tileId: 1485
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1487
+    tileId: 1486
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1488
+    tileId: 1487
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1489
+    tileId: 1488
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1529
+    tileId: 1528
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1530
+    tileId: 1529
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1531
+    tileId: 1530
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1532
+    tileId: 1531
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1533
+    tileId: 1532
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1534
+    tileId: 1533
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1535
+    tileId: 1534
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1536
+    tileId: 1535
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1537
+    tileId: 1536
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1538
+    tileId: 1537
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1539
+    tileId: 1538
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1579
+    tileId: 1578
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1580
+    tileId: 1579
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1581
+    tileId: 1580
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1582
+    tileId: 1581
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1583
+    tileId: 1582
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1584
+    tileId: 1583
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1585
+    tileId: 1584
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1586
+    tileId: 1585
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1587
+    tileId: 1586
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1588
+    tileId: 1587
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 1589
+    tileId: 1588
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 0
+    containedResources: []
+  - name: 339
+    tileId: 338
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 336
+    tileId: 335
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 337
+    tileId: 336
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 338
+    tileId: 337
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 340
+    tileId: 339
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 341
+    tileId: 340
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 342
+    tileId: 341
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 343
+    tileId: 342
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 344
+    tileId: 343
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 345
+    tileId: 344
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 346
+    tileId: 345
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 347
+    tileId: 346
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 348
+    tileId: 347
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 349
+    tileId: 348
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 386
+    tileId: 385
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 387
+    tileId: 386
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 388
+    tileId: 387
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 389
+    tileId: 388
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 390
+    tileId: 389
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 391
+    tileId: 390
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 392
+    tileId: 391
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 393
+    tileId: 392
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 394
+    tileId: 393
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 395
+    tileId: 394
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 396
+    tileId: 395
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 397
+    tileId: 396
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 398
+    tileId: 397
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 399
+    tileId: 398
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 436
+    tileId: 435
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 437
+    tileId: 436
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 438
+    tileId: 437
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 439
+    tileId: 438
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 440
+    tileId: 439
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 441
+    tileId: 440
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 442
+    tileId: 441
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 443
+    tileId: 442
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 444
+    tileId: 443
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 445
+    tileId: 444
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 446
+    tileId: 445
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 447
+    tileId: 446
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 448
+    tileId: 447
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 449
+    tileId: 448
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 486
+    tileId: 485
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 487
+    tileId: 486
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 488
+    tileId: 487
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 489
+    tileId: 488
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 490
+    tileId: 489
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 491
+    tileId: 490
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 492
+    tileId: 491
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 493
+    tileId: 492
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 494
+    tileId: 493
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 495
+    tileId: 494
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 496
+    tileId: 495
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 497
+    tileId: 496
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 498
+    tileId: 497
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 499
+    tileId: 498
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 536
+    tileId: 535
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 537
+    tileId: 536
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 538
+    tileId: 537
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 539
+    tileId: 538
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 540
+    tileId: 539
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 541
+    tileId: 540
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 542
+    tileId: 541
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 543
+    tileId: 542
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 544
+    tileId: 543
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 545
+    tileId: 544
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 546
+    tileId: 545
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 547
+    tileId: 546
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 548
+    tileId: 547
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 549
+    tileId: 548
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 586
+    tileId: 585
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 587
+    tileId: 586
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 588
+    tileId: 587
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 589
+    tileId: 588
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 590
+    tileId: 589
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 591
+    tileId: 590
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 592
+    tileId: 591
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 593
+    tileId: 592
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 594
+    tileId: 593
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 595
+    tileId: 594
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 596
+    tileId: 595
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 597
+    tileId: 596
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 598
+    tileId: 597
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 599
+    tileId: 598
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 641
+    tileId: 640
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 642
+    tileId: 641
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 643
+    tileId: 642
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 644
+    tileId: 643
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 645
+    tileId: 644
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 646
+    tileId: 645
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 647
+    tileId: 646
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 648
+    tileId: 647
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 649
+    tileId: 648
+    buildable: 1
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 1
+    containedResources: []
+  - name: 2500
+    tileId: 2499
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2240
+    tileId: 2239
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2241
+    tileId: 2240
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2242
+    tileId: 2241
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2243
+    tileId: 2242
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2244
+    tileId: 2243
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2245
+    tileId: 2244
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2246
+    tileId: 2245
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2247
+    tileId: 2246
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2248
+    tileId: 2247
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2249
+    tileId: 2248
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2250
+    tileId: 2249
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2290
+    tileId: 2289
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2291
+    tileId: 2290
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2292
+    tileId: 2291
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2293
+    tileId: 2292
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2294
+    tileId: 2293
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2295
+    tileId: 2294
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2296
+    tileId: 2295
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2297
+    tileId: 2296
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2298
+    tileId: 2297
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2299
+    tileId: 2298
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2300
+    tileId: 2299
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2340
+    tileId: 2339
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2341
+    tileId: 2340
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2342
+    tileId: 2341
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2343
+    tileId: 2342
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2344
+    tileId: 2343
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2345
+    tileId: 2344
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2346
+    tileId: 2345
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2347
+    tileId: 2346
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2348
+    tileId: 2347
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2349
+    tileId: 2348
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2350
+    tileId: 2349
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2390
+    tileId: 2389
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2391
+    tileId: 2390
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2392
+    tileId: 2391
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2393
+    tileId: 2392
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2394
+    tileId: 2393
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2395
+    tileId: 2394
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2396
+    tileId: 2395
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2397
+    tileId: 2396
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2398
+    tileId: 2397
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2399
+    tileId: 2398
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2400
+    tileId: 2399
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2440
+    tileId: 2439
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2441
+    tileId: 2440
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2442
+    tileId: 2441
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2443
+    tileId: 2442
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2444
+    tileId: 2443
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2445
+    tileId: 2444
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2446
+    tileId: 2445
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2447
+    tileId: 2446
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2448
+    tileId: 2447
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2449
+    tileId: 2448
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2450
+    tileId: 2449
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2490
+    tileId: 2489
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2491
+    tileId: 2490
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2492
+    tileId: 2491
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2493
+    tileId: 2492
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2494
+    tileId: 2493
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2495
+    tileId: 2494
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2496
+    tileId: 2495
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2497
+    tileId: 2496
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2498
+    tileId: 2497
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2499
+    tileId: 2498
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2439
+    tileId: 2438
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2422
+    tileId: 2421
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2423
+    tileId: 2422
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2424
+    tileId: 2423
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2425
+    tileId: 2424
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2426
+    tileId: 2425
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2427
+    tileId: 2426
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2428
+    tileId: 2427
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2429
+    tileId: 2428
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2430
+    tileId: 2429
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2431
+    tileId: 2430
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2432
+    tileId: 2431
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2433
+    tileId: 2432
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2434
+    tileId: 2433
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2435
+    tileId: 2434
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2436
+    tileId: 2435
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2437
+    tileId: 2436
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2438
+    tileId: 2437
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2472
+    tileId: 2471
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2473
+    tileId: 2472
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2474
+    tileId: 2473
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2475
+    tileId: 2474
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2476
+    tileId: 2475
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2477
+    tileId: 2476
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2478
+    tileId: 2477
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2479
+    tileId: 2478
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2480
+    tileId: 2479
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2481
+    tileId: 2480
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2482
+    tileId: 2481
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2483
+    tileId: 2482
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2484
+    tileId: 2483
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2485
+    tileId: 2484
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2486
+    tileId: 2485
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2487
+    tileId: 2486
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2488
+    tileId: 2487
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2489
+    tileId: 2488
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 1999
+    tileId: 1998
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2000
+    tileId: 1999
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2049
+    tileId: 2048
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2050
+    tileId: 2049
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2099
+    tileId: 2098
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2100
+    tileId: 2099
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2149
+    tileId: 2148
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2150
+    tileId: 2149
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2199
+    tileId: 2198
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2200
+    tileId: 2199
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2048
+    tileId: 2047
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2047
+    tileId: 2046
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2097
+    tileId: 2096
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2098
+    tileId: 2097
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2146
+    tileId: 2145
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2145
+    tileId: 2144
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2144
+    tileId: 2143
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2143
+    tileId: 2142
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2192
+    tileId: 2191
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2191
+    tileId: 2190
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2193
+    tileId: 2192
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2194
+    tileId: 2193
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2195
+    tileId: 2194
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2196
+    tileId: 2195
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2197
+    tileId: 2196
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2198
+    tileId: 2197
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2148
+    tileId: 2147
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2147
+    tileId: 2146
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2289
+    tileId: 2288
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2288
+    tileId: 2287
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2287
+    tileId: 2286
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2282
+    tileId: 2281
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2283
+    tileId: 2282
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2284
+    tileId: 2283
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2285
+    tileId: 2284
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2286
+    tileId: 2285
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2339
+    tileId: 2338
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2328
+    tileId: 2327
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2329
+    tileId: 2328
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2330
+    tileId: 2329
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2331
+    tileId: 2330
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2332
+    tileId: 2331
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2333
+    tileId: 2332
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2334
+    tileId: 2333
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2335
+    tileId: 2334
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2336
+    tileId: 2335
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2337
+    tileId: 2336
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2338
+    tileId: 2337
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2389
+    tileId: 2388
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2374
+    tileId: 2373
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2375
+    tileId: 2374
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2376
+    tileId: 2375
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2377
+    tileId: 2376
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2378
+    tileId: 2377
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2379
+    tileId: 2378
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2380
+    tileId: 2379
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2381
+    tileId: 2380
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2382
+    tileId: 2381
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2383
+    tileId: 2382
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2384
+    tileId: 2383
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2385
+    tileId: 2384
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2386
+    tileId: 2385
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2387
+    tileId: 2386
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2388
+    tileId: 2387
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2471
+    tileId: 2470
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2470
+    tileId: 2469
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2421
+    tileId: 2420
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 2373
+    tileId: 2372
+    buildable: 0
+    baseBuildingValue: 0
+    baseBuildingRootTile: 0
+    terrain: 4
+    containedResources: []
+  - name: 1025
+    tileId: 1025
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1026
+    tileId: 1026
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1027
+    tileId: 1027
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1028
+    tileId: 1028
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1075
+    tileId: 1075
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1076
+    tileId: 1076
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1077
+    tileId: 1077
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1078
+    tileId: 1078
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1125
+    tileId: 1125
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1126
+    tileId: 1126
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1127
+    tileId: 1127
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1128
+    tileId: 1128
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1175
+    tileId: 1175
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1176
+    tileId: 1176
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1177
+    tileId: 1177
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1178
+    tileId: 1178
+    buildable: 1
+    baseBuildingValue: 10101
+    baseBuildingRootTile: 1025
+    terrain: 0
+    containedResources: []
+  - name: 1032
+    tileId: 1032
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1033
+    tileId: 1033
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1034
+    tileId: 1034
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1082
+    tileId: 1082
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1083
+    tileId: 1083
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1084
+    tileId: 1084
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1132
+    tileId: 1132
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1133
+    tileId: 1133
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1134
+    tileId: 1134
+    buildable: 1
+    baseBuildingValue: 10103
+    baseBuildingRootTile: 1032
+    terrain: 0
+    containedResources: []
+  - name: 1020
+    tileId: 1020
+    buildable: 1
+    baseBuildingValue: 10106
+    baseBuildingRootTile: 1020
+    terrain: 0
+    containedResources: []
+  - name: 1021
+    tileId: 1021
+    buildable: 1
+    baseBuildingValue: 10106
+    baseBuildingRootTile: 1020
+    terrain: 0
+    containedResources: []
+  - name: 1070
+    tileId: 1070
+    buildable: 1
+    baseBuildingValue: 10106
+    baseBuildingRootTile: 1020
+    terrain: 0
+    containedResources: []
+  - name: 1071
+    tileId: 1071
+    buildable: 1
+    baseBuildingValue: 10106
+    baseBuildingRootTile: 1020
+    terrain: 0
+    containedResources: []

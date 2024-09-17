@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd7b79a0ff1abe4fb0a8257b1aa774c, type: 3}
+  m_Name: LandsInfoFilterTable
+  m_EditorClassIdentifier: 
+  _filters:
+  - filterName: Population
+    displayFieldsName:
+    - Town
+    - Population
+    pocoFieldsName:
+    - membersList
+    - population
+  - filterName: Prosperity
+    displayFieldsName:
+    - Prosperity
+    - Reputation
+    pocoFieldsName:
+    - prosperity
+    - reputation
+  - filterName: Military
+    displayFieldsName:
+    - Kill
+    - Total Troops
+    pocoFieldsName:
+    - kills
+    - totalTroops
+  - filterName: Culture
+    displayFieldsName:
+    - Culture
+    - Religion
+    pocoFieldsName:
+    - culture
+    - religion

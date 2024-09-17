@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187906606707119097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3476032753123091570}
+  - component: {fileID: 2854618480564847594}
+  m_Layer: 0
+  m_Name: LoadGeoData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3476032753123091570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187906606707119097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1108128314964006133}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2854618480564847594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187906606707119097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa21eca27677614d84f5f12a6ea6688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameEvent: {fileID: 11400000, guid: 50ba4168cbfdfdf40937ea6d3d22c9f3, type: 2}
+  _handler:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3261349676414345918}
+        m_TargetAssemblyTypeName: WmskBridge, Assembly-CSharp
+        m_MethodName: LoadGeoData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &410279405663070821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7961592198307693995}
+  - component: {fileID: 272934003656510873}
+  m_Layer: 0
+  m_Name: SaveGeoData
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7961592198307693995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410279405663070821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1108128314964006133}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272934003656510873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410279405663070821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa21eca27677614d84f5f12a6ea6688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameEvent: {fileID: 11400000, guid: a88e4c9c066f26a4ab4ad6989bc9644c, type: 2}
+  _handler:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3261349676414345918}
+        m_TargetAssemblyTypeName: WmskBridge, Assembly-CSharp
+        m_MethodName: SaveGeoData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6603574780719057134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108128314964006133}
+  - component: {fileID: 3261349676414345918}
+  m_Layer: 0
+  m_Name: WMSK_Bridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1108128314964006133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603574780719057134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 86.60254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7961592198307693995}
+  - {fileID: 3476032753123091570}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3261349676414345918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603574780719057134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501dd39edf8719742878dc33d42e9a6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zoomLevel: {fileID: 11400000, guid: 4929662ddb27c5843a81b386159a48ba, type: 2}
+  _selectedKingdom: {fileID: 11400000, guid: 1cae9ca6221e4e64ca84f3574a02a8d4, type: 2}
+  _selectedLand: {fileID: 11400000, guid: 9fe0972f6ee9ee849abf201c7be5c909, type: 2}
+  _selectedCity: {fileID: 11400000, guid: c17ec167612621b4aa197bd93433f8be, type: 2}
+  _landsStaticInfo: {fileID: 11400000, guid: 3ea999f8dc3a91148bf6b58dc7a0ac4c, type: 2}
+  _defaultKingdomsData: {fileID: 4900000, guid: 5a2b4053f31725b4283dda97c5381e1a, type: 3}
+  _defaultLandsData: {fileID: 4900000, guid: 6ccca315173a52340a385e5b7076906f, type: 3}
+  _defaultCitiesData: {fileID: 4900000, guid: b574479b0e09e5d42a11ff31b3cedb09, type: 3}
+  _kingdoms: {fileID: 11400000, guid: a0a5066909d18174083315e8aeb0910b, type: 2}
+  _onLoadedGeoData: {fileID: 11400000, guid: 84cf669cc8bde7c4db53e49ca3939e42, type: 2}
+  _onSelectedAKingdom: {fileID: 11400000, guid: dcaf36dd6840650468455c9b1b520747, type: 2}
+  _onSelectedALand: {fileID: 11400000, guid: efbfa5db61c59f3459a0d9eef22e71c8, type: 2}
+  _onSelectedACity: {fileID: 11400000, guid: 9c68474e47667f34fac70fadbb2e3093, type: 2}
+  _displayWorldMap: 1
+  _kingdomDataPath: Kingdom.txt
+  _landDataPath: Lands.txt
+  _citiesDataPath: Cities.txt
+  _map: {fileID: 0}
+  _zoomLevelConfigs:
+  - 1
+  - 0.33
+  - 0.2
+  - 0.125
+  - 0.05
+  - 0.037
+  - 0.025

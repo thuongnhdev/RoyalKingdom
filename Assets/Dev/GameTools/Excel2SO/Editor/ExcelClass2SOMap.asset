@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c2891f16d18a04c994185b7b8e01f5, type: 3}
+  m_Name: ExcelClass2SOMap
+  m_EditorClassIdentifier: 
+  _excel2SOsList:
+  - name: BuildingList
+    excelFile: {fileID: 102900000, guid: a9cdbcb362ee2ff4eb53c6c0d26f42cc, type: 3}
+    targetSoList:
+    - {fileID: 11400000, guid: f7f67cf5a28274640bf079ce5882a6d4, type: 2}
+    - {fileID: 11400000, guid: 12192834d20967c48a2cde50d5e5647e, type: 2}
+    - {fileID: 11400000, guid: b0628db5226d07d4baf31907c5319a12, type: 2}
+  - name: ItemList
+    excelFile: {fileID: 102900000, guid: dc6ce4fe494cf66408a5ee019447b515, type: 3}
+    targetSoList:
+    - {fileID: 11400000, guid: 0ef39ddcc32dd5d4a83d7e292b6e8904, type: 2}
+    - {fileID: 11400000, guid: 24e7ac4612f66e2479625fa39a76b5e6, type: 2}
+    - {fileID: 11400000, guid: e9089d8102bd251468f22c0d2848868d, type: 2}
+    - {fileID: 11400000, guid: 20ddb487a370b1a4d95ef4aa03bd5b95, type: 2}
+  - name: RK_Prefix
+    excelFile: {fileID: 102900000, guid: 3a82fe96f05251c49bf32cef5c8f0b8a, type: 3}
+    targetSoList:
+    - {fileID: 11400000, guid: 96ec9e4d42ea2484088ae79a5c5076bb, type: 2}
+    - {fileID: 11400000, guid: 2479982ba2b4424459bf9bfc8f0d85cc, type: 2}
+    - {fileID: 11400000, guid: ec1c8184e46a3dc43927211a21b61980, type: 2}
+  - name: RK_Land_
+    excelFile: {fileID: 102900000, guid: 886231bc6e96a7842a7e7d855d8d3a69, type: 3}
+    targetSoList:
+    - {fileID: 11400000, guid: 3ea999f8dc3a91148bf6b58dc7a0ac4c, type: 2}
+    - {fileID: 11400000, guid: 2a53eac545c180441a0fe4451ed842ed, type: 2}
+    - {fileID: 11400000, guid: 69a34b71d89176e40a42bb9f9abf567f, type: 2}

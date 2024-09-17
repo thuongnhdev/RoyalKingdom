@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7606283327877811729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7606283327877811735}
+  - component: {fileID: 7606283327877811728}
+  m_Layer: 0
+  m_Name: CameraInteraction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7606283327877811735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606283327877811729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7606283327877811728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606283327877811729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978d45b85e342514a93abad28aab6983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainCamSize: {fileID: 11400000, guid: 63500967e4a2f934c917d2874aa362ce, type: 2}
+  _cameraHolder: {fileID: 0}
+  _refererenceCamera: {fileID: 0}
+  _dragSensitivity: 1
+  _camSizeClamp: {x: 5, y: 12}
+  _onDragSceen: {fileID: 11400000, guid: aa61eb9ae12215946ac9f3f9fa04a9c7, type: 2}
+  _onActive2PointDrag: {fileID: 11400000, guid: 5ae0baf9ebd003741b70028077c83903, type: 2}
+  _onDrag2Points: {fileID: 11400000, guid: 96efee656fe57e344b89c614e7a18568, type: 2}
+  _meterPerPixel: 0
+  _cameraAngle: 0
+  _cameraSinAngle: 0

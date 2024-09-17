@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f55bcdad5dde0c459d5c8a3625783ca, type: 3}
+  m_Name: BuildingAssetsInfoList
+  m_EditorClassIdentifier: 
+  _buildings: {fileID: 11400000, guid: f7f67cf5a28274640bf079ce5882a6d4, type: 2}
+  _buildingAssetsInfos:
+  - name: TownHall
+    buildingId: 10101
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: f5c96b7b33c6a054ebef732437b1127a, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: cf20b86767cbfb24b97820ef5f0f3d9f, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Tavern
+    buildingId: 10102
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 5866289b08e212a4698a8b18ab909e4f, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: aae7eb2c8b8ea2f4ebcdb3916e357db5, type: 3}
+    buildingModel: {fileID: 8555819623687396238, guid: b28f941597abe96489e75f4708dccdb8, type: 3}
+  - name: WorkerHouse
+    buildingId: 10103
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 03b87a8b8c530634e87dff25b86f4677, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 371fe8b3bba318e46a160c4b96474f8c, type: 3}
+    buildingModel: {fileID: 1095543735710015980, guid: 4c86309ff4bb65f4a8a19adc8d03dad0, type: 3}
+  - name: Well
+    buildingId: 10104
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: c30888bc078df154aa3f4d755070a772, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 067cab1333db44143ac33b4b1dd25fc8, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Market
+    buildingId: 10105
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: b3894dc02188d8a4a84848fcd230eb4e, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: aa108f16edfad374bbd1c054c45999bc, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Warehouse
+    buildingId: 10106
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 3245804673643605895, guid: c5f17c2b429f5d54c8ab57389c07db15, type: 3}
+  - name: Farm
+    buildingId: 10107
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: 372429c939c83a041b18f6c18031ca7f, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: b5167c9bc94d74e4b91ea12fd3ff6c42, type: 3}
+    buildingModel: {fileID: 8197947798032019949, guid: 340298918010f0b4891d3315fbb05a0f, type: 3}
+  - name: LumberMill
+    buildingId: 10108
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: 9f2138ee06778a74eaf65d57597e3c97, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: a4f571fc45e5b304fab5eff8ec9fa424, type: 3}
+    buildingModel: {fileID: 3320674764414788788, guid: bd8ee1228f219b0438634911d38cd35c, type: 3}
+  - name: Mines
+    buildingId: 10109
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: bdac7e96ec3c6b944921b66baa164345, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 933f8cfc9b4b61642b5328167f337dc0, type: 3}
+    buildingModel: {fileID: 4686607727394850926, guid: a3d9e437e85244c4f9c4c839ca31f544, type: 3}
+  - name: Smithy
+    buildingId: 10110
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: 16ec077c97839ff4293561dcf278f594, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 223b2bec13750e5458c7c4f6fe738ffd, type: 3}
+    buildingModel: {fileID: 6551760683758835067, guid: 22eecdcd50bf0414fa1e33a0beeefd05, type: 3}
+  - name: Church
+    buildingId: 10111
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: f2f0c6e185e3b9a44a92823325f73e88, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: d6d3dc4a8efa09f469f3eb0c0def98f0, type: 3}
+    buildingModel: {fileID: 4883325616092279592, guid: 68ce2e1a4623fb54794afd7229974957, type: 3}
+  - name: Academy
+    buildingId: 10112
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: c60b1ab45c1ce884b8412969d49ac6d5, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: f5e655d89d3dcf24e834863b12213a2e, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Hospital
+    buildingId: 10113
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: 564f27b5805920b4a82d00e9f3e1ff59, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: dca617de4c0c0f640ab060ac29b57bd9, type: 3}
+    buildingModel: {fileID: 8178736433036484210, guid: ca90f9cfcfe4e0d4ca446fbb68cc4968, type: 3}
+  - name: InfantryBarracks
+    buildingId: 20101
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: acc4e7c2974098747bebd49017df09f4, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 1763e32fbe6220040906ef6b30dd8dd7, type: 3}
+    buildingModel: {fileID: 1874538182341314342, guid: 5c3a6f064fa14bb428eb5c7df4a6d406, type: 3}
+  - name: ArcherBarracks
+    buildingId: 20102
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 4e406e1615d670e4fbb3f106d3c3702d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 44a001ac927162d4eae16f5ad9ed9cc9, type: 3}
+    buildingModel: {fileID: 6040280707698110754, guid: 79877e6ae2141fe42ae26f774101e4c4, type: 3}
+  - name: CavalryBarracks
+    buildingId: 20103
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 03fccbcb4728f9d4e8cdaea184239c51, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 3c964bf97da84d942b89d76d681c5849, type: 3}
+    buildingModel: {fileID: 1704241390237404478, guid: 65c0899ad4a396441a1ae2d85028463c, type: 3}
+  - name: CatapultWorkshop
+    buildingId: 20104
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: 6da9d11d1aba80e459e31140ff403810, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 9eb180277d55dd544ba52e5a3bd4e42a, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Road
+    buildingId: 30101
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: b8bb4e3820392f4449dd9774547acfbc, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 0e754313dc908f145aab1db4c0225df5, type: 3}
+    buildingModel: {fileID: 2529544919464320906, guid: a9488e7422e5c3a438e57d245c04a756, type: 3}
+  - name: Tree
+    buildingId: 30102
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: e5d3ef1d847537042bfdf330d70d9a45, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 3e17a8ab739329145b55c59cfa55913f, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Land warehouse
+    buildingId: 90001
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 45ec925bec5c2e4489cdcd7914b38cb8, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 28616fb6ec82b3b4d99b30db99dd77a6, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Land boot camp
+    buildingId: 90002
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 45ec925bec5c2e4489cdcd7914b38cb8, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 28616fb6ec82b3b4d99b30db99dd77a6, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Kingdom warehouse
+    buildingId: 90101
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 45ec925bec5c2e4489cdcd7914b38cb8, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 28616fb6ec82b3b4d99b30db99dd77a6, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: Kingdom boot camp
+    buildingId: 90102
+    defaultRotation: 90
+    buildingSprite: {fileID: 21300000, guid: 45ec925bec5c2e4489cdcd7914b38cb8, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 28616fb6ec82b3b4d99b30db99dd77a6, type: 3}
+    buildingModel: {fileID: 7199633477797698061, guid: 61b0a63e288c9a3468a657fc84f5ead4, type: 3}
+  - name: FoodWarehouse
+    buildingId: 10201
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 275635495305469393, guid: a3d9b8c99d4fbb947aba6445e62d4f2d, type: 3}
+  - name: TreasuryWarehouse
+    buildingId: 10202
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 9129313278563543551, guid: 09b51924cced024479782db0a54623bd, type: 3}
+  - name: ResourceWarehouse
+    buildingId: 10203
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 3245804673643605895, guid: 3b47846f44f639241ae6acc7447ac30b, type: 3}
+  - name: ProductWarehouse
+    buildingId: 10204
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 4689291109679833513, guid: afcefce59b797b945999e0ade7d82dc1, type: 3}
+  - name: EquipmentWarehouse
+    buildingId: 10205
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 7646639443206883003, guid: e5fac7b1015e0ea44a48e7a4322257aa, type: 3}
+  - name: CaravanWarehouse
+    buildingId: 10206
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 3245804673643605895, guid: c5f17c2b429f5d54c8ab57389c07db15, type: 3}
+  - name: PackageWarehouse
+    buildingId: 10207
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 3245804673643605895, guid: c5f17c2b429f5d54c8ab57389c07db15, type: 3}
+  - name: Ranch
+    buildingId: 10208
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 4850c450728da3e47be86b89d148a522, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: a7c6094c045c1224c9d605278704f82e, type: 3}
+    buildingModel: {fileID: 3245804673643605895, guid: c5f17c2b429f5d54c8ab57389c07db15, type: 3}
+  - name: PackageWarehouse
+    buildingId: 10209
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 3245804673643605895, guid: c5f17c2b429f5d54c8ab57389c07db15, type: 3}
+  - name: MessengerWarehouse
+    buildingId: 10210
+    defaultRotation: 0
+    buildingSprite: {fileID: 21300000, guid: 23e35f5e15a0fff4d9a2a922320b657d, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 01c50fe8bf1cac54695f8228a9a13e97, type: 3}
+    buildingModel: {fileID: 3245804673643605895, guid: c5f17c2b429f5d54c8ab57389c07db15, type: 3}
+  - name: Barrack
+    buildingId: 20105
+    defaultRotation: 180
+    buildingSprite: {fileID: 21300000, guid: acc4e7c2974098747bebd49017df09f4, type: 3}
+    greyscaleSprite: {fileID: 21300000, guid: 1763e32fbe6220040906ef6b30dd8dd7, type: 3}
+    buildingModel: {fileID: 1739426101988629977, guid: 9cc5d17bb320fb842a7ded9edfc529b0, type: 3}
+  - name: World pioneer path
+    buildingId: 90201
+    defaultRotation: 180
+    buildingSprite: {fileID: 0}
+    greyscaleSprite: {fileID: 0}
+    buildingModel: {fileID: 0}

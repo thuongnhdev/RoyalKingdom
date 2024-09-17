@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1902131056521508090
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 149785493273630904, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 90e49b2dc19439f40abe7d18dc47205c, type: 2}
+    - target: {fileID: 149785493273630904, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 773106678111985835, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_text
+      value: Stop Upgrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643997320821691074, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_Name
+      value: CanceUpgradeText
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393789129003867483, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: _gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 8cf6c75332e93c44bbce98d7c63450a4, type: 2}
+    - target: {fileID: 3414075204125996518, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_Name
+      value: ConfirmText
+      objectReference: {fileID: 0}
+    - target: {fileID: 3678101657775474575, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_text
+      value: Confirm
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455084658034230492, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455084658034230492, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455084658034230492, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455084658034230492, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 71.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455084658034230492, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 821.77203
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455084658034230492, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -45.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549164401522447821, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780875149378221893, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: _cancelType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780875149378221893, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: _itemAssets
+      value: 
+      objectReference: {fileID: 11400000, guid: 99d83520fac4e534d95d053df2505ada, type: 2}
+    - target: {fileID: 7686046754435277633, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_text
+      value: 'Do you really want to cancel upgrade?
+
+        The items below are
+        returned.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512288, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_Name
+      value: BuildingCancelUpgradeConfirmPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512291, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836693890422512300, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c7bad8fcded0f3846947f1252730a6e0, type: 3}

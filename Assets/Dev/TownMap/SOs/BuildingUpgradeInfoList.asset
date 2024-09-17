@@ -1,0 +1,1110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36c9a8dfd555844fbacb3712065af0c, type: 3}
+  m_Name: BuildingUpgradeInfoList
+  m_EditorClassIdentifier: 
+  _upgradeInfoList:
+  - name: TownHall
+    buildingId: 10101
+    level: 1
+    timeCost: 800
+    cost:
+    - itemId: 110002
+      itemCount: 10
+    - itemId: 140005
+      itemCount: 10
+    conditions: []
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: TownHall
+    buildingId: 10101
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: TownHall
+    buildingId: 10101
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110001
+      itemCount: 30
+    - itemId: 110002
+      itemCount: 10
+    - itemId: 120001
+      itemCount: 30
+    - itemId: 120002
+      itemCount: 10
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: TownHall
+    buildingId: 10101
+    level: 4
+    timeCost: 7200
+    cost:
+    - itemId: 110001
+      itemCount: 40
+    - itemId: 110002
+      itemCount: 10
+    - itemId: 120001
+      itemCount: 30
+    - itemId: 120002
+      itemCount: 10
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000003000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: TownHall
+    buildingId: 10101
+    level: 5
+    timeCost: 9000
+    cost:
+    - itemId: 110001
+      itemCount: 50
+    - itemId: 110002
+      itemCount: 10
+    - itemId: 120001
+      itemCount: 30
+    - itemId: 120002
+      itemCount: 10
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000004000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Tavern
+    buildingId: 10102
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: WorkerHouse
+    buildingId: 10103
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 120001
+      itemCount: 10
+    - itemId: 110005
+      itemCount: 10
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: WorkerHouse
+    buildingId: 10103
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7727000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: WorkerHouse
+    buildingId: 10103
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7727000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: WorkerHouse
+    buildingId: 10103
+    level: 4
+    timeCost: 7200
+    cost:
+    - itemId: 110000
+      itemCount: 40
+    - itemId: 120000
+      itemCount: 40
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7727000003000000
+    - conditionType: 1
+      conditionValues: 7527000003000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: WorkerHouse
+    buildingId: 10103
+    level: 5
+    timeCost: 9000
+    cost:
+    - itemId: 110000
+      itemCount: 50
+    - itemId: 120000
+      itemCount: 50
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7727000004000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Well
+    buildingId: 10104
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions: []
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Market
+    buildingId: 10105
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions: []
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Warehouse
+    buildingId: 10106
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110002
+      itemCount: 10
+    - itemId: 140005
+      itemCount: 10
+    conditions: []
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Warehouse
+    buildingId: 10106
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7a27000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Warehouse
+    buildingId: 10106
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7a27000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Warehouse
+    buildingId: 10106
+    level: 4
+    timeCost: 7200
+    cost:
+    - itemId: 110000
+      itemCount: 40
+    - itemId: 120000
+      itemCount: 40
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7a27000003000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Warehouse
+    buildingId: 10106
+    level: 5
+    timeCost: 9000
+    cost:
+    - itemId: 110000
+      itemCount: 50
+    - itemId: 120000
+      itemCount: 50
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7a27000004000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Farm
+    buildingId: 10107
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Farm
+    buildingId: 10107
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7b27000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Farm
+    buildingId: 10107
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7b27000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: LumberMill
+    buildingId: 10108
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: LumberMill
+    buildingId: 10108
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7c27000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: LumberMill
+    buildingId: 10108
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7c27000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Mines
+    buildingId: 10109
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Mines
+    buildingId: 10109
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7d27000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Mines
+    buildingId: 10109
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7d27000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Smithy
+    buildingId: 10110
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110006
+      itemCount: 10
+    - itemId: 110002
+      itemCount: 10
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Church
+    buildingId: 10111
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Academy
+    buildingId: 10112
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Hospital
+    buildingId: 10113
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: InfantryBarracks
+    buildingId: 20101
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110006
+      itemCount: 10
+    - itemId: 110002
+      itemCount: 10
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: InfantryBarracks
+    buildingId: 20101
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: InfantryBarracks
+    buildingId: 20101
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: InfantryBarracks
+    buildingId: 20101
+    level: 4
+    timeCost: 7200
+    cost:
+    - itemId: 110000
+      itemCount: 40
+    - itemId: 120000
+      itemCount: 40
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000003000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: InfantryBarracks
+    buildingId: 20101
+    level: 5
+    timeCost: 9000
+    cost:
+    - itemId: 110000
+      itemCount: 50
+    - itemId: 120000
+      itemCount: 50
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000004000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: ArcherBarracks
+    buildingId: 20102
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: ArcherBarracks
+    buildingId: 20102
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: ArcherBarracks
+    buildingId: 20102
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: ArcherBarracks
+    buildingId: 20102
+    level: 4
+    timeCost: 7200
+    cost:
+    - itemId: 110000
+      itemCount: 40
+    - itemId: 120000
+      itemCount: 40
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000003000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: ArcherBarracks
+    buildingId: 20102
+    level: 5
+    timeCost: 9000
+    cost:
+    - itemId: 110000
+      itemCount: 50
+    - itemId: 120000
+      itemCount: 50
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000004000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CavalryBarracks
+    buildingId: 20103
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CavalryBarracks
+    buildingId: 20103
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CavalryBarracks
+    buildingId: 20103
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CavalryBarracks
+    buildingId: 20103
+    level: 4
+    timeCost: 7200
+    cost:
+    - itemId: 110000
+      itemCount: 40
+    - itemId: 120000
+      itemCount: 40
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000003000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CavalryBarracks
+    buildingId: 20103
+    level: 5
+    timeCost: 9000
+    cost:
+    - itemId: 110000
+      itemCount: 50
+    - itemId: 120000
+      itemCount: 50
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000004000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CatapultWorkshop
+    buildingId: 20104
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 10
+    - itemId: 120000
+      itemCount: 10
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CatapultWorkshop
+    buildingId: 20104
+    level: 2
+    timeCost: 3600
+    cost:
+    - itemId: 110000
+      itemCount: 20
+    - itemId: 120000
+      itemCount: 20
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CatapultWorkshop
+    buildingId: 20104
+    level: 3
+    timeCost: 5400
+    cost:
+    - itemId: 110000
+      itemCount: 30
+    - itemId: 120000
+      itemCount: 30
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000002000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CatapultWorkshop
+    buildingId: 20104
+    level: 4
+    timeCost: 7200
+    cost:
+    - itemId: 110000
+      itemCount: 40
+    - itemId: 120000
+      itemCount: 40
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000003000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: CatapultWorkshop
+    buildingId: 20104
+    level: 5
+    timeCost: 9000
+    cost:
+    - itemId: 110000
+      itemCount: 50
+    - itemId: 120000
+      itemCount: 50
+    - itemId: 170005
+      itemCount: 1
+    conditions:
+    - conditionType: 1
+      conditionValues: 854e000004000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Road
+    buildingId: 30101
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 2
+    - itemId: 120000
+      itemCount: 2
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0
+  - name: Tree
+    buildingId: 30102
+    level: 1
+    timeCost: 1800
+    cost:
+    - itemId: 110000
+      itemCount: 2
+    - itemId: 120000
+      itemCount: 2
+    conditions:
+    - conditionType: 1
+      conditionValues: 7527000001000000
+    capacity: 0
+    buff1: 
+    buffValue1: 0
+    buff2: 
+    buffValue2: 0
+    buff3: 
+    buffValue3: 0

@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888b9c39ff3562d42b0353dafec06922, type: 3}
+  m_Name: ItemProductiontFormularList
+  m_EditorClassIdentifier: 
+  _itemProductFormulasList:
+  - productId: 100001
+    productCount: 1
+    producedByBuilding: 10107
+    terrains: 01000000020000000300000004000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 100002
+    productCount: 1
+    producedByBuilding: 10107
+    terrains: 01000000020000000300000004000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 100003
+    productCount: 1
+    producedByBuilding: 10107
+    terrains: 03000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 100004
+    productCount: 1
+    producedByBuilding: 10107
+    terrains: 04000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 100005
+    productCount: 1
+    producedByBuilding: 10107
+    terrains: 05000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 110001
+    productCount: 1
+    producedByBuilding: 10109
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 110002
+    productCount: 1
+    producedByBuilding: 10109
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 110003
+    productCount: 1
+    producedByBuilding: 10109
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 110004
+    productCount: 1
+    producedByBuilding: 10109
+    terrains: 01000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 110005
+    productCount: 1
+    producedByBuilding: 10109
+    terrains: 02000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 110006
+    productCount: 1
+    producedByBuilding: 10109
+    terrains: 03000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 120001
+    productCount: 1
+    producedByBuilding: 10108
+    terrains: 04000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 120002
+    productCount: 1
+    producedByBuilding: 10108
+    terrains: 05000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 120003
+    productCount: 1
+    producedByBuilding: 10108
+    terrains: 06000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 120004
+    productCount: 1
+    producedByBuilding: 10108
+    terrains: 01000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 120005
+    productCount: 1
+    producedByBuilding: 10108
+    terrains: 02000000
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 100
+  - productId: 130001
+    productCount: 1
+    producedByBuilding: 10111
+    terrains: 03000000
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 100001
+      itemCount: 2
+    - itemId: 120000
+      itemCount: 3
+    timeCost: 1000
+  - productId: 130002
+    productCount: 1
+    producedByBuilding: 10111
+    terrains: 04000000
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 100002
+      itemCount: 2
+    - itemId: 120000
+      itemCount: 3
+    timeCost: 1000
+  - productId: 130003
+    productCount: 1
+    producedByBuilding: 10111
+    terrains: 05000000
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 100003
+      itemCount: 2
+    - itemId: 120000
+      itemCount: 3
+    timeCost: 1000
+  - productId: 130004
+    productCount: 1
+    producedByBuilding: 10111
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 100004
+      itemCount: 2
+    - itemId: 120000
+      itemCount: 3
+    timeCost: 1000
+  - productId: 130005
+    productCount: 1
+    producedByBuilding: 10111
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 100005
+      itemCount: 2
+    - itemId: 120000
+      itemCount: 3
+    timeCost: 1000
+  - productId: 140001
+    productCount: 1
+    producedByBuilding: 10113
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 500
+  - productId: 140002
+    productCount: 1
+    producedByBuilding: 10113
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 500
+  - productId: 140003
+    productCount: 1
+    producedByBuilding: 10113
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 500
+  - productId: 140004
+    productCount: 1
+    producedByBuilding: 10113
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 500
+  - productId: 140005
+    productCount: 1
+    producedByBuilding: 10113
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 500
+  - productId: 150001
+    productCount: 1
+    producedByBuilding: 10112
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 110001
+      itemCount: 10
+    timeCost: 1500
+  - productId: 150002
+    productCount: 1
+    producedByBuilding: 10112
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 110002
+      itemCount: 10
+    timeCost: 1500
+  - productId: 150003
+    productCount: 1
+    producedByBuilding: 10112
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 120002
+      itemCount: 10
+    timeCost: 1500
+  - productId: 150004
+    productCount: 1
+    producedByBuilding: 10112
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 120005
+      itemCount: 10
+    timeCost: 1500
+  - productId: 150005
+    productCount: 1
+    producedByBuilding: 10112
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 990099
+      itemCount: 50
+    timeCost: 1500
+  - productId: 160001
+    productCount: 1
+    producedByBuilding: 10110
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 120001
+      itemCount: 5
+    timeCost: 1000
+  - productId: 160002
+    productCount: 1
+    producedByBuilding: 10110
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 1000
+  - productId: 160003
+    productCount: 1
+    producedByBuilding: 10110
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 1000
+  - productId: 160004
+    productCount: 1
+    producedByBuilding: 10110
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 120001
+      itemCount: 5
+    timeCost: 1000
+  - productId: 160005
+    productCount: 1
+    producedByBuilding: 10110
+    terrains: 
+    religion: 0
+    culture: 0
+    material:
+    - itemId: 120001
+      itemCount: 10
+    timeCost: 100
+  - productId: 900001
+    productCount: 1
+    producedByBuilding: 0
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 0
+  - productId: 990099
+    productCount: 1
+    producedByBuilding: 0
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 0
+  - productId: 990100
+    productCount: 1
+    producedByBuilding: 0
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 0
+  - productId: 990101
+    productCount: 1
+    producedByBuilding: 0
+    terrains: 
+    religion: 0
+    culture: 0
+    material: []
+    timeCost: 0

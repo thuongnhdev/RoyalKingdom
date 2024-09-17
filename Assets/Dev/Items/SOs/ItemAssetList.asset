@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16969269f803774bba10500143be9b4, type: 3}
+  m_Name: ItemAssetList
+  m_EditorClassIdentifier: 
+  _itemList: {fileID: 11400000, guid: 0ef39ddcc32dd5d4a83d7e292b6e8904, type: 2}
+  _starAndGradeIcons: {fileID: 11400000, guid: 160d86c3d46ee45448c8667137faa50d, type: 2}
+  _itemsAssets:
+  - editorName: Rice
+    itemId: 100001
+    sprite: {fileID: 21300000, guid: db49873420fcd9542bec0d6fa3f5efee, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Wheat
+    itemId: 100002
+    sprite: {fileID: 21300000, guid: cfd367283c1aa5b42804f38c17e65a94, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Apple
+    itemId: 100003
+    sprite: {fileID: 21300000, guid: 7222e317bfbbb874f97ef271eddb9c34, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Grape
+    itemId: 100004
+    sprite: {fileID: 21300000, guid: adc7f854b26eb934a8a329e155564562, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Potato
+    itemId: 100005
+    sprite: {fileID: 21300000, guid: c1ecf6f31c459d74b847729dd5293414, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Rubble
+    itemId: 110001
+    sprite: {fileID: 21300000, guid: fda2b279e8bb7c5488ec8481f14edd7f, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Granite
+    itemId: 110002
+    sprite: {fileID: 21300000, guid: cdb0a0479329a054888db1ddd079e4ef, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Marble
+    itemId: 110003
+    sprite: {fileID: 21300000, guid: fda2b279e8bb7c5488ec8481f14edd7f, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Limestone
+    itemId: 110004
+    sprite: {fileID: 21300000, guid: fda2b279e8bb7c5488ec8481f14edd7f, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Stone
+    itemId: 110005
+    sprite: {fileID: 21300000, guid: 2af04a4eeaffcfb47b0b2a26fa64f1e9, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Iron
+    itemId: 110006
+    sprite: {fileID: 21300000, guid: 7a172ca50e835a74095f06ea7ac7e2ab, type: 3}
+    prefab: {fileID: 0}
+  - editorName: PineWood
+    itemId: 120001
+    sprite: {fileID: 21300000, guid: 3428e69ef33bc8340b2ac658121dd641, type: 3}
+    prefab: {fileID: 0}
+  - editorName: OakWood
+    itemId: 120002
+    sprite: {fileID: 21300000, guid: 3428e69ef33bc8340b2ac658121dd641, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Bamboo
+    itemId: 120003
+    sprite: {fileID: 21300000, guid: be9571184aa97794ca14345318d86703, type: 3}
+    prefab: {fileID: 0}
+  - editorName: HollyWood
+    itemId: 120004
+    sprite: {fileID: 21300000, guid: 3428e69ef33bc8340b2ac658121dd641, type: 3}
+    prefab: {fileID: 0}
+  - editorName: BirchWood
+    itemId: 120005
+    sprite: {fileID: 21300000, guid: 3428e69ef33bc8340b2ac658121dd641, type: 3}
+    prefab: {fileID: 0}
+  - editorName: CookedRice
+    itemId: 130001
+    sprite: {fileID: 21300000, guid: ee0314fb809cfb8418942ecfd43c9278, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Bread
+    itemId: 130002
+    sprite: {fileID: 21300000, guid: 3da550ff258d8b44292c7be125e84018, type: 3}
+    prefab: {fileID: 0}
+  - editorName: AppleJuice
+    itemId: 130003
+    sprite: {fileID: 21300000, guid: 63c49a2a20ec84149bea66af484e8eb4, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Wine
+    itemId: 130004
+    sprite: {fileID: 21300000, guid: 41dd16f6c6d18ce4faa20d3bff73f649, type: 3}
+    prefab: {fileID: 0}
+  - editorName: PotatoStew
+    itemId: 130005
+    sprite: {fileID: 21300000, guid: 543cb93bc18bbfc4290e5e721cafc2b9, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Sugar
+    itemId: 140001
+    sprite: {fileID: 21300000, guid: cb73f3dcfbeda8248a21fb1bd689caa4, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Salt
+    itemId: 140002
+    sprite: {fileID: 21300000, guid: 6b8beba44eab93b49bf7ef8e1a7d25a9, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Silk
+    itemId: 140003
+    sprite: {fileID: 21300000, guid: bdc32f97ac9f9674e951fcc52f9a29e6, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Wool
+    itemId: 140004
+    sprite: {fileID: 21300000, guid: d3130d85780cff545a0c839b69c66391, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Glass
+    itemId: 140005
+    sprite: {fileID: 21300000, guid: 2efe03fd8c01c8e4e9b715e602016ddd, type: 3}
+    prefab: {fileID: 0}
+  - editorName: RubbleSculpture
+    itemId: 150001
+    sprite: {fileID: 21300000, guid: 16c8eb84b704e684b85d58471abf74ce, type: 3}
+    prefab: {fileID: 0}
+  - editorName: GraniteSculpture
+    itemId: 150002
+    sprite: {fileID: 21300000, guid: 6f4016ea54ff2ff4da9b8b667dd7f1e4, type: 3}
+    prefab: {fileID: 0}
+  - editorName: OakSculpture
+    itemId: 150003
+    sprite: {fileID: 21300000, guid: d3957ac60e7b586409da0d984a4a44ef, type: 3}
+    prefab: {fileID: 0}
+  - editorName: BirchSculpture
+    itemId: 150004
+    sprite: {fileID: 21300000, guid: c5a6793c306f27d46a33acdcb6105695, type: 3}
+    prefab: {fileID: 0}
+  - editorName: GoldenSculpture
+    itemId: 150005
+    sprite: {fileID: 21300000, guid: c100115d978c1b341a3f4d68444946c5, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Sword
+    itemId: 160001
+    sprite: {fileID: 21300000, guid: 05bca549e00950e48804312ace2dc631, type: 3}
+    prefab: {fileID: 0}
+  - editorName: LeatherShoes
+    itemId: 160002
+    sprite: {fileID: 21300000, guid: 55f77ecdd30a2b94d8a1878d2ef9c60f, type: 3}
+    prefab: {fileID: 0}
+  - editorName: RoughHelmet
+    itemId: 160003
+    sprite: {fileID: 21300000, guid: 667945fd27365354eb0f59b15c2b10d0, type: 3}
+    prefab: {fileID: 0}
+  - editorName: ChainMail
+    itemId: 160004
+    sprite: {fileID: 21300000, guid: e62c3227d5d2709409180808fbfb3522, type: 3}
+    prefab: {fileID: 0}
+  - editorName: TradingCaravan
+    itemId: 160005
+    sprite: {fileID: 21300000, guid: a53502a7202c6f446aeb05487309a432, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Messenger
+    itemId: 900001
+    sprite: {fileID: 21300000, guid: 7222e317bfbbb874f97ef271eddb9c34, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Gold
+    itemId: 990099
+    sprite: {fileID: 21300000, guid: 6ce1b002c01b8a74ea8c64bcadf9353a, type: 3}
+    prefab: {fileID: 0}
+  - editorName: Diamond
+    itemId: 990100
+    sprite: {fileID: 21300000, guid: 26dcf7bb721131348a158842f8220440, type: 3}
+    prefab: {fileID: 0}
+  - editorName: ScrollToken
+    itemId: 990101
+    sprite: {fileID: 21300000, guid: 72d58b5caf2e5614a9e44fc2e35694d2, type: 3}
+    prefab: {fileID: 0}
+  _itemGroupAssets:
+  - editorName: 
+    itemId: 100000
+    sprite: {fileID: 21300000, guid: bb78d23e0a4034246a09afd69b522bae, type: 3}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 900000
+    sprite: {fileID: 0}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 110000
+    sprite: {fileID: 21300000, guid: 719c5653b21700142815832e8b53212f, type: 3}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 120000
+    sprite: {fileID: 21300000, guid: 719c5653b21700142815832e8b53212f, type: 3}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 130000
+    sprite: {fileID: 21300000, guid: 30f3f06c75adc1041b4873eb104a0093, type: 3}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 140000
+    sprite: {fileID: 21300000, guid: abef307ad6071f04db12d4ac1e52cb46, type: 3}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 150000
+    sprite: {fileID: 21300000, guid: cd9377ec1c9deaf4fbd04007a7941a21, type: 3}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 160000
+    sprite: {fileID: 21300000, guid: f2c6a58fb008ded4d849f7380279adfe, type: 3}
+    prefab: {fileID: 0}
+  - editorName: 
+    itemId: 170000
+    sprite: {fileID: 21300000, guid: 13ee256b154a09e4896c7b4993d09156, type: 3}
+    prefab: {fileID: 0}

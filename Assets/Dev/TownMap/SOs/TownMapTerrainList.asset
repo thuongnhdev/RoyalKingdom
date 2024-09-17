@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e54369a768e154db970bcba9538a7e, type: 3}
+  m_Name: TownMapTerrainList
+  m_EditorClassIdentifier: 
+  _townTileTerrains:
+  - Terrain: 0
+    Prefab: {fileID: 1471424484774379085, guid: 591221673369d10439f1fefd3ccc3bff, type: 3}
+  - Terrain: 1
+    Prefab: {fileID: 8074882957896191945, guid: 4306a863dc0dcbc468f5c16620d666ab, type: 3}
+  - Terrain: 2
+    Prefab: {fileID: 8074882957896191945, guid: 8241386ac174d204199fcd8ac2f4959d, type: 3}
+  - Terrain: 3
+    Prefab: {fileID: 8074882957896191945, guid: b79f72d97e55ca84f9869f0bd97e5b81, type: 3}
+  - Terrain: 4
+    Prefab: {fileID: 8074882957896191945, guid: bf9ad09a4ea144f42908ae2a1490048d, type: 3}
+  _defaultTerrain: {fileID: 1471424484774379085, guid: 591221673369d10439f1fefd3ccc3bff, type: 3}

@@ -1,0 +1,2388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: RK_StringLocalizationTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: RK_StringLocalizationTable
+  m_TableCollectionNameGuidString: d8334fa99212fe14fa145ceca9c8b03d
+  m_Entries:
+  - m_Id: 1
+    m_Key: MAINNAME_CITYHALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Key: MAINNAME_TAVERN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Key: MAINNAME_WORKERHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Key: MAINNAME_WELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Key: MAINNAME_MARKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Key: MAINNAME_WAREHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Key: MAINNAME_FARM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Key: MAINNAME_LUMBERMILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Key: MAINNAME_MINES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Key: MAINNAME_SMITHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Key: MAINNAME_CHURCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Key: MAINNAME_ACADEMY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Key: MAINNAME_HOSPITAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Key: MAINNAME_INFANTRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Key: MAINNAME_ARCHERBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Key: MAINNAME_CAVALRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Key: MAINNAME_CATAPULTWORKSHOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Key: MAINNAME_ROAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Key: MAINNAME_TREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20
+    m_Key: SUBNAME_CITYHALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Key: SUBNAME_TAVERN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Key: SUBNAME_WORKERHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Key: SUBNAME_WELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24
+    m_Key: SUBNAME_MARKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
+    m_Key: SUBNAME_WAREHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Key: SUBNAME_FARM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Key: SUBNAME_LUMBERMILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Key: SUBNAME_MINES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Key: SUBNAME_SMITHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Key: SUBNAME_CHURCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Key: SUBNAME_ACADEMY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Key: SUBNAME_HOSPITAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Key: SUBNAME_INFANTRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Key: SUBNAME_ARCHERBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Key: SUBNAME_CAVALRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Key: SUBNAME_CATAPULTWORKSHOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Key: SUBNAME_ROAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Key: SUBNAME_TREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Key: MAINDESC_CITYHALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Key: MAINDESC_TAVERN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Key: MAINDESC_WORKERHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Key: MAINDESC_WELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Key: MAINDESC_MARKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Key: MAINDESC_WAREHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Key: MAINDESC_FARM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Key: MAINDESC_LUMBERMILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Key: MAINDESC_MINES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Key: MAINDESC_SMITHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Key: MAINDESC_CHURCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50
+    m_Key: MAINDESC_ACADEMY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51
+    m_Key: MAINDESC_HOSPITAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52
+    m_Key: MAINDESC_INFANTRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53
+    m_Key: MAINDESC_ARCHERBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54
+    m_Key: MAINDESC_CAVALRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55
+    m_Key: MAINDESC_CATAPULTWORKSHOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56
+    m_Key: MAINDESC_ROAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57
+    m_Key: MAINDESC_TREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58
+    m_Key: SUBDESC_CITYHALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59
+    m_Key: SUBDESC_TAVERN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60
+    m_Key: SUBDESC_WORKERHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61
+    m_Key: SUBDESC_WELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62
+    m_Key: SUBDESC_MARKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63
+    m_Key: SUBDESC_WAREHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64
+    m_Key: SUBDESC_FARM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65
+    m_Key: SUBDESC_LUMBERMILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66
+    m_Key: SUBDESC_MINES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67
+    m_Key: SUBDESC_SMITHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68
+    m_Key: SUBDESC_CHURCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69
+    m_Key: SUBDESC_ACADEMY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70
+    m_Key: SUBDESC_HOSPITAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71
+    m_Key: SUBDESC_INFANTRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72
+    m_Key: SUBDESC_ARCHERBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73
+    m_Key: SUBDESC_CAVALRYBARRACKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74
+    m_Key: SUBDESC_CATAPULTWORKSHOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75
+    m_Key: SUBDESC_ROAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76
+    m_Key: SUBDESC_TREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77
+    m_Key: MAINNAME_100001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78
+    m_Key: MAINNAME_100002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79
+    m_Key: MAINNAME_100003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80
+    m_Key: MAINNAME_100004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81
+    m_Key: MAINNAME_100005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82
+    m_Key: MAINNAME_990099
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83
+    m_Key: MAINNAME_990100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84
+    m_Key: MAINNAME_990101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85
+    m_Key: MAINNAME_110001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86
+    m_Key: MAINNAME_110002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87
+    m_Key: MAINNAME_110003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88
+    m_Key: MAINNAME_110004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89
+    m_Key: MAINNAME_110005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90
+    m_Key: MAINNAME_110006
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91
+    m_Key: MAINNAME_120001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92
+    m_Key: MAINNAME_120002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93
+    m_Key: MAINNAME_120003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94
+    m_Key: MAINNAME_120004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95
+    m_Key: MAINNAME_120005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96
+    m_Key: MAINNAME_130001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97
+    m_Key: MAINNAME_130002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98
+    m_Key: MAINNAME_130003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99
+    m_Key: MAINNAME_130004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100
+    m_Key: MAINNAME_130005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101
+    m_Key: MAINNAME_140001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102
+    m_Key: MAINNAME_140002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103
+    m_Key: MAINNAME_140003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104
+    m_Key: MAINNAME_140004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105
+    m_Key: MAINNAME_140005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106
+    m_Key: MAINNAME_150001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107
+    m_Key: MAINNAME_150002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108
+    m_Key: MAINNAME_150003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109
+    m_Key: MAINNAME_150004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110
+    m_Key: MAINNAME_150005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111
+    m_Key: MAINNAME_160001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112
+    m_Key: MAINNAME_160002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113
+    m_Key: MAINNAME_160003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114
+    m_Key: MAINNAME_160004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115
+    m_Key: MAINNAME_160005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116
+    m_Key: MAINNAME_170001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117
+    m_Key: MAINNAME_170002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118
+    m_Key: MAINNAME_170003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119
+    m_Key: MAINNAME_170004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120
+    m_Key: MAINNAME_170005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121
+    m_Key: SUBNAME_100001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122
+    m_Key: SUBNAME_100002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123
+    m_Key: SUBNAME_100003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124
+    m_Key: SUBNAME_100004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125
+    m_Key: SUBNAME_100005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126
+    m_Key: SUBNAME_990099
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127
+    m_Key: SUBNAME_990100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128
+    m_Key: SUBNAME_990101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129
+    m_Key: SUBNAME_110001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130
+    m_Key: SUBNAME_110002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131
+    m_Key: SUBNAME_110003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132
+    m_Key: SUBNAME_110004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133
+    m_Key: SUBNAME_110005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134
+    m_Key: SUBNAME_110006
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135
+    m_Key: SUBNAME_120001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136
+    m_Key: SUBNAME_120002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137
+    m_Key: SUBNAME_120003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138
+    m_Key: SUBNAME_120004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139
+    m_Key: SUBNAME_120005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140
+    m_Key: SUBNAME_130001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141
+    m_Key: SUBNAME_130002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142
+    m_Key: SUBNAME_130003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143
+    m_Key: SUBNAME_130004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144
+    m_Key: SUBNAME_130005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145
+    m_Key: SUBNAME_140001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146
+    m_Key: SUBNAME_140002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147
+    m_Key: SUBNAME_140003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148
+    m_Key: SUBNAME_140004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149
+    m_Key: SUBNAME_140005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150
+    m_Key: SUBNAME_150001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151
+    m_Key: SUBNAME_150002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152
+    m_Key: SUBNAME_150003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153
+    m_Key: SUBNAME_150004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154
+    m_Key: SUBNAME_150005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155
+    m_Key: SUBNAME_160001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156
+    m_Key: SUBNAME_160002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157
+    m_Key: SUBNAME_160003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158
+    m_Key: SUBNAME_160004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159
+    m_Key: SUBNAME_160005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160
+    m_Key: SUBNAME_170001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161
+    m_Key: SUBNAME_170002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162
+    m_Key: SUBNAME_170003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163
+    m_Key: SUBNAME_170004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164
+    m_Key: SUBNAME_170005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165
+    m_Key: MAINDESC_100001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166
+    m_Key: MAINDESC_100002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167
+    m_Key: MAINDESC_100003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168
+    m_Key: MAINDESC_100004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169
+    m_Key: MAINDESC_100005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170
+    m_Key: MAINDESC_990099
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171
+    m_Key: MAINDESC_990100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172
+    m_Key: MAINDESC_990101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173
+    m_Key: MAINDESC_110001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174
+    m_Key: MAINDESC_110002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175
+    m_Key: MAINDESC_110003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176
+    m_Key: MAINDESC_110004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177
+    m_Key: MAINDESC_110005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178
+    m_Key: MAINDESC_110006
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179
+    m_Key: MAINDESC_120001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180
+    m_Key: MAINDESC_120002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181
+    m_Key: MAINDESC_120003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182
+    m_Key: MAINDESC_120004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183
+    m_Key: MAINDESC_120005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184
+    m_Key: MAINDESC_130001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185
+    m_Key: MAINDESC_130002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186
+    m_Key: MAINDESC_130003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187
+    m_Key: MAINDESC_130004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188
+    m_Key: MAINDESC_130005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189
+    m_Key: MAINDESC_140001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190
+    m_Key: MAINDESC_140002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191
+    m_Key: MAINDESC_140003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192
+    m_Key: MAINDESC_140004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193
+    m_Key: MAINDESC_140005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194
+    m_Key: MAINDESC_150001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195
+    m_Key: MAINDESC_150002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 196
+    m_Key: MAINDESC_150003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197
+    m_Key: MAINDESC_150004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198
+    m_Key: MAINDESC_150005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199
+    m_Key: MAINDESC_160001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200
+    m_Key: MAINDESC_160002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201
+    m_Key: MAINDESC_160003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202
+    m_Key: MAINDESC_160004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203
+    m_Key: MAINDESC_160005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204
+    m_Key: MAINDESC_170001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205
+    m_Key: MAINDESC_170002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206
+    m_Key: MAINDESC_170003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 207
+    m_Key: MAINDESC_170004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208
+    m_Key: MAINDESC_170005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209
+    m_Key: SUBDESC_100001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 210
+    m_Key: SUBDESC_100002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211
+    m_Key: SUBDESC_100003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212
+    m_Key: SUBDESC_100004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213
+    m_Key: SUBDESC_100005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214
+    m_Key: SUBDESC_990099
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215
+    m_Key: SUBDESC_990100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216
+    m_Key: SUBDESC_990101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217
+    m_Key: SUBDESC_110001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218
+    m_Key: SUBDESC_110002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219
+    m_Key: SUBDESC_110003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220
+    m_Key: SUBDESC_110004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 221
+    m_Key: SUBDESC_110005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 222
+    m_Key: SUBDESC_110006
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223
+    m_Key: SUBDESC_120001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224
+    m_Key: SUBDESC_120002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225
+    m_Key: SUBDESC_120003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226
+    m_Key: SUBDESC_120004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227
+    m_Key: SUBDESC_120005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228
+    m_Key: SUBDESC_130001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229
+    m_Key: SUBDESC_130002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230
+    m_Key: SUBDESC_130003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231
+    m_Key: SUBDESC_130004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232
+    m_Key: SUBDESC_130005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233
+    m_Key: SUBDESC_140001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234
+    m_Key: SUBDESC_140002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235
+    m_Key: SUBDESC_140003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236
+    m_Key: SUBDESC_140004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237
+    m_Key: SUBDESC_140005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 238
+    m_Key: SUBDESC_150001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239
+    m_Key: SUBDESC_150002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240
+    m_Key: SUBDESC_150003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241
+    m_Key: SUBDESC_150004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242
+    m_Key: SUBDESC_150005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243
+    m_Key: SUBDESC_160001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244
+    m_Key: SUBDESC_160002
+    m_Metadata:
+      m_Items: []
+  - m_Id: 245
+    m_Key: SUBDESC_160003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246
+    m_Key: SUBDESC_160004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247
+    m_Key: SUBDESC_160005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248
+    m_Key: SUBDESC_170001
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249
+    m_Key: SUBDESC_170003
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250
+    m_Key: SUBDESC_170004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 251
+    m_Key: SUBDESC_170005
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252
+    m_Key: KINGDOMNAME_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253
+    m_Key: KINGDOMNAME_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254
+    m_Key: KINGDOMNAME_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255
+    m_Key: KINGDOMNAME_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 256
+    m_Key: KINGDOMNAME_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257
+    m_Key: KINGDOMNAME_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258
+    m_Key: KINGDOMPLAYERNAME_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 259
+    m_Key: KINGDOMPLAYERNAME_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260
+    m_Key: KINGDOMPLAYERNAME_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261
+    m_Key: KINGDOMPLAYERNAME_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 262
+    m_Key: KINGDOMPLAYERNAME_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 263
+    m_Key: KINGDOMPLAYERNAME_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264
+    m_Key: TUTORIAL_1_NPC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 265
+    m_Key: TUTORIAL_1_TOWN_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266
+    m_Key: TUTORIAL_1_TROOP_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267
+    m_Key: TUTORIAL_1_NPC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268
+    m_Key: TUTORIAL_1_TOWN_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269
+    m_Key: TUTORIAL_1_NPC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270
+    m_Key: TUTORIAL_1_TOWN_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271
+    m_Key: PROPERTY_MOOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272
+    m_Key: PROPERTY_W_MOOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273
+    m_Key: PROPERTY_M_MOOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274
+    m_Key: PROPERTY_M_MOOD_VALUE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275
+    m_Key: PROPERTY_M_MOOD_VALUE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276
+    m_Key: PROPERTY_M_MOOD_VALUE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277
+    m_Key: PROPERTY_M_MOOD_VALUE_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278
+    m_Key: PROPERTY_M_MOOD_VALUE_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279
+    m_Key: PROPERTY_M_MOOD_VALUE_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280
+    m_Key: PROPERTY_M_MOOD_DESC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281
+    m_Key: PROPERTY_M_MOOD_DESC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282
+    m_Key: PROPERTY_M_MOOD_DESC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283
+    m_Key: PROPERTY_M_MOOD_DESC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284
+    m_Key: PROPERTY_M_MOOD_DESC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285
+    m_Key: PROPERTY_M_MOOD_DESC_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286
+    m_Key: SALARY_DESC_M_MOOD_DETAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287
+    m_Key: SALARY_DESC_NEXTPAYMENT_MOOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288
+    m_Key: UI_SYMBOL_BACKGROUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289
+    m_Key: UI_SYMBOL_BADGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290
+    m_Key: UI_SYMBOL_ICON1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291
+    m_Key: UI_SYMBOL_ICON2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292
+    m_Key: UI_SYMBOL_LAYOUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293
+    m_Key: UI_SYMBOL_FUNC_RANDOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294
+    m_Key: UI_COMMON_CONFIRM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295
+    m_Key: TROOP_DEFAULT_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296
+    m_Key: TROOP_ACTION_WAITING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297
+    m_Key: TROOP_ACTION_BATTLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298
+    m_Key: TROOP_ACTION_TIMED_TASK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299
+    m_Key: TROOP_TIMED_TASK_NAME1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300
+    m_Key: TROOP_TIMED_TASK_PREPOSITION1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301
+    m_Key: TROOP_TIMED_TASK_NAME2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302
+    m_Key: TROOP_TIMED_TASK_PREPOSITION2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303
+    m_Key: MILITARY_WORLD_SELECTMENU_KINGDOMNAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304
+    m_Key: MILITARY_WORLD_SELECTMENU_TROOPNAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305
+    m_Key: MILITARY_WORLD_SELECTMENU_CITYNAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_ATTACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_TRADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_DIPLOMACY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 309
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_WARSETTING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_INFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 311
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_RETURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_STOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_PIONEERING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_TRADESETTING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_AUTOSELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_AUTOCOLLECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_CALLFORHELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_PIONEERHELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_MANAGEMENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320
+    m_Key: MILITARY_WORLD_SELECTMENU_BTN_PIONEERREQUEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321
+    m_Key: MILITARY_WORLD_INFO_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322
+    m_Key: MILITARY_WORLD_INFO_TROOP_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323
+    m_Key: MILITARY_WORLD_INFO_TROOP_BANDITEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324
+    m_Key: MILITARY_WORLD_INFO_TROOP_INFANTRYTEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325
+    m_Key: MILITARY_WORLD_INFO_TROOP_CAVALRYTEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326
+    m_Key: MILITARY_WORLD_INFO_TROOP_ARCHERTEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327
+    m_Key: MILITARY_WORLD_INFO_TROOP_MOODSTATUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328
+    m_Key: MILITARY_WORLD_INFO_VASSAL_FULLNAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 329
+    m_Key: MILITARY_WORLD_INFO_VASSAL_NICKNAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330
+    m_Key: MILITARY_WORLD_INFO_VASSAL_STATTITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 331
+    m_Key: MILITARY_WORLD_INFO_VASSAL_MOODTITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332
+    m_Key: MILITARY_WORLD_INFO_VASSAL_MAINBUFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333
+    m_Key: MILITARY_WORLD_INFO_DISTANCEREMAINING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334
+    m_Key: MILITARY_WORLD_INFO_ESTTIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335
+    m_Key: MILITARY_WORLD_INFO_FOODREMAINING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336
+    m_Key: MILITARY_WORLD_INFO_BTN_MANAGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337
+    m_Key: MILITARY_WORLD_PIONEER_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338
+    m_Key: MILITARY_WORLD_PIONEER_ESTDISTANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339
+    m_Key: MILITARY_WORLD_PIONEER_ESTTIMECOMPLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340
+    m_Key: MILITARY_WORLD_PIONEER_BTN_SWAP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341
+    m_Key: MILITARY_WORLD_PIONEER_BTN_PIONEERING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342
+    m_Key: MILITARY_WORLD_SELECTTROOP_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343
+    m_Key: MILITARY_WORLD_SELECTTROOP_BATTLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344
+    m_Key: MILITARY_WORLD_SELECTTROOP_TRADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345
+    m_Key: MILITARY_WORLD_SELECTTROOP_NO_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346
+    m_Key: MILITARY_WORLD_SELECTTROOP_NO_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 347
+    m_Key: MILITARY_WORLD_SELECTTROOP_NO_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348
+    m_Key: MILITARY_WORLD_SELECTTROOP_NO_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 349
+    m_Key: MILITARY_WORLD_SELECTTROOP_NO_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350
+    m_Key: MILITARY_WORLD_SELECTTROOP_BATTLE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 351
+    m_Key: MILITARY_WORLD_SELECTTROOP_TRADE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352
+    m_Key: MILITARY_WORLD_SELECTTROOP_STATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353
+    m_Key: MILITARY_WORLD_SELECTTROOP_STATUS_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354
+    m_Key: MILITARY_WORLD_SELECTTROOP_STATUS_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355
+    m_Key: MILITARY_WORLD_SELECTTROOP_BTN_CONFIRM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356
+    m_Key: MILITARY_WORLD_SELECTTROOP_BTN_REMOVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357
+    m_Key: MILITARY_WORLD_REQUESTPIONEER_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358
+    m_Key: MILITARY_WORLD_REQUESTPIONEER_BTN_REQUEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 359
+    m_Key: MILITARY_WORLD_REQUESTPIONEER_DEPARTURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360
+    m_Key: MILITARY_WORLD_REQUESTPIONEER_DESTINATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361
+    m_Key: MILITARY_WORLD_REQUESTPIONEER_ESTDISTANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362
+    m_Key: MILITARY_WORLD_MANAGEMENT_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 363
+    m_Key: MILITARY_WORLD_MANAGEMENT_DISTANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364
+    m_Key: MILITARY_WORLD_MANAGEMENT_TIMEREMAINING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365
+    m_Key: MILITARY_WORLD_MANAGEMENT_DEPARTURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366
+    m_Key: MILITARY_WORLD_MANAGEMENT_DESTINATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367
+    m_Key: MILITARY_WORLD_MANAGEMENT_DETAILTITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368
+    m_Key: MILITARY_WORLD_MANAGEMENT_PLAYERNAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369
+    m_Key: MILITARY_WORLD_MANAGEMENT_PLAYERCITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370
+    m_Key: MILITARY_WORLD_MANAGEMENT_STATUS_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371
+    m_Key: MILITARY_WORLD_MANAGEMENT_STATUS_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372
+    m_Key: MILITARY_WORLD_MANAGEMENT_STATUS_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373
+    m_Key: MILITARY_WORLD_MANAGEMENT_COMANDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374
+    m_Key: MILITARY_WORLD_MANAGEMENT_TROOPQUAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 375
+    m_Key: MILITARY_WORLD_OTHER_TROOP_PLAYERNAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376
+    m_Key: MILITARY_WORLD_OTHER_TROOP_KINGDOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 377
+    m_Key: MILITARY_WORLD_OTHER_TROOP_LAND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 378
+    m_Key: MILITARY_WORLD_OTHER_TROOP_TROOPSTATUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379
+    m_Key: VASSAL_MAIN_STAT_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380
+    m_Key: VASSAL_MAIN_STAT_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 381
+    m_Key: VASSAL_MAIN_STAT_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 382
+    m_Key: VASSAL_MAIN_STAT_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 383
+    m_Key: VASSAL_MAIN_STAT_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384
+    m_Key: VASSAL_MAIN_STAT_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 385
+    m_Key: VASSAL_MAIN_STAT_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 386
+    m_Key: VASSAL_MAIN_STAT_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387
+    m_Key: VASSAL_MAIN_STAT_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388
+    m_Key: VASSAL_MAIN_STAT_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 389
+    m_Key: VASSAL_MAIN_STAT_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 390
+    m_Key: VASSAL_MAIN_STAT_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 391
+    m_Key: VASSAL_MAIN_STAT_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392
+    m_Key: VASSAL_MAIN_STAT_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393
+    m_Key: VASSAL_MAIN_STAT_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394
+    m_Key: VASSAL_MAIN_STAT_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 395
+    m_Key: VASSAL_MAIN_STAT_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 396
+    m_Key: VASSAL_MAIN_STAT_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 397
+    m_Key: VASSAL_MAIN_FULLNAME_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 398
+    m_Key: VASSAL_MAIN_NICKNAME_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399
+    m_Key: VASSAL_MAIN_FULLNAME_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400
+    m_Key: VASSAL_MAIN_NICKNAME_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401
+    m_Key: VASSAL_MAIN_FULLNAME_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402
+    m_Key: VASSAL_MAIN_NICKNAME_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403
+    m_Key: VASSAL_MAIN_FULLNAME_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404
+    m_Key: VASSAL_MAIN_NICKNAME_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 405
+    m_Key: VASSAL_MAIN_FULLNAME_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 406
+    m_Key: VASSAL_MAIN_NICKNAME_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407
+    m_Key: VASSAL_MAIN_FULLNAME_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408
+    m_Key: VASSAL_MAIN_NICKNAME_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409
+    m_Key: VASSAL_MAIN_FULLNAME_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410
+    m_Key: VASSAL_MAIN_NICKNAME_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411
+    m_Key: UI_SALARY_W_STATS1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412
+    m_Key: UI_SALARY_W_STATS2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 413
+    m_Key: UI_SALARY_W_STATS3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 414
+    m_Key: UI_SALARY_W_STATS4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 415
+    m_Key: UI_SALARY_W_FUNC1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416
+    m_Key: UI_SALARY_LABEL1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 417
+    m_Key: UI_SALARY_LABEL2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418
+    m_Key: UI_SALARY_LABEL3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 419
+    m_Key: UI_SALARY_SLIDER_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420
+    m_Key: UI_SALARY_NEXT_CYCLE_DUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421
+    m_Key: TOOLTIP_W_MOOD_LABEL1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 422
+    m_Key: TOOLTIP_W_MOOD_LABEL2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423
+    m_Key: TOOLTIP_W_MOOD_VALUE1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 424
+    m_Key: TOOLTIP_W_MOOD_VALUE2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 425
+    m_Key: TOOLTIP_W_MOOD_SUBLABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 426
+    m_Key: TOOLTIP_W_MOOD_EFFECT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 427
+    m_Key: TOOLTIP_W_MOOD_EFFECT1_VALUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 428
+    m_Key: TOOLTIP_W_MOOD_EFFECT2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429
+    m_Key: TOOLTIP_W_MOOD_EFFECT2_VALUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 430
+    m_Key: UI_SALARY_W_MOOD_VALUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431
+    m_Key: UI_SALARY_W_MOOD_VALUE_INC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432
+    m_Key: VASSAL_ENGAGEMENT_TARVERN_POPUP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433
+    m_Key: VASSAL_ENGAGEMENT_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434
+    m_Key: VASSAL_ENGAGEMENT_REMANIN_TIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435
+    m_Key: VASSAL_ENGAGEMENT_VASSAL_NAME_VALUE_$
+    m_Metadata:
+      m_Items: []
+  - m_Id: 436
+    m_Key: VASSAL_ENGAGEMENT_LABEL_BIRTHDAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 437
+    m_Key: VASSAL_ENGAGEMENT_BIRTHDAY_VALUE_$
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438
+    m_Key: VASSAL_ENGAGEMENT_LABEL_HOMETOWN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439
+    m_Key: VASSAL_ENGAGEMENT_HOMETOWN_VALUE_$
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440
+    m_Key: VASSAL_ENGAGEMENT_LABEL_GRADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 441
+    m_Key: VASSAL_ENGAGEMENT_GRADE_VALUE_$
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442
+    m_Key: VASSAL_ENGAGEMENT_LABEL_SYMPATHETIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443
+    m_Key: VASSAL_ENGAGEMENT_SALARY_SYMPATHETIC_VALUE_$
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444
+    m_Key: VASSAL_ENGAGEMENT_SALARY_SYMPATHETIC_VALUE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445
+    m_Key: VASSAL_ENGAGEMENT_SALARY_SYMPATHETIC_VALUE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446
+    m_Key: VASSAL_ENGAGEMENT_SALARY_SYMPATHETIC_VALUE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447
+    m_Key: VASSAL_ENGAGEMENT_GIFT_BUTTON_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448
+    m_Key: VASSAL_ENGAGEMENT_MISSION_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449
+    m_Key: VASSAL_ENGAGEMENT_MISSION_VALUE_$
+    m_Metadata:
+      m_Items: []
+  - m_Id: 450
+    m_Key: VASSAL_ENGAGEMENT_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451
+    m_Key: VASSAL_ENGAGEMENT_WAITING_TIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452
+    m_Key: VASSAL_ENGAGEMENT_GIFT_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453
+    m_Key: VASSAL_ENGAGEMENT_GIFT_ITEM_COUNT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454
+    m_Key: VASSAL_ENGAGEMENT_GIFT_BUTTON_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455
+    m_Key: VASSAL_ENGAGEMENT_SALARY_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456
+    m_Key: VASSAL_ENGAGEMENT_SALARY_GOLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457
+    m_Key: VASSAL_ENGAGEMENT_SALARY_GOLD_COUNT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 458
+    m_Key: VASSAL_ENGAGEMENT_SALARY_SUCCES_RATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459
+    m_Key: VASSAL_ENGAGEMENT_SALARY_SUCCES_RATE_COUNT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460
+    m_Key: VASSAL_ENGAGEMENT_SALARY_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461
+    m_Key: VASSAL_ENGAGEMENT_POPUP_TITEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462
+    m_Key: VASSAL_ENGAGEMENT_RESULT_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463
+    m_Key: VASSAL_ENGAGEMENT_RESULT_VALUE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464
+    m_Key: VASSAL_ENGAGEMENT_RESULT_VALUE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465
+    m_Key: VASSAL_ENGAGEMENT_RESULT_VALUE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466
+    m_Key: VASSAL_ENGAGEMENT_RESULT_VALUE_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 467
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 469
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 470
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 471
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 473
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 474
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 475
+    m_Key: LAND_LANDUI_LANDINFO_SLIDE_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 476
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 477
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 478
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 479
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 481
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 482
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 483
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 485
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489
+    m_Key: LAND_LANDUI_LANDINFO_LANDINFOUI_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 490
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 491
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 493
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 494
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 496
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 498
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 499
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_LAND_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 502
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 504
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 506
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 508
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509
+    m_Key: LAND_LANDUI_LANDINFO_MOREINFO_BATTLE_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 510
+    m_Key: LAND_LANDUI_LANDINFO_WARLOGUI_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 511
+    m_Key: LAND_LANDUI_LANDINFO_WARLOGUI_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 512
+    m_Key: LAND_LANDUI_LANDINFO_WARLOGUI_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 513
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 519
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_SORTGROUP_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_SORTGROUP_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_SORTGROUP_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526
+    m_Key: LAND_LANDUI_LANDINFO_NEIGHBORUI_SORTGROUP_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527
+    m_Key: LAND_LANDUI_TOWNLISTUI_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528
+    m_Key: LAND_LANDUI_TOWNLISTUI_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 529
+    m_Key: LAND_LANDUI_TOWNLISTUI_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530
+    m_Key: LAND_LANDUI_TOWNLISTUI_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 531
+    m_Key: LAND_LANDUI_TOWNLISTUI_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532
+    m_Key: LAND_LANDUI_TOWNLISTUI_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533
+    m_Key: LAND_LANDUI_TOWNLISTUI_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534
+    m_Key: LAND_LANDUI_TOWNLISTUI_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535
+    m_Key: LAND_LANDUI_TOWNLISTUI_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536
+    m_Key: LAND_LANDUI_TOWNLISTUI_SORTGROUP_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537
+    m_Key: LAND_LANDUI_TOWNLISTUI_SORTGROUP_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 542
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 543
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 544
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 545
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 546
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 548
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 551
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 552
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 553
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 554
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 555
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 556
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 557
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 558
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 560
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 561
+    m_Key: LAND_LANDUI_TOWNLISTUI_TOWNINFOUI_MOREINFO_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 562
+    m_Key: LAND_LANDUI_LANDSETTINGUI_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563
+    m_Key: LAND_LANDUI_LANDSETTINGUI_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 564
+    m_Key: LAND_LANDUI_LANDSETTINGUI_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565
+    m_Key: TUTORIAL_2_NPC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566
+    m_Key: TUTORIAL_2_NPC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 567
+    m_Key: TUTORIAL_2_NPC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 568
+    m_Key: TUTORIAL_2_NPC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 569
+    m_Key: TUTORIAL_3_NPC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 570
+    m_Key: TUTORIAL_3_NPC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 571
+    m_Key: TUTORIAL_4_NPC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 572
+    m_Key: TUTORIAL_4_NPC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 573
+    m_Key: TUTORIAL_4_NPC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574
+    m_Key: TUTORIAL_4_NPC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 575
+    m_Key: TUTORIAL_4_NPC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576
+    m_Key: TUTORIAL_5_NPC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 577
+    m_Key: TUTORIAL_6_NPC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578
+    m_Key: TUTORIAL_6_NPC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579
+    m_Key: TUTORIAL_6_NPC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580
+    m_Key: TUTORIAL_6_NPC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 581
+    m_Key: TUTORIAL_6_NPC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582
+    m_Key: TUTORIAL_6_NPC_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583
+    m_Key: TUTORIAL_6_NPC_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584
+    m_Key: TUTORIAL_6__DIALOG_TROOP_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 585
+    m_Key: TUTORIAL_6__DIALOG_TROOP_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 586
+    m_Key: TUTORIAL_6__DIALOG_BANDIT_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 587
+    m_Key: TUTORIAL_6__DIALOG_BANDIT_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 588
+    m_Key: TUTORIAL_6__DIALOG_TROOP_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589
+    m_Key: TUTORIAL_6_NPC_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590
+    m_Key: TUTORIAL_6_NPC_9
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3983236216414011417
+  references:
+    version: 2
+    RefIds:
+    - rid: 3983236216414011417
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1681207038543

@@ -1,0 +1,546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18592276d2a68da439d1946d3bbabab4, type: 3}
+  m_Name: LandBattleList
+  m_EditorClassIdentifier: 
+  _battleInfos:
+  - landName: Ain
+    id: 1
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Aisne
+    id: 2
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Allier
+    id: 3
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Alpes-de-Haute-Provence
+    id: 4
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Alpes-Maritimes
+    id: 5
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Ard\xC3\xA8che"
+    id: 6
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Ardennes
+    id: 7
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Ari\xC3\xA8ge"
+    id: 8
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Aube
+    id: 9
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Aude
+    id: 10
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Aveyron
+    id: 11
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Bas-Rhin
+    id: 12
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Bouches-du-Rh\xC3\xB4ne"
+    id: 13
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Calvados
+    id: 14
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Cantal
+    id: 15
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Charente
+    id: 16
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Charente-Maritime
+    id: 17
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Cher
+    id: 18
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Corr\xC3\xA8ze"
+    id: 19
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "C\xC3\xB4te-d'Or"
+    id: 20
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "C\xC3\xB4tes-d'Armor"
+    id: 21
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Creuse
+    id: 22
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Deux-S\xC3\xA8vres"
+    id: 23
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Dordogne
+    id: 24
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Doubs
+    id: 25
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Dr\xC3\xB4me"
+    id: 26
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Eure
+    id: 27
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Eure-et-Loir
+    id: 28
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Finist\xC3\xA8re"
+    id: 29
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Gard
+    id: 30
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Gers
+    id: 31
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Gironde
+    id: 32
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Haute-Rhin
+    id: 33
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Haute-Garonne
+    id: 34
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Haute-Loire
+    id: 35
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Haute-Marne
+    id: 36
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Haute-Sa\xC3\xB4ne"
+    id: 37
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Haute-Savoie
+    id: 38
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Haute-Vienne
+    id: 39
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Hautes-Alpes
+    id: 40
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Hautes-Pyr\xC3\xA9n\xC3\xA9es"
+    id: 41
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "H\xC3\xA9rault"
+    id: 42
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Ille-et-Vilaine
+    id: 43
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Indre
+    id: 44
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Indre-et-Loire
+    id: 45
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Is\xC3\xA8re"
+    id: 46
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Jura
+    id: 47
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Landes
+    id: 48
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Loir-et-Cher
+    id: 49
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Loire
+    id: 50
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Loire-Atlantique
+    id: 51
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Loiret
+    id: 52
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Lot
+    id: 53
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Lot-et-Garonne
+    id: 54
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: "Loz\xC3\xA8re"
+    id: 55
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Maine-et-Loire
+    id: 56
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Manche
+    id: 57
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Marne
+    id: 58
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0
+  - landName: Mayenne
+    id: 59
+    win: 0
+    lose: 0
+    buildingRazed: 0
+    razedBuilding: 0
+    kills: 0
+    totalLostTroops: 0
+    totalTroops: 0

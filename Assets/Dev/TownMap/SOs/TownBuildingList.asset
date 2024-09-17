@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fcbe42f223b41046bce0671ebfd2c84, type: 3}
+  m_Name: TownBuildingList
+  m_EditorClassIdentifier: 
+  _buildings:
+  - name: TownHall
+    id: 10101
+    maxLevel: 5
+    description: 
+    category: 0
+    size: {x: 4, y: 4}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 1
+    command1: 0
+    command2: 0
+  - name: Tavern
+    id: 10102
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 2, y: 2}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 0
+    command2: 0
+  - name: WorkerHouse
+    id: 10103
+    maxLevel: 5
+    description: 
+    category: 0
+    size: {x: 3, y: 3}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 1
+    command1: 0
+    command2: 0
+  - name: Well
+    id: 10104
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 0
+    command2: 0
+  - name: Market
+    id: 10105
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 5
+    command2: 0
+  - name: Warehouse
+    id: 10106
+    maxLevel: 5
+    description: 
+    category: 0
+    size: {x: 2, y: 2}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 6
+    command2: 0
+  - name: Farm
+    id: 10107
+    maxLevel: 3
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 7
+    command2: 0
+  - name: LumberMill
+    id: 10108
+    maxLevel: 3
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 7
+    command2: 0
+  - name: Mines
+    id: 10109
+    maxLevel: 3
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 7
+    command2: 0
+  - name: Smithy
+    id: 10110
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 2, y: 2}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 7
+    command2: 0
+  - name: Church
+    id: 10111
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 4
+    command2: 0
+  - name: Academy
+    id: 10112
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 3
+    command2: 0
+  - name: Hospital
+    id: 10113
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 8
+    command2: 0
+  - name: InfantryBarracks
+    id: 20101
+    maxLevel: 5
+    description: 
+    category: 0
+    size: {x: 3, y: 3}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 1
+    command2: 0
+  - name: ArcherBarracks
+    id: 20102
+    maxLevel: 5
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 1
+    command2: 0
+  - name: CavalryBarracks
+    id: 20103
+    maxLevel: 5
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 1
+    command2: 0
+  - name: CatapultWorkshop
+    id: 20104
+    maxLevel: 5
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 2
+    command2: 0
+  - name: Road
+    id: 30101
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 0
+    command2: 0
+  - name: Tree
+    id: 30102
+    maxLevel: 1
+    description: 
+    category: 0
+    size: {x: 1, y: 1}
+    doorsDirection: []
+    destructionTimeFactor: 1
+    unbreakable: 0
+    command1: 0
+    command2: 0
+  _buildingCommands: {fileID: 11400000, guid: f3852ed7b1c8be54b942c4e9a89c2dca, type: 2}
